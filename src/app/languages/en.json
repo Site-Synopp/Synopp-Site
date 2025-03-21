@@ -1,0 +1,23 @@
+{
+  "NAVBAR": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "EXPERIENCE": "Experience",
+    "EDUCATION": "Education",
+    "PORTFOLIO": "Portfolio",
+    "CONTACT": "Contact"
+  },
+  "HOME": {
+    "SUBTITLE_GREETING_PART_1": "Building Smarter",
+    "SUBTITLE_GREETING_PART_2": "Software Solutions",
+    "BUTTON": "Partner with us to elevate your operations and drive success."
+  },
+  "ABOUT": {
+    "SUBTITLE_GREETING": "I'm ",
+    "SUBTITLE_ROL": "Software Engineer ",
+    "SUBTITLE_DESCRIPTION": "who builds immersive and user-friendly applications that users love. ",
+    "TITLE": "About Me",
+    "BUTTON": "Download CV"
+  }
+
+}

@@ -1,0 +1,18 @@
+{
+  "NAVBAR": {
+    "HOME": "Inicio",
+    "ABOUT": "Sobre mi",
+    "EXPERIENCE": "Experiencia",
+    "EDUCATION": "Educacion",
+    "PORTFOLIO": "Portafolio",
+    "CONTACT": "Contacto"
+  },
+  "HOME": {
+    "SUBTITLE_GREETING_PART_1": "Construyendo",
+    "SUBTITLE_GREETING_PART_2": "Software Smarter",
+    "BUTTON": "Trabaja conmigo"
+  },
+  "ABOUT": {
+    "DESCRIPTION": "I'm  a software engineer who builds immersive and user-friendly applications that users love. "
+  }
+}
