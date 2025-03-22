@@ -1,11 +1,10 @@
 {
   "NAVBAR": {
-    "HOME": "Home",
-    "ABOUT": "About",
-    "EXPERIENCE": "Experience",
-    "EDUCATION": "Education",
-    "PORTFOLIO": "Portfolio",
-    "CONTACT": "Contact"
+    "WHY_US": "Why us?",
+    "WHAT_WE_DO": "What we do",
+    "OUR_PROCESS": "Our process",
+    "THE_STACK_WE_USE": "The stack we use",
+    "CONTACT_US": "Contact us"
   },
   "HOME": {
     "SUBTITLE_GREETING_PART_1": "Building Smarter",

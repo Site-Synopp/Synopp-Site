@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { BrowserLanguageProvider } from "./hooks/contexts/useBrowserLanguage";
 import { InterFont } from "./fonts/fonts";
+import Navbar from "../components/NavBar/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${InterFont.variable}`}>
+    <html lang="en" className={`${InterFont.variable} bg-primary-700`}>
       <head>
         <link rel="stylesheet" />
       </head>
@@ -33,6 +34,7 @@ export default function RootLayout({
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
+          <Navbar />
           {children}
         </body>
       </BrowserLanguageProvider>

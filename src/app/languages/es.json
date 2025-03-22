@@ -1,11 +1,9 @@
 {
   "NAVBAR": {
-    "HOME": "Inicio",
-    "ABOUT": "Sobre mi",
-    "EXPERIENCE": "Experiencia",
-    "EDUCATION": "Educacion",
-    "PORTFOLIO": "Portafolio",
-    "CONTACT": "Contacto"
+    "WHY_US": "¿Por qué nosotros?",
+    "WHAT_WE_DO": "Que hacemos",
+    "OUR_PROCESS": "Nuestro proceso",
+    "THE_STACK_WE_USE": "El stack que usamos"
   },
   "HOME": {
     "SUBTITLE_GREETING_PART_1": "Construyendo",
