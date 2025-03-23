@@ -9,6 +9,7 @@ import { SolutionCard } from "./Cards";
 import { solutionData } from "./data";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
+
 const OurSolutions = () => {
   const { t } = useTranslation("OUR_SERVICES");
   const defaultOptions = {
@@ -38,17 +39,16 @@ const OurSolutions = () => {
       <div className="hidden lg:block top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-[650px] xl:h-[750px] w-[750px] xl:w-[950px] relative">
         <div className="lottie">{View}</div>
 
-        {/* Elementos izquierdos */}
-        {/* Elemento superior izquierdo */}
+        {/* Left elements */}
+        {/* Top left element */}
         <SolutionCard
-         title={t(`SOLUTIONS.${solutionData[0].id}.TITLE`)}
-         description={t(`SOLUTIONS.${solutionData[0].id}.DESCRIPTION`)}
-         className="top-5 left-[-45px] xl:left-[-60px]"
-         icon={solutionData[0].icon || ""}
-
+          title={t(`SOLUTIONS.${solutionData[0].id}.TITLE`)}
+          description={t(`SOLUTIONS.${solutionData[0].id}.DESCRIPTION`)}
+          className="top-5 left-[-45px] xl:left-[-60px]"
+          icon={solutionData[0].icon || ""}
         />
 
-        {/* Elemento Central izquierdo */}
+        {/* Central left element */}
         <SolutionCard
           title={t(`SOLUTIONS.${solutionData[1].id}.TITLE`)}
           description={t(`SOLUTIONS.${solutionData[1].id}.DESCRIPTION`)}
@@ -56,7 +56,7 @@ const OurSolutions = () => {
           icon={solutionData[1].icon || ""}
         />
 
-        {/* Elemento inferior izquierdo */}
+        {/* Bottom left element */}
         <SolutionCard
           title={t(`SOLUTIONS.${solutionData[2].id}.TITLE`)}
           description={t(`SOLUTIONS.${solutionData[2].id}.DESCRIPTION`)}
@@ -64,8 +64,8 @@ const OurSolutions = () => {
           icon={solutionData[2].icon || ""}
         />
 
-        {/* Elementos derechos */}
-        {/* Elemento superior derecho */}
+        {/* Right elements */}
+        {/* Top right element */}
         <SolutionCard
           title={t(`SOLUTIONS.${solutionData[3].id}.TITLE`)}
           description={t(`SOLUTIONS.${solutionData[3].id}.DESCRIPTION`)}
@@ -73,7 +73,7 @@ const OurSolutions = () => {
           icon={solutionData[3].icon || ""}
         />
 
-        {/* Elemento Central derecho */}
+        {/* Central right element */}
         <SolutionCard
           title={t(`SOLUTIONS.${solutionData[4].id}.TITLE`)}
           description={t(`SOLUTIONS.${solutionData[4].id}.DESCRIPTION`)}
@@ -81,7 +81,7 @@ const OurSolutions = () => {
           icon={solutionData[4].icon || ""}
         />
 
-        {/* Elemento inferior derecho */}
+        {/* Bottom right element */}
         <SolutionCard
           title={t(`SOLUTIONS.${solutionData[5].id}.TITLE`)}
           description={t(`SOLUTIONS.${solutionData[5].id}.DESCRIPTION`)}
@@ -152,10 +152,10 @@ const SolutionCardResponsive = ({
     >
       <div className="flex flex-col p-4 justify-around h-full">
         <div className="flex items-center gap-2">
-            <Image src={icon} alt={title} width={24} height={24} />
-            <h3 className="text-white text-base xl:text-lg font-bold">{title}</h3>
+          <Image src={icon} alt={title} width={24} height={24} />
+          <h3 className="text-white text-base xl:text-lg font-bold">{title}</h3>
         </div>
-        
+
         <p className="text-white text-xs xl:text-sm">{description}</p>
       </div>
     </div>
