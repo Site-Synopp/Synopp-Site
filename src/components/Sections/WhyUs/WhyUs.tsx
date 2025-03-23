@@ -9,7 +9,7 @@ const WhyUs = () => {
   const { t } = useTranslation("WHY_US");
 
   return (
-    <section className="bg-[#0a0a16] text-white py-16 relative overflow-hidden z-10 w-full">
+    <section className="bg-primary-700 text-white py-16 relative overflow-hidden z-10 w-full">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
         <p className="text-accent-teal text-xs md:text-sm tracking-wider uppercase mb-5 font-bold">{t("SUBTITLE")}</p>

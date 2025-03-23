@@ -81,5 +81,29 @@
         "DESCRIPTION": "Delivering measurable outcomes aligned with your business goals, ensuring tangible impact and long-term growth."
       }
     }
+  },
+  "OUR_PROCESS": {
+    "SUBTITLE": "OUR PROCESS",
+    "TITLE_PART1": "From Concept to Reality:",
+    "TITLE_PART2": "A Clear Path to Success",
+    "DESCRIPTION": "We deliver excellence through our proven process.",
+    "PROCESS_STEPS": {
+      "discovery": {
+        "TITLE": "Discovery",
+        "DESCRIPTION": "We start by fully understanding your goals, challenges, and vision to create a strong, shared foundation."
+      },
+      "design": {
+        "TITLE": "Design",
+        "DESCRIPTION": "Our design team crafts intuitive, user-centric interfaces that align with your brand and enhance user experience."
+      },
+      "develop": {
+        "TITLE": "Develop",
+        "DESCRIPTION": "We build your solution using the latest technologies, ensuring scalability, security, and top-tier performance."
+      },
+      "launch": {
+        "TITLE": "Launch",
+        "DESCRIPTION": "We rigorously test, refine, and launch your product, ensuring it's fully optimized for success from day one."
+      }
+    }
   }
 }
