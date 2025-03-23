@@ -14,5 +14,36 @@
   },
   "ABOUT": {
     "DESCRIPTION": "I'm  a software engineer who builds immersive and user-friendly applications that users love. "
+  },
+  "OUR_SERVICES": {
+    "SOLUTIONS": {
+      "TITLE": "Our Solutions",
+      "SUBTITLE": "What we do",
+      "DESCRIPTION": "Explore our custom digital solutions that turn your ideas into game-changing results.",
+      "website-engineering": {
+        "TITLE": "Website Engineering",
+        "DESCRIPTION": "We create high-performance websites tailored to your brand, offering seamless experiences, modern design, and scalable solutions."
+      },
+      "app-development": {
+        "TITLE": "Custom Platform Solutions",
+        "DESCRIPTION": "We create robust and secure platforms, including SaaS products and management systems, all customized to meet your unique business needs."
+      },
+      "mobile-development": {
+        "TITLE": "Mobile Development",
+        "DESCRIPTION": "We design and develop intuitive, feature-rich mobile apps for iOS and Android, combining sleek design with seamless functionality."
+      },
+      "ai-integration": {
+        "TITLE": "AI-Powered Apps",
+        "DESCRIPTION": "We integrate cutting-edge artificial intelligence into digital products to enhance user experiences and optimize business operations."
+      },
+      "ui-ux-design": {
+        "TITLE": "UI/UX Design",
+        "DESCRIPTION": "We craft user-centric, intuitive interfaces that drive engagement, improve usability, and deliver visually compelling digital experiences."
+      },
+      "inception-team": {
+        "TITLE": "Inception Team",
+        "DESCRIPTION": "Our developers and business strategists align innovation with your business goals to deliver market-ready solutions."
+      }
+    }
   }
 }

@@ -46,7 +46,7 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8 font-bold" aria-label="Main Navigation">
           {NAV_LINKS.map((link) => (
-            <Link key={link.href} href={link.href} className="text-sm hover:text-accent-yellow transition-colors">
+            <Link key={link.href} href={link.href} className="text-sm text-white hover:text-accent-yellow transition-colors">
               {t(link.translationKey)}
             </Link>
           ))}

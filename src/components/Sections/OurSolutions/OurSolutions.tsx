@@ -7,8 +7,10 @@ import { useLottie } from "lottie-react";
 import animationData from "../../../../public/animations/Synopp.json";
 import { SolutionCard } from "./Cards";
 import { solutionData } from "./data";
-
+import { useTranslation } from "react-i18next";
+import Image from "next/image";
 const OurSolutions = () => {
+  const { t } = useTranslation("OUR_SERVICES");
   const defaultOptions = {
     animationData: animationData,
     loop: true,
@@ -21,14 +23,13 @@ const OurSolutions = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <p className="text-accent-purple text-xs md:text-sm tracking-wider uppercase mb-5 font-bold">
-            WHAT WE DO
+            {t("SOLUTIONS.SUBTITLE")}
           </p>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight bg-gradient-to-t from-[#BFBEC3] via-[#E2E1E4] to-[#F2F2F3] text-transparent bg-clip-text">
-            Our Solutions
+            {t("SOLUTIONS.TITLE")}
           </h1>
           <p className="text-label-supporting-text text-base md:text-lg mb-8 max-w-4xl mx-auto">
-            Explore our custom digital solutions that turn your ideas into
-            game-changing results.
+            {t("SOLUTIONS.DESCRIPTION")}
           </p>
         </div>
       </div>
@@ -40,45 +41,52 @@ const OurSolutions = () => {
         {/* Elementos izquierdos */}
         {/* Elemento superior izquierdo */}
         <SolutionCard
-          title={solutionData[0].title}
-          description={solutionData[0].description}
-          className="top-5 left-[-45px] xl:left-[-60px]"
+         title={t(`SOLUTIONS.${solutionData[0].id}.TITLE`)}
+         description={t(`SOLUTIONS.${solutionData[0].id}.DESCRIPTION`)}
+         className="top-5 left-[-45px] xl:left-[-60px]"
+         icon={solutionData[0].icon || ""}
+
         />
 
         {/* Elemento Central izquierdo */}
         <SolutionCard
-          title={solutionData[1].title}
-          description={solutionData[1].description}
+          title={t(`SOLUTIONS.${solutionData[1].id}.TITLE`)}
+          description={t(`SOLUTIONS.${solutionData[1].id}.DESCRIPTION`)}
           className="top-[11rem] left-[-8rem] xl:top-[14.5rem] xl:left-[-10rem]"
+          icon={solutionData[1].icon || ""}
         />
 
         {/* Elemento inferior izquierdo */}
         <SolutionCard
-          title={solutionData[2].title}
-          description={solutionData[2].description}
+          title={t(`SOLUTIONS.${solutionData[2].id}.TITLE`)}
+          description={t(`SOLUTIONS.${solutionData[2].id}.DESCRIPTION`)}
           className="top-[20.7rem] left-[-45px] xl:top-[27.5rem] xl:left-[-60px]"
+          icon={solutionData[2].icon || ""}
         />
 
         {/* Elementos derechos */}
         {/* Elemento superior derecho */}
         <SolutionCard
-          title={solutionData[3].title}
-          description={solutionData[3].description}
+          title={t(`SOLUTIONS.${solutionData[3].id}.TITLE`)}
+          description={t(`SOLUTIONS.${solutionData[3].id}.DESCRIPTION`)}
           className="top-5 right-[-45px] xl:right-[-60px]"
+          icon={solutionData[3].icon || ""}
         />
 
         {/* Elemento Central derecho */}
         <SolutionCard
-          title={solutionData[4].title}
-          description={solutionData[4].description}
+          title={t(`SOLUTIONS.${solutionData[4].id}.TITLE`)}
+          description={t(`SOLUTIONS.${solutionData[4].id}.DESCRIPTION`)}
           className="top-[11rem] right-[-8rem] xl:top-[14.5rem] xl:right-[-10rem]"
+          icon={solutionData[4].icon || ""}
         />
 
         {/* Elemento inferior derecho */}
         <SolutionCard
-          title={solutionData[5].title}
-          description={solutionData[5].description}
+          title={t(`SOLUTIONS.${solutionData[5].id}.TITLE`)}
+          description={t(`SOLUTIONS.${solutionData[5].id}.DESCRIPTION`)}
           className="top-[20.7rem] right-[-45px] xl:top-[27.5rem] xl:right-[-60px]"
+          icon={solutionData[5].icon || ""}
         />
       </div>
 
@@ -88,8 +96,9 @@ const OurSolutions = () => {
           {solutionData.map((solution) => (
             <div key={solution.id} className="flex justify-center">
               <SolutionCardResponsive
-                title={solution.title}
-                description={solution.description}
+                title={t(`SOLUTIONS.${solution.id}.TITLE`)}
+                description={t(`SOLUTIONS.${solution.id}.DESCRIPTION`)}
+                icon={solution.icon || ""}
               />
             </div>
           ))}
@@ -103,9 +112,11 @@ const OurSolutions = () => {
 const SolutionCardResponsive = ({
   title,
   description,
+  icon,
 }: {
   title: string;
   description: string;
+  icon: string;
 }) => {
   const [mouseEffect, setMouseEffect] = useState({
     x: 0,
@@ -140,7 +151,11 @@ const SolutionCardResponsive = ({
       onMouseLeave={handleMouseLeave}
     >
       <div className="flex flex-col p-4 justify-around h-full">
-        <h3 className="text-white text-base xl:text-lg font-bold">{title}</h3>
+        <div className="flex items-center gap-2">
+            <Image src={icon} alt={title} width={24} height={24} />
+            <h3 className="text-white text-base xl:text-lg font-bold">{title}</h3>
+        </div>
+        
         <p className="text-white text-xs xl:text-sm">{description}</p>
       </div>
     </div>

@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useState } from "react"
 import type React from "react"
 
@@ -7,9 +8,10 @@ interface SolutionCardProps {
   title: string
   description: string
   className: string
+  icon: string
 }
 
-export const SolutionCard: React.FC<SolutionCardProps> = ({ title, description, className }) => {
+export const SolutionCard: React.FC<SolutionCardProps> = ({ title, description, className, icon }) => {
   const [mouseEffect, setMouseEffect] = useState({
     x: 0,
     y: 0,
@@ -40,7 +42,11 @@ export const SolutionCard: React.FC<SolutionCardProps> = ({ title, description, 
       onMouseLeave={handleMouseLeave}
     >
       <div className="flex flex-col p-4 justify-around h-full">
-        <h3 className="text-white text-base xl:text-lg font-bold">{title}</h3>
+        <div className="flex items-center gap-2">
+             <Image src={icon} alt={title} width={24} height={24} />
+            <h3 className="text-white text-base xl:text-lg font-bold">{title}</h3>
+        </div>
+        
         <p className="text-white text-xs xl:text-sm">{description}</p>
       </div>
     </div>
