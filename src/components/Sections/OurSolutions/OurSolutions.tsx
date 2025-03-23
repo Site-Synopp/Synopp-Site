@@ -140,7 +140,7 @@ const SolutionCardResponsive = ({
 
   return (
     <div
-      className="w-full max-w-[380px] h-[160px] rounded-xl bg-[#060416] border border-[#353344] gap-4"
+      className="w-full max-w-[380px] h-[160px] rounded-2xl bg-[#060416] border border-[#353344] gap-4"
       style={{
         transform: `rotateY(${mouseEffect.x}deg) rotateX(${mouseEffect.y}deg)`,
         boxShadow: `${-mouseEffect.x * 0.4}px ${
@@ -156,7 +156,7 @@ const SolutionCardResponsive = ({
           <h3 className="text-white text-base xl:text-lg font-bold">{title}</h3>
         </div>
 
-        <p className="text-white text-xs xl:text-sm">{description}</p>
+        <p className="text-primary-secondary-disabled  text-xs xl:text-sm">{description}</p>
       </div>
     </div>
   );

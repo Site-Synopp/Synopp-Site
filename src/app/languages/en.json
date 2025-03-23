@@ -50,5 +50,36 @@
         "DESCRIPTION": "Our developers and business strategists align innovation with your business goals to deliver market-ready solutions."
       }
     }
+  },
+  "WHY_US": {
+    "SUBTITLE": "WHY US",
+    "TITLE": "The Synopp Advantage",
+    "DESCRIPTION": "Discover the core strengths that make us the perfect partner for your digital journey.",
+    "ADVANTAGES": {
+      "agility": {
+        "TITLE": "Agility and Flexibility",
+        "DESCRIPTION": "Thriving in fast-paced environments, adapting to changing needs, delivering results without compromising quality."
+      },
+      "client-centric": {
+        "TITLE": "Client-Centric Approach",
+        "DESCRIPTION": "Tailored solutions for your unique business challenges, goals, and audience, ensuring the best-fit technology for your needs."
+      },
+      "expertise": {
+        "TITLE": "Interdisciplinary Expertise",
+        "DESCRIPTION": "A blend of developers, strategists, and designers ensures technical excellence and strategic business value."
+      },
+      "commitment": {
+        "TITLE": "Client Commitment",
+        "DESCRIPTION": "Fostering long-term partnerships through transparency, collaboration, and goal alignment."
+      },
+      "technology": {
+        "TITLE": "Cutting-Edge Technology",
+        "DESCRIPTION": "Leveraging the latest tech—AI, machine learning, cloud, and mobile—to drive innovation and scalable growth."
+      },
+      "results": {
+        "TITLE": "Results-Driven Focus",
+        "DESCRIPTION": "Delivering measurable outcomes aligned with your business goals, ensuring tangible impact and long-term growth."
+      }
+    }
   }
 }
