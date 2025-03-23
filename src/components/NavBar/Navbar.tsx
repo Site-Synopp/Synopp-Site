@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <motion.header
       {...HEADER_ANIMATION}
-      className="fixed top-6 left-0 right-0 z-50 transition-all duration-300 md:max-w-[90%] md:rounded-[20px] mx-auto md:border-[1px] border-[#EFEDFD66]  md:bg-[rgba(255,255,255,0.05)] py-3.5 backdrop-blur-md"
+      className="fixed top-6 left-0 right-0 z-50 transition-all duration-300 max-w-[90%] rounded-[20px] mx-auto border-[1px] border-[#EFEDFD66]  bg-[rgba(255,255,255,0.05)] py-3.5 backdrop-blur-md"
       role="banner"
     >
       <div className={`${isOpen ? 'absolute' : 'relative'}  md:relative container mx-auto px-4 flex justify-between items-center z-30`}>
@@ -74,18 +74,14 @@ const Navbar = () => {
       {/* Mobile Navigation */}
       <AnimatePresence> 
         {isOpen && (
-          <>
-          <motion.div
-           
-            className="relative md:hidden bg-card-bg top-full left-0 right-0 p-4 h-[100vh] md:bg-[rgba(0,0,0,1)] "
+          
+          <div
+            className="md:hidden bg-card-bg p-4  md:bg-[rgba(0,0,0,1)] "
             id="mobile-menu"
           >
-             <div className="absolute top-[-50px] left-0 w-full h-full bg-primary-700" >
-              <Image src="/images/SquaresBackground.svg" alt="Hero Image" fill className="object-cover"/>
-            </div>
 
             <nav
-              className="absolute inset-0 flex flex-col space-y-4 h-[100vh] mt-20 items-center gap-10 font-bold"
+              className=" flex flex-col space-y-4 h-[calc(100vh-250px)] mt-20 items-center gap-10 font-bold"
               aria-label="Mobile Navigation"
             >
 
@@ -116,8 +112,8 @@ const Navbar = () => {
                 </Link>
               </motion.div>
             </nav>
-          </motion.div>
-          </>
+          </div>
+
         )}
       </AnimatePresence>
     </motion.header>

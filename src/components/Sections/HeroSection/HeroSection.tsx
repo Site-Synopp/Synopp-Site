@@ -45,11 +45,11 @@ export default function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               duration: 0.4,
-              scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+              scale: { visualDuration: 0.4},
             }}
           >
             <PrimaryButton
-              className="text-sm md:text-lg py-2 px-5 rounded-lg justify-self-center"
+              className="text-sm md:text-lg py-2 px-5 rounded-lg justify-self-center mx-auto"
               icon={ArrowRight.src}
             >
               {t("BUTTON")}
@@ -75,7 +75,7 @@ export default function HeroSection() {
                 priority
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#030014] z-10 rounded-lg pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] z-10 rounded-lg pointer-events-none" />
           </div>
         </motion.div>
 
@@ -84,10 +84,10 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="absolute flex md:hidden w-full mt-auto flex-1 items-end justify-center top-[39%] max-w-[95%]"
+          className="absolute flex md:hidden w-full mt-auto flex-1 items-end justify-center top-[calc(50%+10px)] max-w-[95%]"
         >
           <div className="w-[90%] max-w-[320px] absolute top-[-130%]">
-            <div className="absolute inset-0 bg-gradient-to-b from-[#03001400] via-[#03001499] to-[#030014] z-10 rounded-lg pointer-events-none"></div>
+            <div className="absolute right-0 left-0 inset-0 bg-gradient-to-b from-[#03001400] via-[#040014d9] to-[#040014] z-10 rounded-lg pointer-events-none"></div>
             <div className="aspect-[9/16] w-full relative">
               <Image
                 src={MobileHeroImage || "/placeholder.svg"}
