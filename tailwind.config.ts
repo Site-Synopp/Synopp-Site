@@ -9,6 +9,19 @@ export default {
   theme: {
     extend: {
       colors: {
+          subheading: '#EFEDFDB3',
+          titles: '#F1F1EF',
+          body: '#ADADAD',
+          'input-enabled':'#EFEDFDB3',
+          'label-supporting-text': '#EFEDFDB3',
+          'label-supporting-text-error': '#EB120E',
+          'input-disabled': '#ADADAD',
+          'label-supporting-text-disabled': '#ADADAD',
+          'primary-enabled': '#F1F1EF',
+          'primary-secondary-hover-focused-pressed': '#EFEDFD',
+          'secondary-pressed': '#9777E8',
+          'primary-secondary-disabled': '#ADADAD',
+        
         /* Primary Colors */
         primary: {
           100: '#EFEDFD',

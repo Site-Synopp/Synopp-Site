@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
@@ -16,13 +16,6 @@ const HEADER_ANIMATION = {
   transition: { duration: 0.5 },
 }
 
-const MOBILE_MENU_ANIMATION = {
-  initial: { opacity: 0, y: -20 },
-  animate: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -20 },
-  transition: { duration: 0.2 },
-}
-
 // Navigation links
 const NAV_LINKS = [
   { href: "#about", translationKey: "WHY_US" },
@@ -35,14 +28,6 @@ const Navbar = () => {
   const { t } = useTranslation("NAVBAR")
   const [isOpen, setIsOpen] = useState(false)
 
-  useEffect(() => {
-    document.body.style.overflow = isOpen ? "hidden" : ""
-
-    return () => {
-      document.body.style.overflow = ""
-    }
-  }, [isOpen])
-
   const toggleMenu = () => setIsOpen((prev) => !prev)
 
   const closeMenu = () => setIsOpen(false)
@@ -50,10 +35,10 @@ const Navbar = () => {
   return (
     <motion.header
       {...HEADER_ANIMATION}
-      className="fixed top-6 left-0 right-0 z-50 transition-all duration-300 md:max-w-[90%] md:rounded-[20px] mx-auto md:border-[1px] border-[#EFEDFD66] md:bg-[rgba(255,255,255,0.05)] backdrop-blur-md py-3.5"
+      className="fixed top-6 left-0 right-0 z-50 transition-all duration-300 md:max-w-[90%] md:rounded-[20px] mx-auto md:border-[1px] border-[#EFEDFD66]  md:bg-[rgba(255,255,255,0.05)] py-3.5 backdrop-blur-md"
       role="banner"
     >
-      <div className="container mx-auto px-4 flex justify-between items-center">
+      <div className={`${isOpen ? 'absolute' : 'relative'}  md:relative container mx-auto px-4 flex justify-between items-center z-30`}>
         <Link href="/" className="text-xl font-bold gradient-text">
           <Image src="/icons/logo.svg" alt="Synopp" width={100} height={100} priority />
         </Link>
@@ -87,17 +72,23 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navigation */}
-      <AnimatePresence>
+      <AnimatePresence> 
         {isOpen && (
+          <>
           <motion.div
-            {...MOBILE_MENU_ANIMATION}
-            className="absolute md:hidden bg-card-bg top-full left-0 right-0 p-4 border-t border-gray-800 h-[100vh] backdrop-blur-lg"
+           
+            className="relative md:hidden bg-card-bg top-full left-0 right-0 p-4 h-[100vh] md:bg-[rgba(0,0,0,1)] "
             id="mobile-menu"
           >
+             <div className="absolute top-[-50px] left-0 w-full h-full bg-primary-700" >
+              <Image src="/images/SquaresBackground.svg" alt="Hero Image" fill className="object-cover"/>
+            </div>
+
             <nav
-              className="flex flex-col space-y-4 h-[100vh] mt-11 items-center gap-10 font-bold"
+              className="absolute inset-0 flex flex-col space-y-4 h-[100vh] mt-20 items-center gap-10 font-bold"
               aria-label="Mobile Navigation"
             >
+
               {NAV_LINKS.map((link, index) => (
                 <motion.div
                   key={link.href}
@@ -126,6 +117,7 @@ const Navbar = () => {
               </motion.div>
             </nav>
           </motion.div>
+          </>
         )}
       </AnimatePresence>
     </motion.header>

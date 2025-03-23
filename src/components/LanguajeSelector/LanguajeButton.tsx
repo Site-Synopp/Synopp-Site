@@ -23,7 +23,7 @@ export function LanguageButton() {
   const currentLanguage = LANGUAGES.find((lang) => lang.key === browserLanguage) || LANGUAGES[0]
 
   return (
-    <>
+    <div className="relative">
       <motion.button
         onClick={() => setOpenDialog(!isOpenDialog)}
         className="flex items-center gap-3  rounded px-4 py-2 h-9 w-[89px] text-white"
@@ -47,6 +47,6 @@ export function LanguageButton() {
       </motion.button>
 
       <LanguageSelector isOpenDialog={isOpenDialog} setOpenDialog={setOpenDialog} />
-    </>
+    </div>
   )
 }

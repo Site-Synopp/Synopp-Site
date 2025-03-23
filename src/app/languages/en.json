@@ -6,10 +6,12 @@
     "THE_STACK_WE_USE": "The stack we use",
     "CONTACT_US": "Contact us"
   },
-  "HOME": {
-    "SUBTITLE_GREETING_PART_1": "Building Smarter",
-    "SUBTITLE_GREETING_PART_2": "Software Solutions",
-    "BUTTON": "Partner with us to elevate your operations and drive success."
+  "HERO_SECTION": {
+    "TITLE_GREETING_PART_1": "Building Smarter",
+    "TITLE_GREETING_PART_2": "Software Solutions",
+    "SUBTITLE": "LET'S BILD SOMETHING AMAZING TOGHETER",
+    "DESCRIPTION": "Partner with us to elevate your operations and drive success.",
+    "BUTTON": "Start your project"
   },
   "ABOUT": {
     "SUBTITLE_GREETING": "I'm ",
