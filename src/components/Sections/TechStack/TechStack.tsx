@@ -106,7 +106,7 @@ const TechStackSection: React.FC = () => {
                       initial={{ height: 0, opacity: 0 }}
                       animate={{ height: "auto", opacity: 1 }}
                       transition={{ duration: 0.4 }}
-                      className="grid grid-cols-3 sm:grid-cols-3 gap-6 mt-4 pl-8 justify-items-center"
+                      className="grid grid-cols-3 sm:grid-cols-3 gap-6 mt-4 pl-8"
                     >
                       {category.tools.map((tool, idx) => (
                         <motion.div
