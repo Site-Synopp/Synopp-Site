@@ -188,7 +188,7 @@ function ContactUs() {
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="bg-[#8a2be2]/10 rounded-lg p-8 text-center"
+                className="bg-primary-600/10 rounded-lg p-8 text-center min-h-[250px] mt-20"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -201,6 +201,7 @@ function ContactUs() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
+                    className="text-accent-green"
                     d="M5 13l4 4L19 7"
                   />
                 </svg>

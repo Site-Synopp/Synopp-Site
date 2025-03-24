@@ -15,7 +15,7 @@ export async function POST(request: Request) {
 
     const data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>", // Actualiza con tu dominio verificado
-      to: ["tu-email@ejemplo.com"], // Cambia a tu email
+      to: ["josecalvano1546@gmail.com"],
       subject: `Nuevo contacto de ${firstName} ${lastName}`,
       text: `
         Nombre: ${firstName} ${lastName}
