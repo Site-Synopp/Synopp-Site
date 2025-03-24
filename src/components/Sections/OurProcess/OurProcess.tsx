@@ -124,7 +124,6 @@ const OurProcess = () => {
 
 const ProcessStepDesktop = ({
   step,
-  index,
 }: {
   step: {
     id: string;
@@ -137,7 +136,6 @@ const ProcessStepDesktop = ({
   const { t } = useTranslation("OUR_PROCESS");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
-  console.log(index);
   return (
     <div
       ref={ref}
