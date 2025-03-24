@@ -105,5 +105,18 @@
         "DESCRIPTION": "We rigorously test, refine, and launch your product, ensuring it's fully optimized for success from day one."
       }
     }
+  },
+  "TECH_STACK": {
+    "SUBTITLE": "THE STACK WE USE",
+    "TITLE": "Transforming ideas with the right technologies.",
+    "DESCRIPTION": "We use the latest tools and platforms to build reliable, scalable solutions that bring your vision to life.",
+    "TECH_CATEGORIES": {
+      "UX_UI_DESIGN": "UX/UI Design",
+      "INFRASTRUCTURE": "Infrastructure",
+      "FRONT_END_TECHNOLOGIES": "Front-End Technologies",
+      "BACK_END_TECHNOLOGIES": "Back-End Technologies",
+      "SECURITY": "Security",
+      "DOCUMENTATION_MANAGEMENT": "Documentation & Management"
+    }
   }
 }
