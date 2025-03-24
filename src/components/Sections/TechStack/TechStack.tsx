@@ -115,6 +115,7 @@ const TechStackSection: React.FC = () => {
                           transition={{ duration: 0.3 }}
                           className="flex flex-col items-start"
                         >
+                        <div className="flex flex-col items-center">
                           <div className="w-16 h-16 bg-[#17151F] rounded-xl flex items-center justify-center shadow-lg">
                             <Image
                               src={tool.icon}
@@ -124,7 +125,8 @@ const TechStackSection: React.FC = () => {
                               height={100}
                             />
                           </div>
-                          <p className="text-white text-sm mt-2">{tool.name}</p>
+                          <p className="text-white text-sm mt-2 ">{tool.name}</p>
+                          </div>
                         </motion.div>
                       ))}
                     </motion.div>
