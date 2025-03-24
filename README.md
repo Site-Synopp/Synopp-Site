@@ -121,4 +121,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## 👥 Credits
 
-Designed and developed with ❤️ by [Your Name/Company].
+Designed and developed with ❤️ by Synopp.
