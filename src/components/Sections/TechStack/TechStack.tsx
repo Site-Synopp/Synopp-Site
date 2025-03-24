@@ -196,18 +196,20 @@ const TechStackSection: React.FC = () => {
                             transition={{ duration: 0.3 }}
                             className="flex flex-col items-start"
                           >
-                            <div className="w-16 h-16 bg-[#17151F] rounded-xl flex items-center justify-center shadow-lg">
-                              <Image
-                                src={tool.icon}
-                                alt={tool.name}
-                                className="w-10 h-10 object-contain"
-                                width={100}
-                                height={100}
-                              />
+                            <div className="flex flex-col items-center">
+                              <div className="w-16 h-16 bg-[#17151F] rounded-xl flex items-center justify-center shadow-lg">
+                                <Image
+                                  src={tool.icon}
+                                  alt={tool.name}
+                                  className="w-10 h-10 object-contain"
+                                  width={100}
+                                  height={100}
+                                />
+                              </div>
+                              <p className="text-white text-sm mt-2">
+                                {tool.name}
+                              </p>
                             </div>
-                            <p className="text-white text-sm mt-2">
-                              {tool.name}
-                            </p>
                           </motion.div>
                         ))}
                     </motion.div>
