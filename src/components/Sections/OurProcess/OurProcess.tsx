@@ -191,9 +191,6 @@ const ProcessStepDesktop = ({
   );
 };
 
-// Corregí la alineación de los puntos para mobile y tablet, centrados sobre la línea
-// Se actualizó el contenedor flex y las posiciones en cada vista
-
 interface ProcessStep {
   number: number;
   image: string;
@@ -208,7 +205,7 @@ const ProcessStepTablet = ({ step }: { step: ProcessStep; index: number }) => {
 
   return (
     <div ref={ref} className="flex mb-24 relative items-center">
-      {/* Número y título a la izquierda */}
+      {/* Number and title to the left */}
       <motion.div
         className="w-1/3 pr-4 flex items-start justify-start text-right pl-4"
         initial={{ opacity: 0, x: -30 }}
@@ -227,7 +224,7 @@ const ProcessStepTablet = ({ step }: { step: ProcessStep; index: number }) => {
         </div>
       </motion.div>
 
-      {/* Indicator circle centered on the line */}
+      {/* Pulsing dot */}
       <div className="w-1/3 flex items-center justify-center">
         <PulsingDot
           step={step}
