@@ -39,16 +39,18 @@ const TechStackSection: React.FC = () => {
   };
 
   const handleCategoryClickMobile = (category: string) => {
-    setOpenCategoriesMobile(
-      (prev) =>
-        prev.includes(category)
-          ? prev.filter((cat) => cat !== category)
-          : [...prev, category] 
+    setOpenCategoriesMobile((prev) =>
+      prev.includes(category)
+        ? prev.filter((cat) => cat !== category)
+        : [...prev, category]
     );
   };
 
   return (
-    <section className="bg-primary-700 py-16 px-4 md:px-8 lg:px-16">
+    <section
+      id="TechStack"
+      className="bg-primary-700 py-16 px-4 md:px-8 lg:px-16"
+    >
       <motion.div
         className="max-w-7xl mx-auto"
         initial="hidden"
@@ -115,17 +117,19 @@ const TechStackSection: React.FC = () => {
                           transition={{ duration: 0.3 }}
                           className="flex flex-col items-start"
                         >
-                        <div className="flex flex-col items-center">
-                          <div className="w-16 h-16 bg-[#17151F] rounded-xl flex items-center justify-center shadow-lg">
-                            <Image
-                              src={tool.icon}
-                              alt={tool.name}
-                              className="w-10 h-10 object-contain"
-                              width={100}
-                              height={100}
-                            />
-                          </div>
-                          <p className="text-white text-sm mt-2 ">{tool.name}</p>
+                          <div className="flex flex-col items-center">
+                            <div className="w-16 h-16 bg-[#17151F] rounded-xl flex items-center justify-center shadow-lg">
+                              <Image
+                                src={tool.icon}
+                                alt={tool.name}
+                                className="w-10 h-10 object-contain"
+                                width={100}
+                                height={100}
+                              />
+                            </div>
+                            <p className="text-white text-sm mt-2 ">
+                              {tool.name}
+                            </p>
                           </div>
                         </motion.div>
                       ))}

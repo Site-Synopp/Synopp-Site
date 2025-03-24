@@ -1,26 +1,26 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import { ChevronDown } from "lucide-react"
-import { motion } from "framer-motion"
-import { useTranslation } from "react-i18next"
+import { useState } from "react";
+import Image from "next/image";
+import { ChevronDown } from "lucide-react";
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 // Hooks
-import { useBrowserLanguageState } from "@/app/hooks/contexts/useBrowserLanguage"
+import { useBrowserLanguageState } from "@/app/hooks/contexts/useBrowserLanguage";
 
 // Components
 
-
 // Utils
-import { LANGUAGES } from "./data"
-import LanguageSelector from "./LanguajeSelector"
+import { LANGUAGES } from "./data";
+import LanguageSelector from "./LanguajeSelector";
 
 export function LanguageButton() {
-  const [isOpenDialog, setOpenDialog] = useState(false)
-  const { browserLanguage } = useBrowserLanguageState()
-  const { t } = useTranslation("LANGUAJES")
-  const currentLanguage = LANGUAGES.find((lang) => lang.key === browserLanguage) || LANGUAGES[0]
+  const [isOpenDialog, setOpenDialog] = useState(false);
+  const { browserLanguage } = useBrowserLanguageState();
+  const { t } = useTranslation("LANGUAJES");
+  const currentLanguage =
+    LANGUAGES.find((lang) => lang.key === browserLanguage) || LANGUAGES[0];
 
   return (
     <div className="relative">
@@ -40,13 +40,19 @@ export function LanguageButton() {
             height={24}
             className="object-cover"
           />
-        </div>  
-        <motion.div animate={{ rotate: isOpenDialog ? 180 : 0 }} transition={{ duration: 0.3 }}>
+        </div>
+        <motion.div
+          animate={{ rotate: isOpenDialog ? 180 : 0 }}
+          transition={{ duration: 0.3 }}
+        >
           <ChevronDown className="h-4 w-4" />
         </motion.div>
       </motion.button>
 
-      <LanguageSelector isOpenDialog={isOpenDialog} setOpenDialog={setOpenDialog} />
+      <LanguageSelector
+        isOpenDialog={isOpenDialog}
+        setOpenDialog={setOpenDialog}
+      />
     </div>
-  )
+  );
 }

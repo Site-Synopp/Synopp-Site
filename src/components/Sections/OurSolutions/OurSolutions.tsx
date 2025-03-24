@@ -20,7 +20,10 @@ const OurSolutions = () => {
   const { View } = useLottie(defaultOptions);
 
   return (
-    <section className="bg-primary-700 text-white py-16 relative overflow-hidden z-10 w-full lg:h-[110vh]">
+    <section
+      id="OurSolutions"
+      className="bg-primary-700 text-white py-16 relative overflow-hidden z-10 w-full lg:h-[110vh]"
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <p className="text-accent-purple text-xs md:text-sm tracking-wider uppercase mb-5 font-bold">
@@ -156,7 +159,9 @@ const SolutionCardResponsive = ({
           <h3 className="text-white text-base xl:text-lg font-bold">{title}</h3>
         </div>
 
-        <p className="text-primary-secondary-disabled  text-xs xl:text-sm">{description}</p>
+        <p className="text-primary-secondary-disabled  text-xs xl:text-sm">
+          {description}
+        </p>
       </div>
     </div>
   );

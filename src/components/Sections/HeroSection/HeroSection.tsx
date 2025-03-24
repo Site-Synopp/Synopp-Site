@@ -7,6 +7,7 @@ import HeroImage from "../../../../public/images/HeroDashboard.png";
 import MobileHeroImage from "../../../../public/images/HeroDashboardMobile.png";
 
 import { useTranslation } from "react-i18next";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function HeroSection() {
   const { t } = useTranslation("HERO_SECTION");
@@ -21,7 +22,10 @@ export default function HeroSection() {
         />
       </div>
 
-      <section className="pt-32 pb-16 md:pt-40 md:pb-24 px-4 relative w-[100%] h-[100vh] flex flex-col">
+      <section
+        id="HeroSection"
+        className="pt-32 pb-16 md:pt-40 md:pb-24 px-4 relative w-[100%] h-[100vh] flex flex-col"
+      >
         <div className="container mx-auto text-center max-w-4xl z-40">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -45,15 +49,24 @@ export default function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               duration: 0.4,
-              scale: { visualDuration: 0.4},
+              scale: { visualDuration: 0.4 },
             }}
           >
-            <PrimaryButton
-              className="text-sm md:text-lg py-2 px-5 rounded-lg justify-self-center mx-auto"
-              icon={ArrowRight.src}
+            <ScrollLink
+              to="Contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={800}
+              className="inline-flex"
             >
-              {t("BUTTON")}
-            </PrimaryButton>
+              <PrimaryButton
+                className="text-sm md:text-lg py-2 px-5 rounded-lg justify-self-center mx-auto"
+                icon={ArrowRight.src}
+              >
+                {t("BUTTON")}
+              </PrimaryButton>
+            </ScrollLink>
           </motion.div>
         </div>
 

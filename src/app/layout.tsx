@@ -4,6 +4,7 @@ import "./globals.css";
 import { BrowserLanguageProvider } from "./hooks/contexts/useBrowserLanguage";
 import { InterFont } from "./fonts/fonts";
 import Navbar from "../components/NavBar/Navbar";
+import Footer from "@/components/Footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +36,9 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <Navbar />
-          {children}
+          <main>{children}</main>
+          <div className="border-t border-gray-800" />
+          <Footer />
         </body>
       </BrowserLanguageProvider>
     </html>

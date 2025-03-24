@@ -1,9 +1,9 @@
-import Agility from '../../../../public/icons/ClockClockwise.svg'
-import ClientCentric from '../../../../public/icons/UsersThree.svg'
-import Expertise from '../../../../public/icons/Certificate.svg'
-import Commitment from '../../../../public/icons/Handshake.svg'
-import Technology from '../../../../public/icons/Devices.svg'
-import Results from '../../../../public/icons/ChartLineUp.svg'
+import Agility from "../../../../public/icons/ClockClockwise.svg";
+import ClientCentric from "../../../../public/icons/UsersThree.svg";
+import Expertise from "../../../../public/icons/Certificate.svg";
+import Commitment from "../../../../public/icons/Handshake.svg";
+import Technology from "../../../../public/icons/Devices.svg";
+import Results from "../../../../public/icons/ChartLineUp.svg";
 
 export const advantages = [
   {

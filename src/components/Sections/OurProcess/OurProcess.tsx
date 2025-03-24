@@ -6,7 +6,6 @@ import { motion, useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { processSteps } from "./data";
 
-
 // Animations
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -21,7 +20,10 @@ const lineGrow = {
 const OurProcess = () => {
   const { t } = useTranslation("OUR_PROCESS");
   return (
-    <section className="bg-primary-700 text-white py-16 relative overflow-hidden z-10 w-full min-h-screen">
+    <section
+      id="OurProcess"
+      className="bg-primary-700 text-white py-16 relative overflow-hidden z-10 w-full min-h-screen"
+    >
       {/* Background image for desktop */}
       <div className="hidden lg:block absolute inset-0 z-0  w-[87%] h-[350px] mx-auto top-[-5px]">
         <Image
@@ -155,7 +157,9 @@ const ProcessStepDesktop = ({
                 {step.number}
               </span>
             </div>
-            <h3 className="text-4xl font-bold">{t(`PROCESS_STEPS.${step.id}.TITLE`)}</h3>
+            <h3 className="text-4xl font-bold">
+              {t(`PROCESS_STEPS.${step.id}.TITLE`)}
+            </h3>
           </div>
         </div>
       </motion.div>
@@ -169,14 +173,16 @@ const ProcessStepDesktop = ({
         dotHeight={5}
       />
 
-    {/* Description and image to the right */}
+      {/* Description and image to the right */}
       <motion.div
         className="w-[40%] pl-8"
         initial={{ opacity: 0, x: 50 }}
         animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
-        <p className="text-gray-400 mb-8 text-lg">{t(`PROCESS_STEPS.${step.id}.DESCRIPTION`)}</p>
+        <p className="text-gray-400 mb-8 text-lg">
+          {t(`PROCESS_STEPS.${step.id}.DESCRIPTION`)}
+        </p>
         <div className="rounded-lg overflow-hidden shadow-lg">
           <Image
             src={step.image || "/placeholder.svg"}
@@ -219,7 +225,9 @@ const ProcessStepTablet = ({ step }: { step: ProcessStep; index: number }) => {
                 {step.number}
               </span>
             </div>
-            <h3 className="text-2xl font-bold">{t(`PROCESS_STEPS.${step.id}.TITLE`)}</h3>
+            <h3 className="text-2xl font-bold">
+              {t(`PROCESS_STEPS.${step.id}.TITLE`)}
+            </h3>
           </div>
         </div>
       </motion.div>
@@ -235,14 +243,16 @@ const ProcessStepTablet = ({ step }: { step: ProcessStep; index: number }) => {
         />
       </div>
 
-      {/* Description and image to the right */} 
+      {/* Description and image to the right */}
       <motion.div
         className="w-1/3 pl-4"
         initial={{ opacity: 0, x: 30 }}
         animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
-        <p className="text-gray-400 mb-4">{t(`PROCESS_STEPS.${step.id}.DESCRIPTION`)}</p>
+        <p className="text-gray-400 mb-4">
+          {t(`PROCESS_STEPS.${step.id}.DESCRIPTION`)}
+        </p>
         <div className="rounded-lg overflow-hidden shadow-lg">
           <Image
             src={step.image || "/placeholder.svg"}
@@ -296,9 +306,13 @@ const ProcessStepMobile = ({
               {step.number}
             </span>
           </div>
-          <h3 className="text-xl font-bold">{t(`PROCESS_STEPS.${step.id}.TITLE`)}</h3>
+          <h3 className="text-xl font-bold">
+            {t(`PROCESS_STEPS.${step.id}.TITLE`)}
+          </h3>
         </div>
-        <p className="text-gray-400 mb-4">{t(`PROCESS_STEPS.${step.id}.DESCRIPTION`)}</p>
+        <p className="text-gray-400 mb-4">
+          {t(`PROCESS_STEPS.${step.id}.DESCRIPTION`)}
+        </p>
         <div className="rounded-lg overflow-hidden shadow-lg">
           <Image
             src={step.image || "/placeholder.svg"}
@@ -323,12 +337,7 @@ interface PulsingDotProps {
   dotHeight: number;
 }
 
-function PulsingDot({
-  step,
-  isInView,
-  dotWidth,
-  dotHeight,
-}: PulsingDotProps) {
+function PulsingDot({ step, isInView, dotWidth, dotHeight }: PulsingDotProps) {
   return (
     <div className="relative flex items-center justify-center">
       {/* Pulsing Rings (triggered by isInView) */}

@@ -75,7 +75,7 @@ function ContactUs() {
   };
 
   return (
-    <section id="contact" className="py-20 px-4 bg-primary-700 text-white">
+    <section id="Contact" className="py-20 px-4 bg-primary-700 text-white">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <motion.p
@@ -182,9 +182,7 @@ function ContactUs() {
             <h3 className="text-lg md:text-4xl font-bold mb-4">
               {t("RIGHT_TITLE")}
             </h3>
-            <p className="text-gray-400 mb-8">
-              {t("RIGHT_DESCRIPTION")}
-            </p>
+            <p className="text-gray-400 mb-8">{t("RIGHT_DESCRIPTION")}</p>
 
             {status === "success" ? (
               <motion.div
@@ -285,7 +283,9 @@ function ContactUs() {
                   onClick={handleSubmit}
                   className="w-full items-center justify-center h-12"
                 >
-                  {status === "submitting" ? t("FORM.SUBMITTING") : t("FORM.SUBMIT")}
+                  {status === "submitting"
+                    ? t("FORM.SUBMITTING")
+                    : t("FORM.SUBMIT")}
                 </PrimaryButton>
               </form>
             )}

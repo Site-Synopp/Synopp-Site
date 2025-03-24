@@ -11,28 +11,28 @@ import aiIcon from "../../../../public/icons/OpenAiLogo.svg";
 import inceptionIcon from "../../../../public/icons/Users.svg";
 
 export const solutionData: Solution[] = [
-    {
-        id: "website-engineering",
-        icon: websiteIcon,
-      },
-      {
-        id: "app-development",
-        icon: appIcon,
-      },
-      {
-        id: "mobile-development",
-        icon: mobileIcon,
-      },
-      {
-        id: "ai-integration",
-        icon: aiIcon,
-      },
-      {
-        id: "ui-ux-design",
-        icon: uiUxIcon,
-      },
-      {
-        id: "inception-team",
-        icon: inceptionIcon,
-      },
-  ];
+  {
+    id: "website-engineering",
+    icon: websiteIcon,
+  },
+  {
+    id: "app-development",
+    icon: appIcon,
+  },
+  {
+    id: "mobile-development",
+    icon: mobileIcon,
+  },
+  {
+    id: "ai-integration",
+    icon: aiIcon,
+  },
+  {
+    id: "ui-ux-design",
+    icon: uiUxIcon,
+  },
+  {
+    id: "inception-team",
+    icon: inceptionIcon,
+  },
+];

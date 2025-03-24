@@ -154,5 +154,11 @@
         "DESCRIPTION": "We'll send you a custom proposal with a clear plan, budget, and timeline—aligned with your needs."
       }
     }
+  },
+  "FOOTER": {
+    "CTA_TITLE_1": "Ready to bring your projects to life?",
+    "CTA_TITLE_2": "Let's talk!",
+    "CTA_DESCRIPTION": "Our team is looking forward to meet you!",
+    "CTA_BUTTON": "Start your project"
   }
 }

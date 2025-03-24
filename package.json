@@ -10,6 +10,7 @@
     "build:css": "tailwindcss -i ./src/app/globals.css -o ./public/output.css --watch"
   },
   "dependencies": {
+    "@types/react-scroll": "^1.8.10",
     "clsx": "^2.1.1",
     "constate": "^3.3.2",
     "framer-motion": "^12.5.0",
@@ -21,6 +22,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.4.1",
+    "react-scroll": "^1.9.3",
     "resend": "^4.1.2",
     "tailwind-merge": "^3.0.2",
     "tailwindcss": "3"
