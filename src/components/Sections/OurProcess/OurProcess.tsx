@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 import { processSteps } from "./data";
 
 
-// Animaciones
+// Animations
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0 },
@@ -141,7 +141,7 @@ const ProcessStepDesktop = ({
       ref={ref}
       className="flex items-start justify-between mb-32 relative max-w-screen-xl mx-auto"
     >
-      {/* Número y título a la izquierda */}
+      {/* Number and title to the left */}
       <motion.div
         className="w-[40%] pr-8 text-right flex items-center justify-start pl-4"
         initial={{ opacity: 0, x: -50 }}
@@ -160,7 +160,7 @@ const ProcessStepDesktop = ({
         </div>
       </motion.div>
 
-      {/* Círculo indicador en la línea de tiempo */}
+      {/* Pulsing dot */}
       <PulsingDot
         step={step}
         isInView={isInView}
@@ -169,7 +169,7 @@ const ProcessStepDesktop = ({
         dotHeight={5}
       />
 
-      {/* Descripción e imagen a la derecha */}
+    {/* Description and image to the right */}
       <motion.div
         className="w-[40%] pl-8"
         initial={{ opacity: 0, x: 50 }}
@@ -227,7 +227,7 @@ const ProcessStepTablet = ({ step }: { step: ProcessStep; index: number }) => {
         </div>
       </motion.div>
 
-      {/* Círculo indicador centrado sobre la línea */}
+      {/* Indicator circle centered on the line */}
       <div className="w-1/3 flex items-center justify-center">
         <PulsingDot
           step={step}
@@ -238,7 +238,7 @@ const ProcessStepTablet = ({ step }: { step: ProcessStep; index: number }) => {
         />
       </div>
 
-      {/* Descripción e imagen a la derecha */}
+      {/* Description and image to the right */} 
       <motion.div
         className="w-1/3 pl-4"
         initial={{ opacity: 0, x: 30 }}
@@ -259,7 +259,7 @@ const ProcessStepTablet = ({ step }: { step: ProcessStep; index: number }) => {
     </div>
   );
 };
-// Componente para pasos en mobile centrado correctamente
+// Mobile step component centered correctly
 const ProcessStepMobile = ({
   step,
 }: {
@@ -276,7 +276,7 @@ const ProcessStepMobile = ({
   const isInView = useInView(ref, { once: true, amount: 0.3 });
   return (
     <div ref={ref} className="mb-16 relative flex items-start">
-      {/* Círculo indicador centrado sobre la línea */}
+      {/* Indicator circle centered on the line  */}
       <div className="w-10 flex justify-center relative">
         <PulsingDot
           step={step}
