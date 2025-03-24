@@ -13,13 +13,6 @@
     "DESCRIPTION": "Partner with us to elevate your operations and drive success.",
     "BUTTON": "Start your project"
   },
-  "ABOUT": {
-    "SUBTITLE_GREETING": "I'm ",
-    "SUBTITLE_ROL": "Software Engineer ",
-    "SUBTITLE_DESCRIPTION": "who builds immersive and user-friendly applications that users love. ",
-    "TITLE": "About Me",
-    "BUTTON": "Download CV"
-  },
   "OUR_SERVICES": {
     "SOLUTIONS": {
       "TITLE": "Our Solutions",
@@ -159,6 +152,7 @@
     "CTA_TITLE_1": "Ready to bring your projects to life?",
     "CTA_TITLE_2": "Let's talk!",
     "CTA_DESCRIPTION": "Our team is looking forward to meet you!",
-    "CTA_BUTTON": "Start your project"
+    "CTA_BUTTON": "Start your project",
+    "COPYRIGHT": "© 2025 Synopp — All rights reserved"
   }
 }

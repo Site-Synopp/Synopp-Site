@@ -102,7 +102,7 @@ function Footer() {
               <Image src={Logo} alt="Synopp Logo" width={101} height={20} />
             </div>
             <p className="text-gray-400 text-sm">
-              © 2025 Synopp — All rights reserved
+              {t("COPYRIGHT")}
             </p>
           </div>
         </div>

@@ -1,153 +1,158 @@
 {
   "NAVBAR": {
-    "WHY_US": "¿Por qué nosotros?",
+    "WHY_US": "Por qué nosotros",
     "WHAT_WE_DO": "Que hacemos",
     "OUR_PROCESS": "Nuestro proceso",
-    "THE_STACK_WE_USE": "El stack que usamos"
+    "THE_STACK_WE_USE": "Stack tecnológico",
+    "CONTACT_US": "Contáctanos"
   },
   "HERO_SECTION": {
-    "TITLE_GREETING_PART_1": "Building Smarter",
-    "TITLE_GREETING_PART_2": "Software Solutions",
-    "SUBTITLE": "LET'S BILD SOMETHING AMAZING TOGHETER",
-    "DESCRIPTION": "Partner with us to elevate your operations and drive success.",
-    "BUTTON": "Start your project"
-  },
-  "ABOUT": {
-    "DESCRIPTION": "I'm  a software engineer who builds immersive and user-friendly applications that users love. "
+    "TITLE_GREETING_PART_1": "Desarrollando Soluciones",
+    "TITLE_GREETING_PART_2": "de Software Inteligentes",
+    "SUBTITLE": "Construyamos algo increíble juntos",
+    "DESCRIPTION": "Asóciate con nosotros para liberar todo el potencial de tu negocio.",
+    "BUTTON": "Comienza tu proyecto"
   },
   "OUR_SERVICES": {
     "SOLUTIONS": {
-      "TITLE": "Our Solutions",
-      "SUBTITLE": "What we do",
-      "DESCRIPTION": "Explore our custom digital solutions that turn your ideas into game-changing results.",
+      "TITLE": "Nuestras Soluciones",
+      "SUBTITLE": "Lo que hacemos",
+      "DESCRIPTION": "Explora nuestras soluciones digitales que transforman tus ideas en resultados innovadores.",
       "website-engineering": {
-        "TITLE": "Website Engineering",
-        "DESCRIPTION": "We create high-performance websites tailored to your brand, offering seamless experiences, modern design, and scalable solutions."
+        "TITLE": "Desarrollo de Sitios Web",
+        "DESCRIPTION": "Creamos sitios web de alto rendimiento, con diseño moderno, experiencia fluida y arquitectura escalable."
       },
       "app-development": {
-        "TITLE": "Custom Platform Solutions",
-        "DESCRIPTION": "We create robust and secure platforms, including SaaS products and management systems, all customized to meet your unique business needs."
+        "TITLE": "Plataformas a medida",
+        "DESCRIPTION": "Desarrollamos plataformas robustas y seguras, como productos SaaS, sistemas de gestión y aplicaciones empresariales."
       },
       "mobile-development": {
-        "TITLE": "Mobile Development",
-        "DESCRIPTION": "We design and develop intuitive, feature-rich mobile apps for iOS and Android, combining sleek design with seamless functionality."
+        "TITLE": "Aplicaciones Móviles",
+        "DESCRIPTION": "Diseñamos y desarrollamos aplicaciones móviles intuitivas para iOS y Android, con diseño elegante y funcionalidad fluida."
       },
       "ai-integration": {
-        "TITLE": "AI-Powered Apps",
-        "DESCRIPTION": "We integrate cutting-edge artificial intelligence into digital products to enhance user experiences and optimize business operations."
+        "TITLE": "Aplicaciones con IA",
+        "DESCRIPTION": "Integramos IA en productos digitales para mejorar experiencias de usuario y optimizar operaciones de negocio."
       },
       "ui-ux-design": {
-        "TITLE": "UI/UX Design",
-        "DESCRIPTION": "We craft user-centric, intuitive interfaces that drive engagement, improve usability, and deliver visually compelling digital experiences."
+        "TITLE": "Diseño UX/UI",
+        "DESCRIPTION": "Creamos interfaces intuitivas y centradas en el usuario que mejoran la usabilidad y ofrecen experiencias digitales atractivas."
       },
       "inception-team": {
-        "TITLE": "Inception Team",
-        "DESCRIPTION": "Our developers and business strategists align innovation with your business goals to deliver market-ready solutions."
+        "TITLE": "Equipo de Lanzamiento",
+        "DESCRIPTION": "Nuestros desarrolladores y expertos en negocio alinean innovación con tus metas para ofrecer soluciones listas para el mercado."
       }
     }
   },
   "WHY_US": {
-    "SUBTITLE": "WHY US",
-    "TITLE": "The Synopp Advantage",
-    "DESCRIPTION": "Discover the core strengths that make us the perfect partner for your digital journey.",
+    "SUBTITLE": "POR QUÉ NOSOTROS",
+    "TITLE": "El diferencial Synopp",
+    "DESCRIPTION": "Descubre los puntos fuertes que nos convierten en el socio perfecto para tu viaje digital.",
     "ADVANTAGES": {
       "agility": {
-        "TITLE": "Agility and Flexibility",
-        "DESCRIPTION": "Thriving in fast-paced environments, adapting to changing needs, delivering results without compromising quality."
+        "TITLE": "Agilidad y Flexibilidad",
+        "DESCRIPTION": "Nos adaptamos a entornos dinámicos, entregando resultados de calidad sin comprometer plazos."
       },
       "client-centric": {
-        "TITLE": "Client-Centric Approach",
-        "DESCRIPTION": "Tailored solutions for your unique business challenges, goals, and audience, ensuring the best-fit technology for your needs."
+        "TITLE": "Enfoque Centrado en el Cliente",
+        "DESCRIPTION": "Ofrecemos soluciones personalizadas para los desafíos de tu negocio, aplicando la tecnología más adecuada."
       },
       "expertise": {
-        "TITLE": "Interdisciplinary Expertise",
-        "DESCRIPTION": "A blend of developers, strategists, and designers ensures technical excellence and strategic business value."
+        "TITLE": "Experiencia Interdisciplinaria",
+        "DESCRIPTION": "Unimos desarrolladores, expertos en negocio y diseñadores para garantizar excelencia técnica y valor estratégico."
       },
       "commitment": {
-        "TITLE": "Client Commitment",
-        "DESCRIPTION": "Fostering long-term partnerships through transparency, collaboration, and goal alignment."
+        "TITLE": "Compromiso con el Cliente",
+        "DESCRIPTION": "Apostamos a relaciones a largo plazo con comunicación clara y colaboración para cumplir tus objetivos en cada etapa."
       },
       "technology": {
-        "TITLE": "Cutting-Edge Technology",
-        "DESCRIPTION": "Leveraging the latest tech—AI, machine learning, cloud, and mobile—to drive innovation and scalable growth."
+        "TITLE": "Tecnología de Vanguardia",
+        "DESCRIPTION": "Utilizamos lo último en tecnología (IA, machine learning y soluciones en la nube) para asegurar innovación y escalabilidad."
       },
       "results": {
-        "TITLE": "Results-Driven Focus",
-        "DESCRIPTION": "Delivering measurable outcomes aligned with your business goals, ensuring tangible impact and long-term growth."
+        "TITLE": "Enfoque Orientado a Resultados",
+        "DESCRIPTION": "Entregamos resultados medibles alineados a tus objetivos, generando un impacto real y crecimiento sostenible."
       }
     }
   },
   "OUR_PROCESS": {
-    "SUBTITLE": "OUR PROCESS",
-    "TITLE_PART1": "From Concept to Reality:",
-    "TITLE_PART2": "A Clear Path to Success",
-    "DESCRIPTION": "We deliver excellence through our proven process.",
+    "SUBTITLE": "NUESTRO PROCESO",
+    "TITLE_PART1": "Del Concepto a la Realidad:",
+    "TITLE_PART2": "El Camino Claro hacia el Éxito",
+    "DESCRIPTION": "Ofrecemos excelencia a través de nuestro proceso comprobado.",
     "PROCESS_STEPS": {
       "discovery": {
-        "TITLE": "Discovery",
-        "DESCRIPTION": "We start by fully understanding your goals, challenges, and vision to create a strong, shared foundation."
+        "TITLE": "Descubrimiento",
+        "DESCRIPTION": "Comenzamos por comprender completamente tus objetivos, desafíos y visión para crear una base sólida y compartida."
       },
       "design": {
-        "TITLE": "Design",
-        "DESCRIPTION": "Our design team crafts intuitive, user-centric interfaces that align with your brand and enhance user experience."
+        "TITLE": "Diseño",
+        "DESCRIPTION": "Nuestro equipo de diseño crea interfaces intuitivas y centradas en el usuario que se alinean con tu marca y mejoran la experiencia del usuario."
       },
       "develop": {
-        "TITLE": "Develop",
-        "DESCRIPTION": "We build your solution using the latest technologies, ensuring scalability, security, and top-tier performance."
+        "TITLE": "Desarrollo",
+        "DESCRIPTION": "Creamos tu solución utilizando las tecnologías más avanzadas, asegurando escalabilidad, seguridad y un rendimiento de primer nivel."
       },
       "launch": {
-        "TITLE": "Launch",
-        "DESCRIPTION": "We rigorously test, refine, and launch your product, ensuring it's fully optimized for success from day one."
+        "TITLE": "Lanzamiento",
+        "DESCRIPTION": "Realizamos pruebas rigurosas, refinamos y lanzamos tu producto, asegurando que esté completamente optimizado para el éxito desde el primer día."
       }
     }
   },
   "TECH_STACK": {
-    "SUBTITLE": "THE STACK WE USE",
-    "TITLE": "Transforming ideas with the right technologies.",
-    "DESCRIPTION": "We use the latest tools and platforms to build reliable, scalable solutions that bring your vision to life.",
+    "SUBTITLE": "STACK TECNOLÓGICO",
+    "TITLE": "Transformando ideas a través de la tecnología",
+    "DESCRIPTION": "Utilizamos las herramientas y plataformas más innovadoras para construir soluciones confiables y escalables que dan vida a tu visión.",
     "TECH_CATEGORIES": {
-      "UX_UI_DESIGN": "UX/UI Design",
-      "INFRASTRUCTURE": "Infrastructure",
-      "FRONT_END_TECHNOLOGIES": "Front-End Technologies",
-      "BACK_END_TECHNOLOGIES": "Back-End Technologies",
-      "SECURITY": "Security",
-      "DOCUMENTATION_MANAGEMENT": "Documentation & Management"
+      "UX_UI_DESIGN": "Diseño UX/UI",
+      "INFRASTRUCTURE": "Infraestructura",
+      "FRONT_END_TECHNOLOGIES": "Tecnologías Front-End",
+      "BACK_END_TECHNOLOGIES": "Tecnologías Back-End",
+      "SECURITY": "Seguridad",
+      "DOCUMENTATION_MANAGEMENT": "Documentación & Gestión"
     }
   },
   "CONTACT_US": {
-    "SUBTITLE": "CONTACT US",
-    "TITLE": "Take the First Step",
-    "DESCRIPTION": "Get Your Custom Software Quote.",
-    "RIGHT_TITLE": "Get in touch",
-    "RIGHT_DESCRIPTION": "Reach out and discover what your tech partner can do for you.",
+    "SUBTITLE": "CONTÁCTANOS",
+    "TITLE": "Da el Primer Paso",
+    "DESCRIPTION": "Obtén tu Cotización de Software Personalizada.",
+    "RIGHT_TITLE": "Envíanos un mensaje",
+    "RIGHT_DESCRIPTION": "Contáctanos y descubre lo que tu aliado tecnológico puede hacer por ti.",
     "SUCCESS_MESSAGE": {
-      "TITLE": "Message Sent!",
-      "DESCRIPTION": "Thank you for reaching out. Our team will get back to you within 24 hours."
+      "TITLE": "¡Mensaje Enviado!",
+      "DESCRIPTION": "Gracias por contactarnos. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas."
     },
     "FORM": {
-      "FIRST_NAME": "First name*",
-      "LAST_NAME": "Last name*",
+      "FIRST_NAME": "Nombre*",
+      "LAST_NAME": "Apellido*",
       "EMAIL": "Email*",
-      "PHONE": "Phone number*",
-      "MESSAGE": "Message*",
-      "SUBMITTING": "Submitting...",
-      "SUBMIT": "Submit"
+      "PHONE": "Teléfono*",
+      "MESSAGE": "Mensaje*",
+      "SUBMITTING": "Enviando...",
+      "SUBMIT": "Enviar"
     },
     "PROCESS_STEPS": {
-      "TITLE": "What happens when you book a call?",
-      "DESCRIPTION": "When you reach out, you get all eyes on your project. We carefully study your request to make sure we fully understand the scope.",
+      "TITLE": "¿Qué sucede cuando nos contactas?",
+      "DESCRIPTION": "Cuando envíes el formulario, todo nuestro equipo estará enfocado en tu proyecto. Estudiaremos cuidadosamente tu solicitud para asegurarnos de comprender completamente el alcance de tu proyecto.",
       "STEP_1": {
-        "TITLE": "Our team receives your requirements",
-        "DESCRIPTION": "When you reach out, you get all eyes on your project. We carefully study your request to make sure we fully understand the scope."
+        "TITLE": "Nuestro equipo recibe tus requisitos",
+        "DESCRIPTION": "Cuando envíes el formulario, todo nuestro equipo estará enfocado en tu proyecto. Estudiaremos cuidadosamente tu solicitud para asegurarnos de comprender completamente el alcance de tu proyecto."
       },
       "STEP_2": {
-        "TITLE": "Discuss Your Needs",
-        "DESCRIPTION": "In order to learn more about your business and the challenges you face, we'll schedule a call. Our experts will dive deep into your goals and deliver actionable insights to craft the perfect solution for you."
+        "TITLE": "Profundizamos sobre tus necesidades",
+        "DESCRIPTION": "Para entender mejor tu negocio y los desafíos que enfrentas, agendaremos una llamada. Nuestros expertos analizarán a fondo tus objetivos y te brindarán ideas prácticas para crear la solución ideal para ti."
       },
       "STEP_3": {
-        "TITLE": "Get A Tailored Proposal",
-        "DESCRIPTION": "We'll send you a custom proposal with a clear plan, budget, and timeline—aligned with your needs."
+        "TITLE": "Recibe una Propuesta Personalizada",
+        "DESCRIPTION": "Te enviaremos una propuesta a medida con un plan claro, un presupuesto y un cronograma, todo alineado a tus necesidades."
       }
     }
+  },
+  "FOOTER": {
+    "CTA_TITLE_1": "¿Estás listo para hacer realidad tus proyectos?",
+    "CTA_TITLE_2": "¡Hablemos!",
+    "CTA_DESCRIPTION": "Nuestro equipo quiere conocerte.",
+    "CTA_BUTTON": "Comienza tu proyecto",
+    "COPYRIGHT": "© 2025 Synopp — Todos los derechos reservados"
   }
 }
