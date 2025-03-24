@@ -1,0 +1,153 @@
+{
+  "NAVBAR": {
+    "WHY_US": "¿Por qué nosotros?",
+    "WHAT_WE_DO": "Que hacemos",
+    "OUR_PROCESS": "Nuestro proceso",
+    "THE_STACK_WE_USE": "El stack que usamos"
+  },
+  "HERO_SECTION": {
+    "TITLE_GREETING_PART_1": "Building Smarter",
+    "TITLE_GREETING_PART_2": "Software Solutions",
+    "SUBTITLE": "LET'S BILD SOMETHING AMAZING TOGHETER",
+    "DESCRIPTION": "Partner with us to elevate your operations and drive success.",
+    "BUTTON": "Start your project"
+  },
+  "ABOUT": {
+    "DESCRIPTION": "I'm  a software engineer who builds immersive and user-friendly applications that users love. "
+  },
+  "OUR_SERVICES": {
+    "SOLUTIONS": {
+      "TITLE": "Our Solutions",
+      "SUBTITLE": "What we do",
+      "DESCRIPTION": "Explore our custom digital solutions that turn your ideas into game-changing results.",
+      "website-engineering": {
+        "TITLE": "Website Engineering",
+        "DESCRIPTION": "We create high-performance websites tailored to your brand, offering seamless experiences, modern design, and scalable solutions."
+      },
+      "app-development": {
+        "TITLE": "Custom Platform Solutions",
+        "DESCRIPTION": "We create robust and secure platforms, including SaaS products and management systems, all customized to meet your unique business needs."
+      },
+      "mobile-development": {
+        "TITLE": "Mobile Development",
+        "DESCRIPTION": "We design and develop intuitive, feature-rich mobile apps for iOS and Android, combining sleek design with seamless functionality."
+      },
+      "ai-integration": {
+        "TITLE": "AI-Powered Apps",
+        "DESCRIPTION": "We integrate cutting-edge artificial intelligence into digital products to enhance user experiences and optimize business operations."
+      },
+      "ui-ux-design": {
+        "TITLE": "UI/UX Design",
+        "DESCRIPTION": "We craft user-centric, intuitive interfaces that drive engagement, improve usability, and deliver visually compelling digital experiences."
+      },
+      "inception-team": {
+        "TITLE": "Inception Team",
+        "DESCRIPTION": "Our developers and business strategists align innovation with your business goals to deliver market-ready solutions."
+      }
+    }
+  },
+  "WHY_US": {
+    "SUBTITLE": "WHY US",
+    "TITLE": "The Synopp Advantage",
+    "DESCRIPTION": "Discover the core strengths that make us the perfect partner for your digital journey.",
+    "ADVANTAGES": {
+      "agility": {
+        "TITLE": "Agility and Flexibility",
+        "DESCRIPTION": "Thriving in fast-paced environments, adapting to changing needs, delivering results without compromising quality."
+      },
+      "client-centric": {
+        "TITLE": "Client-Centric Approach",
+        "DESCRIPTION": "Tailored solutions for your unique business challenges, goals, and audience, ensuring the best-fit technology for your needs."
+      },
+      "expertise": {
+        "TITLE": "Interdisciplinary Expertise",
+        "DESCRIPTION": "A blend of developers, strategists, and designers ensures technical excellence and strategic business value."
+      },
+      "commitment": {
+        "TITLE": "Client Commitment",
+        "DESCRIPTION": "Fostering long-term partnerships through transparency, collaboration, and goal alignment."
+      },
+      "technology": {
+        "TITLE": "Cutting-Edge Technology",
+        "DESCRIPTION": "Leveraging the latest tech—AI, machine learning, cloud, and mobile—to drive innovation and scalable growth."
+      },
+      "results": {
+        "TITLE": "Results-Driven Focus",
+        "DESCRIPTION": "Delivering measurable outcomes aligned with your business goals, ensuring tangible impact and long-term growth."
+      }
+    }
+  },
+  "OUR_PROCESS": {
+    "SUBTITLE": "OUR PROCESS",
+    "TITLE_PART1": "From Concept to Reality:",
+    "TITLE_PART2": "A Clear Path to Success",
+    "DESCRIPTION": "We deliver excellence through our proven process.",
+    "PROCESS_STEPS": {
+      "discovery": {
+        "TITLE": "Discovery",
+        "DESCRIPTION": "We start by fully understanding your goals, challenges, and vision to create a strong, shared foundation."
+      },
+      "design": {
+        "TITLE": "Design",
+        "DESCRIPTION": "Our design team crafts intuitive, user-centric interfaces that align with your brand and enhance user experience."
+      },
+      "develop": {
+        "TITLE": "Develop",
+        "DESCRIPTION": "We build your solution using the latest technologies, ensuring scalability, security, and top-tier performance."
+      },
+      "launch": {
+        "TITLE": "Launch",
+        "DESCRIPTION": "We rigorously test, refine, and launch your product, ensuring it's fully optimized for success from day one."
+      }
+    }
+  },
+  "TECH_STACK": {
+    "SUBTITLE": "THE STACK WE USE",
+    "TITLE": "Transforming ideas with the right technologies.",
+    "DESCRIPTION": "We use the latest tools and platforms to build reliable, scalable solutions that bring your vision to life.",
+    "TECH_CATEGORIES": {
+      "UX_UI_DESIGN": "UX/UI Design",
+      "INFRASTRUCTURE": "Infrastructure",
+      "FRONT_END_TECHNOLOGIES": "Front-End Technologies",
+      "BACK_END_TECHNOLOGIES": "Back-End Technologies",
+      "SECURITY": "Security",
+      "DOCUMENTATION_MANAGEMENT": "Documentation & Management"
+    }
+  },
+  "CONTACT_US": {
+    "SUBTITLE": "CONTACT US",
+    "TITLE": "Take the First Step",
+    "DESCRIPTION": "Get Your Custom Software Quote.",
+    "RIGHT_TITLE": "Get in touch",
+    "RIGHT_DESCRIPTION": "Reach out and discover what your tech partner can do for you.",
+    "SUCCESS_MESSAGE": {
+      "TITLE": "Message Sent!",
+      "DESCRIPTION": "Thank you for reaching out. Our team will get back to you within 24 hours."
+    },
+    "FORM": {
+      "FIRST_NAME": "First name*",
+      "LAST_NAME": "Last name*",
+      "EMAIL": "Email*",
+      "PHONE": "Phone number*",
+      "MESSAGE": "Message*",
+      "SUBMITTING": "Submitting...",
+      "SUBMIT": "Submit"
+    },
+    "PROCESS_STEPS": {
+      "TITLE": "What happens when you book a call?",
+      "DESCRIPTION": "When you reach out, you get all eyes on your project. We carefully study your request to make sure we fully understand the scope.",
+      "STEP_1": {
+        "TITLE": "Our team receives your requirements",
+        "DESCRIPTION": "When you reach out, you get all eyes on your project. We carefully study your request to make sure we fully understand the scope."
+      },
+      "STEP_2": {
+        "TITLE": "Discuss Your Needs",
+        "DESCRIPTION": "In order to learn more about your business and the challenges you face, we'll schedule a call. Our experts will dive deep into your goals and deliver actionable insights to craft the perfect solution for you."
+      },
+      "STEP_3": {
+        "TITLE": "Get A Tailored Proposal",
+        "DESCRIPTION": "We'll send you a custom proposal with a clear plan, budget, and timeline—aligned with your needs."
+      }
+    }
+  }
+}
