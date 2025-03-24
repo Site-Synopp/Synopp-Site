@@ -60,7 +60,7 @@ const OurProcess = () => {
           <div className="relative max-w-7xl w-full">
             {/* Vertical timeline line - Fijada al centro exacto */}
             <motion.div
-              className="absolute left-1/2 transform -translate-x-1/2 w-[2px] bg-gray-700 top-0 bottom-0"
+              className="absolute left-1/2 transform -translate-x-1/2 w-[2px] top-0 bottom-0 bg-gradient-to-b from-gray-700 to-[#80808000] "
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
@@ -79,7 +79,7 @@ const OurProcess = () => {
           <div className="relative">
             {/* Vertical timeline line */}
             <motion.div
-              className="absolute left-1/2 transform -translate-x-1/2 w-[2px] bg-gray-700 top-0 bottom-0"
+              className="absolute left-1/2 transform -translate-x-1/2 w-[2px] top-0 bottom-0 bg-gradient-to-b from-gray-700 to-[#80808000]"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
@@ -104,7 +104,7 @@ const OurProcess = () => {
           <div className="relative pl-10">
             {/* Vertical timeline line */}
             <motion.div
-              className="absolute left-10 w-[2px] bg-gray-700 top-0 bottom-0"
+              className="absolute left-10 w-[2px] top-0 bottom-0 bg-gradient-to-b from-gray-700 to-[#80808000]"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
@@ -290,7 +290,7 @@ const ProcessStepMobile = ({
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        <div className="flex items-center mb-3  mt-[-5px]">
+        <div className="flex items-center mb-3  mt-[-16px]">
           <div className="flex items-center justify-end  border border-gray-700 rounded-full py-1 px-2 mr-4">
             <span className="text-xl font-bold text-gray-500 min-w-[20px] text-center">
               {step.number}
@@ -353,7 +353,7 @@ function PulsingDot({
 
       {/* Main Dot */}
       <motion.div
-        className={`w-${dotWidth} h-${dotHeight} rounded-full ${step.dotColor} z-10 absolute right-[10px] md:right-[0px] md:relative`}
+        className={`w-5 h-5 rounded-full ${step.dotColor} z-10 absolute right-[10px] md:right-[0px] md:relative`}
         initial={{ scale: 0 }}
         animate={isInView ? { scale: 1 } : { scale: 0 }}
         transition={{ duration: 0.4, delay: 0.4, ease: "easeInOut" }}

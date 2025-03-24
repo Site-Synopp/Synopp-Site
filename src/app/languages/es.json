@@ -113,5 +113,41 @@
       "SECURITY": "Security",
       "DOCUMENTATION_MANAGEMENT": "Documentation & Management"
     }
+  },
+  "CONTACT_US": {
+    "SUBTITLE": "CONTACT US",
+    "TITLE": "Take the First Step",
+    "DESCRIPTION": "Get Your Custom Software Quote.",
+    "RIGHT_TITLE": "Get in touch",
+    "RIGHT_DESCRIPTION": "Reach out and discover what your tech partner can do for you.",
+    "SUCCESS_MESSAGE": {
+      "TITLE": "Message Sent!",
+      "DESCRIPTION": "Thank you for reaching out. Our team will get back to you within 24 hours."
+    },
+    "FORM": {
+      "FIRST_NAME": "First name*",
+      "LAST_NAME": "Last name*",
+      "EMAIL": "Email*",
+      "PHONE": "Phone number*",
+      "MESSAGE": "Message*",
+      "SUBMITTING": "Submitting...",
+      "SUBMIT": "Submit"
+    },
+    "PROCESS_STEPS": {
+      "TITLE": "What happens when you book a call?",
+      "DESCRIPTION": "When you reach out, you get all eyes on your project. We carefully study your request to make sure we fully understand the scope.",
+      "STEP_1": {
+        "TITLE": "Our team receives your requirements",
+        "DESCRIPTION": "When you reach out, you get all eyes on your project. We carefully study your request to make sure we fully understand the scope."
+      },
+      "STEP_2": {
+        "TITLE": "Discuss Your Needs",
+        "DESCRIPTION": "In order to learn more about your business and the challenges you face, we'll schedule a call. Our experts will dive deep into your goals and deliver actionable insights to craft the perfect solution for you."
+      },
+      "STEP_3": {
+        "TITLE": "Get A Tailored Proposal",
+        "DESCRIPTION": "We'll send you a custom proposal with a clear plan, budget, and timeline—aligned with your needs."
+      }
+    }
   }
 }
