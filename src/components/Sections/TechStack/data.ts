@@ -15,7 +15,7 @@ export const techCategories: TechCategory[] = [
       { name: "Figma", icon: "/icons/figma.svg" },
       { name: "After Effects", icon: "/icons/ae.svg" },
       { name: "Lottie Files", icon: "/icons/lottie.svg" },
-      { name: "Spline", icon: "/icons/spline.svg" },
+      { name: "Spline", icon: "/icons/Spline.svg" },
     ],
   },
   {
@@ -55,7 +55,7 @@ export const techCategories: TechCategory[] = [
     category: "SECURITY",
     tools: [
       { name: "Auth0", icon: "/icons/auth0.svg" },
-      { name: "JWT", icon: "/icons/jwt.svg" },
+      { name: "JWT", icon: "/icons/JWT.svg" },
     ],
   },
   {
