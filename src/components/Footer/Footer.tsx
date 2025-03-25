@@ -55,7 +55,7 @@ function Footer() {
           {/* Navigation Links - Mobile: 2x2 Grid, Desktop: Row */}
           <div className="grid grid-cols-2 md:flex md:space-x-12 gap-y-6 mb-12 md:mb-0 gap-x-12">
             <ScrollLink
-              to="HeroSection"
+              to="WhyUs"
               spy={true}
               smooth={true}
               offset={-100}
@@ -65,7 +65,7 @@ function Footer() {
               {tNav("WHY_US")}
             </ScrollLink>
             <ScrollLink
-              to="WhyUs"
+              to="WhatWeDo"
               spy={true}
               smooth={true}
               offset={-100}

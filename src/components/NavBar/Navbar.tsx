@@ -18,8 +18,8 @@ const HEADER_ANIMATION = {
 
 // Navigation links
 const NAV_LINKS = [
-  { href: "HeroSection", translationKey: "WHY_US" },
-  { href: "WhyUs", translationKey: "WHAT_WE_DO" },
+  { href: "WhatWeDo", translationKey:"WHAT_WE_DO"  },
+  { href: "WhyUs", translationKey: "WHY_US" },
   { href: "OurProcess", translationKey: "OUR_PROCESS" },
   { href: "TechStack", translationKey: "THE_STACK_WE_USE" },
   { href: "Contact", translationKey: "CONTACT_US" },

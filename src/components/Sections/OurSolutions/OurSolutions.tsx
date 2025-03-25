@@ -21,7 +21,7 @@ const OurSolutions = () => {
 
   return (
     <section
-      id="OurSolutions"
+      id="WhatWeDo"
       className="bg-primary-700 text-white py-16 relative overflow-hidden z-10 w-full lg:h-[110vh]"
     >
       <div className="container mx-auto px-4">
