@@ -18,7 +18,7 @@ const HEADER_ANIMATION = {
 
 // Navigation links
 const NAV_LINKS = [
-  { href: "WhatWeDo", translationKey:"WHAT_WE_DO"  },
+  { href: "WhatWeDo", translationKey: "WHAT_WE_DO" },
   { href: "WhyUs", translationKey: "WHY_US" },
   { href: "OurProcess", translationKey: "OUR_PROCESS" },
   { href: "TechStack", translationKey: "THE_STACK_WE_USE" },
@@ -36,34 +36,39 @@ const Navbar = () => {
 
   // Register react-scroll events
   useEffect(() => {
-    // Register begin and end events for animations
-    Events.scrollEvent.register("begin", (to) => {
-      console.log("Scroll begin to", to);
-    });
+    if (typeof window !== "undefined") {
+      // Register begin and end events for animations
+      Events.scrollEvent.register("begin", (to) => {
+        console.log("Scroll begin to", to);
+      });
 
-    Events.scrollEvent.register("end", (to) => {
-      console.log("Scroll end to", to);
-      setActiveLink(to);
-    });
+      Events.scrollEvent.register("end", (to) => {
+        console.log("Scroll end to", to);
+        setActiveLink(to);
+      });
 
-    // Clean up events when component unmounts
-    return () => {
-      Events.scrollEvent.remove("begin");
-      Events.scrollEvent.remove("end");
-    };
+      // Clean up events when component unmounts
+      return () => {
+        Events.scrollEvent.remove("begin");
+        Events.scrollEvent.remove("end");
+      };
+    }
   }, []);
 
   useEffect(() => {
     const handleScroll = () => {
-      NAV_LINKS.forEach((link) => {
-        const section = document.getElementById(link.href);
-        if (section) {
-          const rect = section.getBoundingClientRect();
-          if (rect.top <= 150 && rect.bottom >= 150) {
-            setActiveLink(link.href);
+      if (typeof window !== "undefined") {
+        NAV_LINKS.forEach((link) => {
+          const section = document.getElementById(link.href);
+          if (section) {
+            const rect = section.getBoundingClientRect();
+
+            if (rect.top <= 150 && rect.bottom >= 150) {
+              setActiveLink(link.href);
+            }
           }
-        }
-      });
+        });
+      }
     };
 
     // Add scroll event listener
