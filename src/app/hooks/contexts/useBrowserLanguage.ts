@@ -49,10 +49,12 @@ const useBrowserLanguage = () => {
     }
     if (savedLanguage) handleBrowserLanguage(savedLanguage);
     else handleBrowserLanguage(language);
-  }, []);
+  }, [savedLanguage]);
 
   return { browserLanguage, handleBrowserLanguage, resetBrowserLanguageState };
 };
 
-export const [BrowserLanguageProvider, useBrowserLanguageState] =
+const [BrowserLanguageProvider, useBrowserLanguageState] =
   constate(useBrowserLanguage);
+
+export { BrowserLanguageProvider, useBrowserLanguageState };
