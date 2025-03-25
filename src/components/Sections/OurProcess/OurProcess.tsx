@@ -185,11 +185,12 @@ const ProcessStepDesktop = ({
         </p>
         <div className="rounded-lg overflow-hidden shadow-lg">
           <Image
-            src={step.image || "/placeholder.svg"}
+            src={step.image}
             alt={t(`PROCESS_STEPS.${step.id}.TITLE`)}
             width={500}
             height={375}
             className="w-full h-auto"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
       </motion.div>
@@ -255,11 +256,12 @@ const ProcessStepTablet = ({ step }: { step: ProcessStep; index: number }) => {
         </p>
         <div className="rounded-lg overflow-hidden shadow-lg">
           <Image
-            src={step.image || "/placeholder.svg"}
+            src={step.image}
             alt={t(`PROCESS_STEPS.${step.id}.TITLE`)}
             width={400}
             height={300}
             className="w-full h-auto"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
       </motion.div>
@@ -315,11 +317,12 @@ const ProcessStepMobile = ({
         </p>
         <div className="rounded-lg overflow-hidden shadow-lg">
           <Image
-            src={step.image || "/placeholder.svg"}
+            src={step.image}
             alt={t(`PROCESS_STEPS.${step.id}.TITLE`)}
             width={400}
             height={300}
             className="w-full h-auto"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
       </motion.div>
