@@ -122,10 +122,10 @@ const Navbar = () => {
               to={link.href}
               spy={true}
               smooth={true}
-              offset={-100} // Adjust this offset as needed
-              duration={800} // Increased duration for more noticeable animation
+              offset={-100}
+              duration={800}
               activeClass="active-link"
-              className="text-sm text-white hover:text-accent-yellow transition-colors cursor-pointer"
+              className="text-sm text-white hover:text-accent-yellow  transition-colors cursor-pointer"
               onClick={() => {
                 setActiveLink(link.href);
                 closeMenu();
@@ -195,7 +195,7 @@ const Navbar = () => {
                     offset={-100}
                     duration={800}
                     activeClass="active-link"
-                    className="text-base hover:text-accent-yellow transition-colors cursor-pointer"
+                    className="text-base hover:text-accent-yellow transition-colors cursor-pointer text-white"
                     onClick={() => {
                       setActiveLink(link.href);
                       closeMenu();
