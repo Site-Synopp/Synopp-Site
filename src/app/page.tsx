@@ -1,7 +1,7 @@
 "use client";
 
-import HeroSection from "@/components/Sections/HeroSection/HeroSection";
 import ContactUs from "@/components/Sections/ContactUs/ContactUs";
+import HeroSection from "@/components/Sections/HeroSection/HeroSection";
 import OurProcess from "@/components/Sections/OurProcess/OurProcess";
 import OurSolutions from "@/components/Sections/OurSolutions/OurSolutions";
 import TechStack from "@/components/Sections/TechStack/TechStack";
