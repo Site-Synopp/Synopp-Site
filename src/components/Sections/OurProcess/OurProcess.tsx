@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { processSteps } from "./data";
+import GradientText from "@/components/Commons/Title/Title";
 
 // Animations
 const fadeIn = {
@@ -47,11 +48,11 @@ const OurProcess = () => {
           <p className="text-accent-green text-xs md:text-sm tracking-wider uppercase mb-5 font-bold">
             {t("SUBTITLE")}
           </p>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight bg-gradient-to-t from-[#BFBEC3] via-[#E2E1E4] to-[#F2F2F3] text-transparent bg-clip-text">
+          <GradientText>
             {t("TITLE_PART1")}
             <br />
             {t("TITLE_PART2")}
-          </h1>
+          </GradientText>
           <p className="text-label-supporting-text text-base md:text-lg mb-8 max-w-2xl mx-auto">
             {t("DESCRIPTION")}
           </p>

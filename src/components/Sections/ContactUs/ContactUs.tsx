@@ -5,6 +5,7 @@ import type React from "react";
 import { motion } from "framer-motion";
 import { PrimaryButton } from "@/components/Commons/PrimaryButton/PrimaryButton";
 import { useTranslation } from "react-i18next";
+import GradientText from "@/components/Commons/Title/Title";
 
 type FormState = {
   firstName: string;
@@ -87,15 +88,7 @@ function ContactUs() {
           >
             {t("SUBTITLE")}
           </motion.p>
-          <motion.h1
-            className="text-4xl md:text-6xl font-bold mb-6 leading-tight bg-gradient-to-t from-[#BFBEC3] via-[#E2E1E4] to-[#F2F2F3] text-transparent bg-clip-text"
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            viewport={{ once: true }}
-          >
-            {t("TITLE")}
-          </motion.h1>
+          <GradientText>{t("TITLE")}</GradientText>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}

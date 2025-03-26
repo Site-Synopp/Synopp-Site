@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { techCategories } from "./data";
 import { useTranslation } from "react-i18next";
+import GradientText from "@/components/Commons/Title/Title";
 
 const containerVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -63,9 +64,7 @@ const TechStackSection: React.FC = () => {
           <p className="text-accent-yellow text-xs md:text-sm tracking-wider uppercase mb-5 font-bold">
             {t("SUBTITLE")}
           </p>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight bg-gradient-to-t from-[#BFBEC3] via-[#E2E1E4] to-[#F2F2F3] text-transparent bg-clip-text pb-1">
-            {t("TITLE")}
-          </h1>
+          <GradientText>{t("TITLE")}</GradientText>
           <p className="text-label-supporting-text text-base md:text-lg mb-8 max-w-2xl mx-auto">
             {t("DESCRIPTION")}
           </p>

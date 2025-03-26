@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { ResponsiveCard } from "./ResponsiveCard";
 import { advantages } from "./data";
 import Image from "next/image";
+import GradientText from "@/components/Commons/Title/Title";
 
 const WhyUs = () => {
   const { t } = useTranslation("WHY_US");
@@ -18,9 +19,7 @@ const WhyUs = () => {
           <p className="text-accent-teal text-xs md:text-sm tracking-wider uppercase mb-5 font-bold">
             {t("SUBTITLE")}
           </p>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 pb-1 leading-tight bg-gradient-to-t from-[#BFBEC3] via-[#E2E1E4] to-[#F2F2F3] text-transparent bg-clip-text">
-            {t("TITLE")}
-          </h1>
+          <GradientText>{t("TITLE")}</GradientText>
           <p className="text-label-supporting-text text-base md:text-lg mb-8 max-w-4xl mx-auto">
             {t("DESCRIPTION")}
           </p>

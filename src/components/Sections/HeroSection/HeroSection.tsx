@@ -8,6 +8,7 @@ import MobileHeroImage from "../../../../public/images/HeroDashboardMobile.png";
 
 import { useTranslation } from "react-i18next";
 import { Link as ScrollLink } from "react-scroll";
+import GradientText from "@/components/Commons/Title/Title";
 
 export default function HeroSection() {
   const { t } = useTranslation("HERO_SECTION");
@@ -35,11 +36,11 @@ export default function HeroSection() {
             <p className="text-accent-yellow text-xs md:text-sm tracking-wider uppercase mb-5 font-bold">
               {t("SUBTITLE")}
             </p>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight bg-gradient-to-t from-[#BFBEC3] via-[#E2E1E4] to-[#F2F2F3] text-transparent bg-clip-text">
+            <GradientText>
               {t("TITLE_GREETING_PART_1")}
               <br />
               {t("TITLE_GREETING_PART_2")}
-            </h1>
+            </GradientText>
             <p className="text-label-supporting-text text-base md:text-lg mb-8 max-w-2xl mx-auto">
               {t("DESCRIPTION")}
             </p>
