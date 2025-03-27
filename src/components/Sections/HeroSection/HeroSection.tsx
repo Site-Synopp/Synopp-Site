@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import ArrowRight from "../../../../public/icons/ArrowUpRight.svg";
 import MobileHeroImage from "../../../../public/images/HeroDashboardMobile.png";
-
 import { useTranslation } from "react-i18next";
 import { Link as ScrollLink } from "react-scroll";
 import GradientText from "@/components/Commons/Title/Title";
@@ -98,24 +97,20 @@ export default function HeroSection() {
           <div className="absolute inset-0 bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] z-10 rounded-lg pointer-events-none" />
         </motion.div>
 
-        {/*  </div> */}
-
         {/* Mobile version (hidden on desktop) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="absolute flex md:hidden w-full mt-auto flex-1 items-end justify-center top-[calc(50%+10px)] max-w-[95%]"
+          className="relative md:hidden  min-h-[300px]"
         >
-          <div className="w-[90%] max-w-[320px] absolute top-[-130%]">
-            <div className="absolute right-0 left-0 inset-0 bg-gradient-to-b from-[#03001400] via-[#040014d9] to-[#040014] z-10 rounded-lg pointer-events-none"></div>
-            <div className="aspect-[9/16] w-full relative">
+          <div className="absolute left-0 right-0 top-0 bottom-0 ">
+            <div className="absolute right-0 left-0 inset-0 bg-gradient-to-b from-[#03001400] to-[#040014] z-10 rounded-lg pointer-events-none"></div>
+            <div className="aspect-[9/16] w-[85%] mx-auto relative min-h-[500px]">
               <Image
                 src={MobileHeroImage || "/placeholder.svg"}
                 alt="Mobile Dashboard Preview"
-                fill
                 className="object-contain rounded-lg"
-                sizes="(max-width: 768px) 90vw"
                 priority
               />
             </div>
