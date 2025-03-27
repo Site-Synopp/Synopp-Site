@@ -3,15 +3,29 @@ import { PrimaryButton } from "@/components/Commons/PrimaryButton/PrimaryButton"
 import { motion } from "framer-motion";
 import Image from "next/image";
 import ArrowRight from "../../../../public/icons/ArrowUpRight.svg";
-import HeroImage from "../../../../public/images/HeroDashboard.png";
 import MobileHeroImage from "../../../../public/images/HeroDashboardMobile.png";
-
 import { useTranslation } from "react-i18next";
 import { Link as ScrollLink } from "react-scroll";
 import GradientText from "@/components/Commons/Title/Title";
-
+import { useLottie } from "lottie-react";
+import HeroAnimation from "../../../../public/animations/Hero.json";
+import HeroAnimation2 from "../../../../public/animations/Hero_lines.json";
 export default function HeroSection() {
   const { t } = useTranslation("HERO_SECTION");
+
+  const defaultOptions = {
+    animationData: HeroAnimation,
+    loop: false,
+  };
+  const defaultOptions2 = {
+    animationData: HeroAnimation2,
+    loop: true,
+  };
+
+
+  const { View } = useLottie(defaultOptions);
+  const { View: View2 } = useLottie(defaultOptions2);
+
   return (
     <>
       <div className="absolute top-0 left-0 w-full h-full z-[-1px]">
@@ -25,7 +39,7 @@ export default function HeroSection() {
 
       <section
         id="HeroSection"
-        className="pt-32 pb-16 md:pt-40 md:pb-24 px-4 relative w-[100%] h-[100vh] flex flex-col"
+        className="pt-32 lg:pb-0 md:pt-40 md:pb-24 px-4 relative w-[100%] flex flex-col lg:justify-between min-h-[100vh]"
       >
         <div className="container mx-auto text-center max-w-4xl z-40">
           <motion.div
@@ -76,21 +90,11 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="hidden md:flex w-full max-w-[95%] mt-auto flex-1 items-end justify-center absolute top-[43%]"
+          className="relative  mx-auto hidden md:block mt-[25px]"
         >
-          <div className=" w-full max-w-[90%] md:max-w-[80%] lg:max-w-[1200px] ">
-            <div className="aspect-[16/9] w-full relative">
-              <Image
-                src={HeroImage || "/placeholder.svg"}
-                alt="Hero Image"
-                fill
-                className="object-contain"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                priority
-              />
-            </div>
-            <div className="absolute inset-0 bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] z-10 rounded-lg pointer-events-none" />
-          </div>
+         <div className="lottie">{View}</div>
+          <div className="lottie absolute top-0 left-0 w-full h-full z-[-1]">{View2}</div>
+          <div className="absolute inset-0 bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] z-10 rounded-lg pointer-events-none" />
         </motion.div>
 
         {/* Mobile version (hidden on desktop) */}
@@ -98,17 +102,15 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="absolute flex md:hidden w-full mt-auto flex-1 items-end justify-center top-[calc(50%+10px)] max-w-[95%]"
+          className="relative md:hidden  min-h-[300px]"
         >
-          <div className="w-[90%] max-w-[320px] absolute top-[-130%]">
-            <div className="absolute right-0 left-0 inset-0 bg-gradient-to-b from-[#03001400] via-[#040014d9] to-[#040014] z-10 rounded-lg pointer-events-none"></div>
-            <div className="aspect-[9/16] w-full relative">
+          <div className="absolute left-0 right-0 top-0 bottom-0 ">
+            <div className="absolute right-0 left-0 inset-0 bg-gradient-to-b from-[#03001400] to-[#040014] z-10 rounded-lg pointer-events-none"></div>
+            <div className="aspect-[9/16] w-[85%] mx-auto relative min-h-[500px]">
               <Image
                 src={MobileHeroImage || "/placeholder.svg"}
                 alt="Mobile Dashboard Preview"
-                fill
                 className="object-contain rounded-lg"
-                sizes="(max-width: 768px) 90vw"
                 priority
               />
             </div>
