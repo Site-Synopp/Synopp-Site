@@ -5,6 +5,7 @@ import { BrowserLanguageProvider } from "./hooks/contexts/useBrowserLanguage";
 import { InterFont } from "./fonts/fonts";
 import Navbar from "../components/NavBar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import ProvidersCookies from "./provider/cookies/useCookies";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -45,16 +46,18 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <BrowserLanguageProvider>
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
-          <Navbar />
-          <main>{children}</main>
-          <div className="border-t border-gray-800" />
-          <Footer />
-        </body>
-      </BrowserLanguageProvider>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <ProvidersCookies>
+          <BrowserLanguageProvider>
+            <Navbar />
+            <main>{children}</main>
+            <div className="border-t border-gray-800" />
+            <Footer />
+          </BrowserLanguageProvider>
+        </ProvidersCookies>
+      </body>
     </html>
   );
 }

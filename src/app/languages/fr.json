@@ -154,5 +154,19 @@
     "CTA_DESCRIPTION": "Notre équipe est impatiente de vous rencontrer!",
     "CTA_BUTTON": "Commencez votre projet",
     "COPYRIGHT": "© 2025 Synopp — Tous droits réservés"
+  },
+  "COOKIE_MODAL": {
+    "TITLE": "Notre site web utilise des cookies",
+    "DESCRIPTION": "Nous utilisons des cookies pour améliorer votre expérience sur ce site web. Vous pouvez choisir quels types de cookies autoriser et modifier vos préférences à tout moment.",
+    "MANAGE_COOKIES": "Gérer les cookies",
+    "ONLY_NECESSARY": "Seulement nécessaires",
+    "ACCEPT_ALL": "Accepter tout",
+    "TITLE_PREFERENCES": "Préférences de cookies",
+    "DESCRIPTION_PREFERENCES": "Nous utilisons des cookies pour améliorer votre expérience sur ce site web. Vous pouvez choisir quels types de cookies autoriser et modifier vos préférences à tout moment. Désactiver les cookies peut affecter votre expérience sur ce site web",
+    "ESSENTIAL_TITLE": "Cookies Essentiels",
+    "ESSENTIAL_DESCRIPTION": "Cookies nécessaires pour activer les fonctionnalités de base du site web.",
+    "ANALYTICS_TITLE": "Cookies d’Analyse",
+    "ANALYTICS_DESCRIPTION": "Cookies utilisés pour comprendre comment le site web est utilisé.",
+    "SAVE_PREFERENCES": "Seulement nécessaires"
   }
 }
