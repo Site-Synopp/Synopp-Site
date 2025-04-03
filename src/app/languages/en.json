@@ -154,5 +154,19 @@
     "CTA_DESCRIPTION": "Our team is looking forward to meet you!",
     "CTA_BUTTON": "Start your project",
     "COPYRIGHT": "© 2025 Synopp — All rights reserved"
+  },
+  "COOKIE_MODAL": {
+    "TITLE": "Our website uses cookies",
+    "DESCRIPTION": "We use cookies to improve your experience on this website. You may choose which types of cookies to allow and change your preferences at any time.",
+    "MANAGE_COOKIES": "Manage Cookies",
+    "ONLY_NECESSARY": "Only necessary",
+    "ACCEPT_ALL": "Accept all",
+    "TITLE_PREFERENCES": "Cookies preferences",
+    "DESCRIPTION_PREFERENCES": "We use cookies to improve your experience on this website. You may choose which types of cookies to allow and change your preferences at any time. Disabling cookies may impact your experience on this website",
+    "ESSENTIAL_TITLE": "Essential Cookies",
+    "ESSENTIAL_DESCRIPTION": "Cookies required to enable basic website functionality.",
+    "ANALYTICS_TITLE": "Analytics Cookies",
+    "ANALYTICS_DESCRIPTION": "Cookies used to understand how the website is being used.",
+    "SAVE_PREFERENCES": "Save preferences"
   }
 }

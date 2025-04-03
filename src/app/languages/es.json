@@ -154,5 +154,19 @@
     "CTA_DESCRIPTION": "Nuestro equipo quiere conocerte.",
     "CTA_BUTTON": "Comienza tu proyecto",
     "COPYRIGHT": "© 2025 Synopp — Todos los derechos reservados"
+  },
+  "COOKIE_MODAL": {
+    "TITLE": "Nuestro sitio web utiliza cookies",
+    "DESCRIPTION": "Utilizamos cookies para mejorar su experiencia en este sitio web. Puede elegir qué tipos de cookies permitir y cambiar sus preferencias en cualquier momento.",
+    "MANAGE_COOKIES": "Gestionar cookies",
+    "ONLY_NECESSARY": "Solo necesarias",
+    "ACCEPT_ALL": "Aceptar todas",
+    "TITLE_PREFERENCES": "Preferencias de cookies",
+    "DESCRIPTION_PREFERENCES": "Utilizamos cookies para mejorar su experiencia en este sitio web. Puede elegir qué tipos de cookies permitir y cambiar sus preferencias en cualquier momento. Deshabilitar las cookies puede afectar su experiencia en este sitio web",
+    "ESSENTIAL_TITLE": "Cookies Esenciales",
+    "ESSENTIAL_DESCRIPTION": "Cookies necesarias para habilitar funcionalidades básicas del sitio web.",
+    "ANALYTICS_TITLE": "Cookies de Análisis",
+    "ANALYTICS_DESCRIPTION": "Cookies utilizadas para entender cómo se utiliza el sitio web.",
+    "SAVE_PREFERENCES": "Guardar preferencias"
   }
 }
