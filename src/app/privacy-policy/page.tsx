@@ -2,15 +2,29 @@
 
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
+import { motion } from "framer-motion";
 
 export default function PrivacyPolicy() {
   const { t } = useTranslation("PRIVACY_POLICY")
   
   return (
-    <div className="min-h-screen bg-primary-700 text-white">
+    <motion.div
+      className="bg-primary-700 text-white mt-40"
+      style={{
+        bottom: 0,
+        left: 0,
+        right: 0,
+        display: "flex",
+        justifyContent: "flex-start",
+      }}
+      initial={{ y: 30, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.4, ease: "easeOut" }}
+    > 
+    
       {/* Main content */}
-      <main className="mx-auto max-w-7xl px-4 md:px-8 pb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-center pt-32 md:pt-36 pb-8 md:pb-16 ">{t("TITLE")}</h1>
+      <main className="mx-auto max-w-[90%] md:max-w-7xl px-4 md:px-8 pb-16">
+        <h1 className="text-4xl md:text-5xl font-bold text-center pb-8 md:pb-16 ">{t("TITLE")}</h1>
 
         <div className="max-w-4xl mx-auto space-y-8 md:space-y-12">
           {/* 1. Introduction */}
@@ -186,6 +200,6 @@ export default function PrivacyPolicy() {
           </section>
         </div>
       </main>
-    </div>
+    </motion.div>
   )
 }
