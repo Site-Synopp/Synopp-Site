@@ -2,13 +2,25 @@
 
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
-
+import { motion } from "framer-motion";
 
 export default function TermsAndConditions() {
   const { t } = useTranslation("TERMS_AND_CONDITIONS")
 
   return (
-    <div className="min-h-screen bg-primary-700 text-white">
+    <motion.div
+      className="bg-primary-700 text-white mt-20"
+      style={{
+        bottom: 0,
+        left: 0,
+        right: 0,
+        display: "flex",
+        justifyContent: "flex-start",
+      }}
+      initial={{ y: 30, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.4, ease: "easeOut" }}
+    > 
       {/* Main content */}
       <main className="mx-auto max-w-7xl px-4 md:px-8 pb-16">
         <h1 className="text-4xl md:text-5xl font-bold text-center pt-12 md:pt-24 pb-8 md:pb-16">{t("TITLE")}</h1>
@@ -137,12 +149,13 @@ export default function TermsAndConditions() {
                 {t("CONTACT_EMAIL")}
               </Link>
             </p>
-            <p className="mt-4 text-sm md:text-base text-gray-400">
+            
+            <h3 className="mt-6">
               {t("LAST_UPDATED")}: {t("UPDATE_DATE")}
-            </p>
+            </h3>
           </section>
         </div>
       </main>
-    </div>
+    </motion.div>
   )
 }
