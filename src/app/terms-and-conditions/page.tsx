@@ -17,24 +17,24 @@ export default function TermsAndConditions() {
           {/* 1. Introduction */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_1_TITLE")}</h2>
-            <p className="text-sm md:text-base text-gray-300">{t("SECTION_1_CONTENT")}</p>
+            <p className="text-sm md:text-base text-gray-400">{t("SECTION_1_CONTENT")}</p>
           </section>
 
           {/* 2. Definitions */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_2_TITLE")}</h2>
-            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-300">
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-400">
               <li>
-                <span className="font-semibold">{t("CLIENT_TITLE")}:</span> {t("CLIENT_DEFINITION")}
+                <span className="font-semibold text-gray-25">{t("CLIENT_TITLE")}:</span> {t("CLIENT_DEFINITION")}
               </li>
               <li>
-                <span className="font-semibold">{t("CONTENT_TITLE")}:</span> {t("CONTENT_DEFINITION")}
+                <span className="font-semibold text-gray-25">{t("CONTENT_TITLE")}:</span> {t("CONTENT_DEFINITION")}
               </li>
               <li>
-                <span className="font-semibold">{t("SERVICES_TITLE")}:</span> {t("SERVICES_DEFINITION")}
+                <span className="font-semibold text-gray-25">{t("SERVICES_TITLE")}:</span> {t("SERVICES_DEFINITION")}
               </li>
               <li>
-                <span className="font-semibold">{t("USER_TITLE")}:</span> {t("USER_DEFINITION")}
+                <span className="font-semibold text-gray-25">{t("USER_TITLE")}:</span> {t("USER_DEFINITION")}
               </li>
             </ul>
           </section>
@@ -42,9 +42,9 @@ export default function TermsAndConditions() {
           {/* 3. Use of the Website */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_3_TITLE")}</h2>
-            <p className="text-sm md:text-base text-gray-300 mb-4">{t("SECTION_3_INTRO")}</p>
-            <p className="text-sm md:text-base text-gray-300 mb-4">{t("PROHIBITED_ACTIONS_INTRO")}:</p>
-            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-300">
+            <p className="text-sm md:text-base text-gray-400 mb-4">{t("SECTION_3_INTRO")}</p>
+            <p className="text-sm md:text-base text-gray-400 mb-4">{t("PROHIBITED_ACTIONS_INTRO")}:</p>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-400">
               <li>{t("PROHIBITED_ACTION_1")}</li>
               <li>{t("PROHIBITED_ACTION_2")}</li>
               <li>{t("PROHIBITED_ACTION_3")}</li>
@@ -55,14 +55,14 @@ export default function TermsAndConditions() {
           {/* 4. Intellectual Property */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_4_TITLE")}</h2>
-            <p className="text-sm md:text-base text-gray-300 mb-4">{t("SECTION_4_INTRO")}</p>
-            <p className="text-sm md:text-base text-gray-300 mb-4">{t("YOU_MAY_INTRO")}:</p>
-            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-300">
+            <p className="text-sm md:text-base text-gray-400 mb-4">{t("SECTION_4_INTRO")}</p>
+            <p className="text-sm md:text-base text-gray-400 mb-4">{t("YOU_MAY_INTRO")}:</p>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-400">
               <li>{t("YOU_MAY_1")}</li>
               <li>{t("YOU_MAY_2")}</li>
             </ul>
-            <p className="text-sm md:text-base text-gray-300 mb-4">{t("YOU_MAY_NOT_INTRO")}:</p>
-            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-300">
+            <p className="text-sm md:text-base text-gray-400 mb-4">{t("YOU_MAY_NOT_INTRO")}:</p>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-400">
               <li>{t("YOU_MAY_NOT_1")}</li>
               <li>{t("YOU_MAY_NOT_2")}</li>
               <li>{t("YOU_MAY_NOT_3")}</li>
@@ -72,9 +72,9 @@ export default function TermsAndConditions() {
           {/* 5. Limitation of Liability */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_5_TITLE")}</h2>
-            <p className="text-sm md:text-base text-gray-300 mb-4">{t("SECTION_5_INTRO")}</p>
-            <p className="text-sm md:text-base text-gray-300 mb-4">{t("LIABILITY_EXCLUSIONS_INTRO")}:</p>
-            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-300">
+            <p className="text-sm md:text-base text-gray-400 mb-4">{t("SECTION_5_INTRO")}</p>
+            <p className="text-sm md:text-base text-gray-400 mb-4">{t("LIABILITY_EXCLUSIONS_INTRO")}:</p>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-400">
               <li>{t("LIABILITY_EXCLUSION_1")}</li>
               <li>{t("LIABILITY_EXCLUSION_2")}</li>
               <li>{t("LIABILITY_EXCLUSION_3")}</li>
@@ -84,32 +84,32 @@ export default function TermsAndConditions() {
           {/* 6. Linking to Our Website */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_6_TITLE")}</h2>
-            <p className="text-sm md:text-base text-gray-300 mb-4">{t("SECTION_6_INTRO")}</p>
-            <p className="text-sm md:text-base text-gray-300 mb-4">{t("LINKING_RESTRICTIONS_INTRO")}:</p>
-            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-300">
+            <p className="text-sm md:text-base text-gray-400 mb-4">{t("SECTION_6_INTRO")}</p>
+            <p className="text-sm md:text-base text-gray-400 mb-4">{t("LINKING_RESTRICTIONS_INTRO")}:</p>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-400">
               <li>{t("LINKING_RESTRICTION_1")}</li>
               <li>{t("LINKING_RESTRICTION_2")}</li>
               <li>{t("LINKING_RESTRICTION_3")}</li>
             </ul>
-            <p className="text-sm md:text-base text-gray-300">{t("LINKING_PERMISSION_NOTICE")}</p>
+            <p className="text-sm md:text-base text-gray-400">{t("LINKING_PERMISSION_NOTICE")}</p>
           </section>
 
           {/* 7. Links from Our Website */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_7_TITLE")}</h2>
-            <p className="text-sm md:text-base text-gray-300">{t("SECTION_7_CONTENT")}</p>
+            <p className="text-sm md:text-base text-gray-400">{t("SECTION_7_CONTENT")}</p>
           </section>
 
           {/* 8. Data Protection */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_8_TITLE")}</h2>
-            <p className="text-sm md:text-base text-gray-300">
+            <p className="text-sm md:text-base text-gray-400">
               {t("SECTION_8_CONTENT_1")}{" "}
-              <Link href="/privacy-policy" className="text-accent-purple hover:underline">
+              <Link href="/privacy-policy" className="text-titles hover:underline">
                 {t("PRIVACY_POLICY")}
               </Link>{" "}
               {t("AND")}{" "}
-              <Link href="/cookie-policy" className="text-accent-purple hover:underline">
+              <Link href="/cookie-policy" className="text-titles hover:underline">
                 {t("COOKIE_POLICY")}
               </Link>
               .
@@ -119,25 +119,25 @@ export default function TermsAndConditions() {
           {/* 9. Governing Law & Jurisdiction */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_9_TITLE")}</h2>
-            <p className="text-sm md:text-base text-gray-300">{t("SECTION_9_CONTENT")}</p>
+            <p className="text-sm md:text-base text-gray-400">{t("SECTION_9_CONTENT")}</p>
           </section>
 
           {/* 10. Changes to These Terms */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_10_TITLE")}</h2>
-            <p className="text-sm md:text-base text-gray-300">{t("SECTION_10_CONTENT")}</p>
+            <p className="text-sm md:text-base text-gray-400">{t("SECTION_10_CONTENT")}</p>
           </section>
 
           {/* 11. Contact Us */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_11_TITLE")}</h2>
-            <p className="text-sm md:text-base text-gray-300">
+            <p className="text-sm md:text-base text-gray-400">
               {t("CONTACT_INTRO")}{" "}
               <Link href="mailto:info@synapp.io" className="text-accent-purple hover:underline">
                 {t("CONTACT_EMAIL")}
               </Link>
             </p>
-            <p className="mt-4 text-sm md:text-base text-gray-300">
+            <p className="mt-4 text-sm md:text-base text-gray-400">
               {t("LAST_UPDATED")}: {t("UPDATE_DATE")}
             </p>
           </section>
