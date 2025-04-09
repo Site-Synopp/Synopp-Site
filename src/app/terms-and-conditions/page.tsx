@@ -22,10 +22,10 @@ export default function TermsAndConditions() {
       transition={{ duration: 0.4, ease: "easeOut" }}
     > 
       {/* Main content */}
-      <main className="mx-auto max-w-7xl px-4 md:px-8 pb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-center pt-12 md:pt-24 pb-8 md:pb-16">{t("TITLE")}</h1>
+      <main className="mx-auto max-w-[90%] md:max-w-7xl px-4 md:px-8 pb-16">
+        <h1 className="text-4xl md:text-6xl font-bold text-center pt-12 md:pt-24 pb-8 md:pb-16">{t("TITLE")}</h1>
 
-        <div className="max-w-3xl mx-auto space-y-8 md:space-y-12">
+        <div className="max-w-4xl mx-auto space-y-8 md:space-y-12">
           {/* 1. Introduction */}
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_1_TITLE")}</h2>
