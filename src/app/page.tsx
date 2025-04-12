@@ -1,11 +1,30 @@
 "use client";
 
-import ContactUs from "@/components/Sections/ContactUs/ContactUs";
-import HeroSection from "@/components/Sections/HeroSection/HeroSection";
-import OurProcess from "@/components/Sections/OurProcess/OurProcess";
-import OurSolutions from "@/components/Sections/OurSolutions/OurSolutions";
-import TechStack from "@/components/Sections/TechStack/TechStack";
-import WhyUs from "@/components/Sections/WhyUs/WhyUs";
+import dynamic from 'next/dynamic';
+
+const HeroSection = dynamic(() => import("@/components/Sections/HeroSection/HeroSection"), {
+  ssr: false
+});
+
+const OurSolutions = dynamic(() => import("@/components/Sections/OurSolutions/OurSolutions"), {
+  ssr: false
+});
+
+const WhyUs = dynamic(() => import("@/components/Sections/WhyUs/WhyUs"), {
+  ssr: false
+});
+
+const OurProcess = dynamic(() => import("@/components/Sections/OurProcess/OurProcess"), {
+  ssr: false
+});
+
+const TechStack = dynamic(() => import("@/components/Sections/TechStack/TechStack"), {
+  ssr: false
+});
+
+const ContactUs = dynamic(() => import("@/components/Sections/ContactUs/ContactUs"), {
+  ssr: false
+});
 
 export default function Home() {
   return (
