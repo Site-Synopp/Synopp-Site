@@ -305,6 +305,76 @@
     "CNIL_WEBSITE": "www.cnil.fr",
     "LAST_UPDATED": "Last Updated",
     "UPDATE_DATE": "April 7, 2025"
+  },
+  "TERMS_AND_CONDITIONS": {
+    "TITLE": "Terms & Conditions",
+
+    "SECTION_1_TITLE": "1. Introduction",
+    "SECTION_1_CONTENT": "These Terms and Conditions govern the use of the website operated by Synapp (\"we\", \"our\", or \"us\"). By accessing and using this website, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, you may not access the website.",
+
+    "SECTION_2_TITLE": "2. Definitions",
+    "CLIENT_TITLE": "Client",
+    "CLIENT_DEFINITION": "Any person who contracts our services.",
+    "CONTENT_TITLE": "Content",
+    "CONTENT_DEFINITION": "Any information, text, graphics, or other materials uploaded, downloaded, or appearing on the website.",
+    "SERVICES_TITLE": "Services",
+    "SERVICES_DEFINITION": "All services provided by Synapp to its clients.",
+    "USER_TITLE": "User",
+    "USER_DEFINITION": "Any person who browses, reads, views, comments, or in any way uses the website.",
+
+    "SECTION_3_TITLE": "3. Use of the Website",
+    "SECTION_3_INTRO": "By using our website, you confirm that you are at least 16 years of age or have the consent of your parents or legal guardians. You agree to use the website only for lawful purposes and in a way that does not infringe the rights of third parties or restrict or inhibit their use and enjoyment of the website.",
+    "PROHIBITED_ACTIONS_INTRO": "Prohibited actions include",
+    "PROHIBITED_ACTION_1": "Using the website in any way that may cause damage or affect its availability or accessibility.",
+    "PROHIBITED_ACTION_2": "Using the website to transmit or upload any material containing viruses or unsolicited advertising or promotional material.",
+    "PROHIBITED_ACTION_3": "Using the website to transmit or exchange material containing viruses, trojans, worms, time bombs, keystroke loggers, spyware, adware, or any other harmful code, file, or programs.",
+    "PROHIBITED_ACTION_4": "Attempting to gain unauthorized access to our website, the server where it is stored, or any connected server, computer, or database.",
+
+    "SECTION_4_TITLE": "4. Intellectual Property",
+    "SECTION_4_INTRO": "We own or license all intellectual property rights to our website and its content. These works are protected by copyright laws and treaties worldwide. All rights are reserved.",
+    "YOU_MAY_INTRO": "You may",
+    "YOU_MAY_1": "Print or download extracts for personal use.",
+    "YOU_MAY_2": "Share content within your organization for reference.",
+    "YOU_MAY_NOT_INTRO": "You may not",
+    "YOU_MAY_NOT_1": "Modify printed or digital copies of any material.",
+    "YOU_MAY_NOT_2": "Use images, photos, video/audio sequences, or graphics separately from accompanying text.",
+    "YOU_MAY_NOT_3": "Use any part of the website's content for commercial purposes without obtaining a license from us or our licensors.",
+
+    "SECTION_5_TITLE": "5. Limitation of Liability",
+    "SECTION_5_INTRO": "To the extent permitted by law, we exclude all conditions, warranties, representations, or other terms that may apply to the website or its content, whether express or implied.",
+    "LIABILITY_EXCLUSIONS_INTRO": "We will not be liable for any loss or damage (contractual, tortious, including negligence, breach of legal duty, or otherwise) arising from",
+    "LIABILITY_EXCLUSION_1": "Use or inability to use the website.",
+    "LIABILITY_EXCLUSION_2": "Reliance on any content displayed on the website.",
+    "LIABILITY_EXCLUSION_3": "Viruses, distributed denial-of-service attacks, or other harmful material due to your use of the website or downloading its content (or from any linked third-party sites).",
+
+    "SECTION_6_TITLE": "6. Linking to Our Website",
+    "SECTION_6_INTRO": "You may link to our homepage fairly and legally, provided it does not damage our reputation or imply false association, approval, or endorsement.",
+    "LINKING_RESTRICTIONS_INTRO": "You may not",
+    "LINKING_RESTRICTION_1": "Link in a way that suggests partnership or endorsement where none exists.",
+    "LINKING_RESTRICTION_2": "Link from a website you do not own.",
+    "LINKING_RESTRICTION_3": "Frame our website on another site or link to any page other than the homepage.",
+    "LINKING_PERMISSION_NOTICE": "We reserve the right to withdraw linking permission without notice.",
+
+    "SECTION_7_TITLE": "7. Links from Our Website",
+    "SECTION_7_CONTENT": "Links to third-party websites are provided for information only. We have no control over their content and accept no liability for them or any loss arising from their use.",
+
+    "SECTION_8_TITLE": "8. Data Protection",
+    "SECTION_8_CONTENT_1": "Any personal data collected will be processed in accordance with our",
+    "PRIVACY_POLICY": "Privacy Policy",
+    "AND": "and",
+    "COOKIE_POLICY": "Cookie Policy",
+
+    "SECTION_9_TITLE": "9. Governing Law & Jurisdiction",
+    "SECTION_9_CONTENT": "These Terms and Conditions are governed by French law. You and we agree to the exclusive jurisdiction of French courts.",
+
+    "SECTION_10_TITLE": "10. Changes to These Terms",
+    "SECTION_10_CONTENT": "We may update these Terms and Conditions by amending this page. Check this page periodically, as changes are binding.",
+
+    "SECTION_11_TITLE": "11. Contact Us",
+    "CONTACT_INTRO": "For inquiries, please email",
+    "CONTACT_EMAIL": "info@synapp.io",
+    "LAST_UPDATED": "Last Updated",
+    "UPDATE_DATE": "April 7, 2025"
   }
   
 }
