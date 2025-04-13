@@ -9,10 +9,7 @@ import { Link as ScrollLink } from "react-scroll";
 import GradientText from "@/components/Commons/Title/Title";
 import dynamic from "next/dynamic";
 import { Suspense } from "react";
-
-const LottieAnimation = dynamic(() => import("@/components/Sections/HeroSection/LottieAnimation"), {
-  ssr: false,
-});
+import LottieAnimation from "./LottieAnimation";
 
 export default function HeroSection() {
   const { t } = useTranslation("HERO_SECTION");
