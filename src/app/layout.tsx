@@ -1,11 +1,13 @@
+"use client";
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { BrowserLanguageProvider } from "./hooks/contexts/useBrowserLanguage";
 import { InterFont } from "./fonts/fonts";
-import Navbar from "../components/NavBar/Navbar";
-import Footer from "@/components/Footer/Footer";
 import ProvidersCookies from "./provider/cookies/useCookies";
+import Footer from "@/components/Footer/Footer";
+import dynamic from 'next/dynamic';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,6 +17,10 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const Navbar = dynamic(() => import("@/components/NavBar/Navbar"), {
+  ssr: false
 });
 
 export const metadata: Metadata = {
@@ -29,7 +35,6 @@ export const metadata: Metadata = {
   },
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -37,8 +42,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${InterFont.variable} bg-primary-700`}>
-       <head>
-         <link rel="stylesheet" />
+      <head>
+        <link rel="stylesheet" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
