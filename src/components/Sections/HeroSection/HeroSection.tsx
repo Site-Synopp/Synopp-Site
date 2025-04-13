@@ -7,7 +7,6 @@ import MobileHeroImage from "../../../../public/images/HeroDashboardMobile.png";
 import { useTranslation } from "react-i18next";
 import { Link as ScrollLink } from "react-scroll";
 import GradientText from "@/components/Commons/Title/Title";
-import dynamic from "next/dynamic";
 import { Suspense } from "react";
 import LottieAnimation from "./LottieAnimation";
 
