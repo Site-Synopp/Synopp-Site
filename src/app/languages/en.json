@@ -153,7 +153,16 @@
     "CTA_TITLE_2": "Let's talk!",
     "CTA_DESCRIPTION": "Our team is looking forward to meet you!",
     "CTA_BUTTON": "Start your project",
-    "COPYRIGHT": "© 2025 Synopp — All rights reserved"
+    "COPYRIGHT": "© 2025 Synopp — All rights reserved",
+    "BACK_TO_TOP": "Back to top",
+    "PRIVACY_POLICY": "Privacy Policy",
+    "TERMS_AND_CONDITIONS": "Terms and Conditions",
+    "COOKIE_POLICY": "Cookie Policy",
+    "GDPR_RIGHTS": "GDPR Rights",
+    "LET_TALK": "Let's talk!",
+    "START_YOUR_PROJECT": "Start your project",
+    "READY_TO_BRING_YOUR_PROJECTS_TO_LIFE": "Ready to bring your projects to life?",
+    "FEEL_FREE_TO_SEND_US_YOUR_QUESTIONS_OR_REQUEST_A_CONSULTATION": "Feel free to send us your questions or request a consultation."
   },
   "COOKIE_MODAL": {
     "TITLE": "Our website uses cookies",
