@@ -1,5 +1,3 @@
-"use client";
-
 import ContactUs from "@/components/Sections/ContactUs/ContactUs";
 import HeroSection from "@/components/Sections/HeroSection/HeroSection";
 import OurProcess from "@/components/Sections/OurProcess/OurProcess";

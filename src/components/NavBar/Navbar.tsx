@@ -1,11 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Link as ScrollLink, Events } from "react-scroll";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import { useRouter, usePathname } from "next/navigation";
 import { PrimaryButton } from "../Commons/PrimaryButton/PrimaryButton";
 import { LanguageButton } from "../LanguajeSelector/LanguajeButton";
 
@@ -29,59 +29,65 @@ const Navbar = () => {
   const { t } = useTranslation("NAVBAR");
   const [isOpen, setIsOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("");
+  const [isClient, setIsClient] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
 
   const toggleMenu = () => setIsOpen((prev) => !prev);
-
   const closeMenu = () => setIsOpen(false);
 
-  // Register react-scroll events
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      // Register begin and end events for animations
-      Events.scrollEvent.register("begin", (to) => {
-        console.log("Scroll begin to", to);
-      });
-
-      Events.scrollEvent.register("end", (to) => {
-        console.log("Scroll end to", to);
-        setActiveLink(to);
-      });
-
-      // Clean up events when component unmounts
-      return () => {
-        Events.scrollEvent.remove("begin");
-        Events.scrollEvent.remove("end");
-      };
-    }
+    setIsClient(true);
   }, []);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (typeof window !== "undefined") {
-        NAV_LINKS.forEach((link) => {
-          const section = document.getElementById(link.href);
-          if (section) {
-            const rect = section.getBoundingClientRect();
-
-            if (rect.top <= 150 && rect.bottom >= 150) {
-              setActiveLink(link.href);
-            }
-          }
-        });
+  const handleNavClick = (to: string) => {
+    if (pathname !== '/') {
+      router.push('/');
+      // Esperamos a que la página se cargue antes de hacer scroll
+      const handleScroll = () => {
+        const element = document.getElementById(to);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+      // Usamos un timeout más largo para asegurar que la página se haya cargado
+      setTimeout(handleScroll, 1000);
+    } else {
+      const element = document.getElementById(to);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
       }
+    }
+    setActiveLink(to);
+    closeMenu();
+  };
+
+  useEffect(() => {
+    if (!isClient) return;
+
+    const handleScroll = () => {
+      NAV_LINKS.forEach((link) => {
+        const section = document.getElementById(link.href);
+        if (section) {
+          const rect = section.getBoundingClientRect();
+          if (rect.top <= 150 && rect.bottom >= 150) {
+            setActiveLink(link.href);
+          }
+        }
+      });
     };
 
-    // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
-
-    // Initial check on mount
     handleScroll();
 
-    // Clean up
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [isClient]);
+
+  if (!isClient) {
+    return null;
+  }
 
   return (
     <motion.header
@@ -94,12 +100,8 @@ const Navbar = () => {
           isOpen ? "absolute" : "relative"
         } md:relative container mx-auto px-4 flex justify-between items-center z-30`}
       >
-        <ScrollLink
-          to="HeroSection"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={800}
+        <button
+          onClick={() => handleNavClick('HeroSection')}
           className="text-xl font-bold gradient-text cursor-pointer"
         >
           <Image
@@ -109,7 +111,7 @@ const Navbar = () => {
             height={100}
             priority
           />
-        </ScrollLink>
+        </button>
 
         {/* Desktop Navigation */}
         <nav
@@ -117,41 +119,28 @@ const Navbar = () => {
           aria-label="Main Navigation"
         >
           {NAV_LINKS.map((link, index) => (
-            <ScrollLink
+            <button
               key={index}
-              to={link.href}
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={800}
-              activeClass="active-link"
-              className="text-sm text-white hover:text-accent-yellow  transition-colors cursor-pointer"
-              onClick={() => {
-                setActiveLink(link.href);
-                closeMenu();
-              }}
+              onClick={() => handleNavClick(link.href)}
+              className="text-sm text-white hover:text-accent-yellow transition-colors cursor-pointer"
             >
               <span
                 className={activeLink === link.href ? "text-accent-yellow" : ""}
               >
                 {t(link.translationKey)}
               </span>
-            </ScrollLink>
+            </button>
           ))}
         </nav>
 
         <div className="items-center ml-4 hidden md:flex">
           <LanguageButton />
-          <ScrollLink
-            to="Contact"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={800}
+          <button
+            onClick={() => handleNavClick('Contact')}
             className="cursor-pointer"
           >
             <PrimaryButton>{t("CONTACT_US")}</PrimaryButton>
-          </ScrollLink>
+          </button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -188,18 +177,9 @@ const Navbar = () => {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.3 + index * 0.1 }}
                 >
-                  <ScrollLink
-                    to={link.href}
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={800}
-                    activeClass="active-link"
+                  <button
+                    onClick={() => handleNavClick(link.href)}
                     className="text-base hover:text-accent-yellow transition-colors cursor-pointer text-white"
-                    onClick={() => {
-                      setActiveLink(link.href);
-                      closeMenu();
-                    }}
                   >
                     <span
                       className={
@@ -208,7 +188,7 @@ const Navbar = () => {
                     >
                       {t(link.translationKey)}
                     </span>
-                  </ScrollLink>
+                  </button>
                 </motion.div>
               ))}
 
@@ -224,17 +204,12 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8 }}
               >
-                <ScrollLink
-                  to="Contact"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={800}
+                <button
+                  onClick={() => handleNavClick('Contact')}
                   className="cursor-pointer"
-                  onClick={closeMenu}
                 >
                   <PrimaryButton>{t("CONTACT_US")}</PrimaryButton>
-                </ScrollLink>
+                </button>
               </motion.div>
             </nav>
           </motion.div>
