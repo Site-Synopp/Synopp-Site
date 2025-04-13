@@ -379,5 +379,76 @@
     "CONTACT_EMAIL": "info@Synopp.io",
     "LAST_UPDATED": "Última actualización",
     "UPDATE_DATE": "7 de abril de 2025"
+  },
+  "GDPR_RIGHTS": {
+    "TITLE": "Derechos según el RGPD",
+    "INTRO_TEXT": "Según el Reglamento General de Protección de Datos (RGPD), tienes los siguientes derechos en relación con tus datos personales tratados por Synopp. Para ejercer cualquiera de estos derechos, comunícate con nuestro Delegado de Protección de Datos (DPO) a través de",
+    "DPO_EMAIL": "dpo@synopp.io",
+
+    "SECTION_1_TITLE": "1. Derecho de Acceso",
+    "SECTION_1_INTRO": "Puedes solicitar",
+    "ACCESS_POINT_1": "Confirmación de que tratamos tus datos.",
+    "ACCESS_POINT_2": "Una copia de tus datos personales en un formato legible.",
+    "ACCESS_POINT_3": "Detalles sobre la finalidad, las categorías y los destinatarios de tus datos.",
+    "ACCESS_RESPONSE_TIME": "Responderemos en un plazo de 1 mes (ampliable a 3 meses para solicitudes complejas).",
+
+    "SECTION_2_TITLE": "2. Derecho de Rectificación",
+    "SECTION_2_CONTENT": "Solicita correcciones si tus datos son inexactos o están incompletos.",
+
+    "SECTION_3_TITLE": "3. Derecho de Supresión",
+    "SECTION_3_INTRO": "Solicita la eliminación de tus datos cuando",
+    "ERASURE_POINT_1": "Ya no sean necesarios.",
+    "ERASURE_POINT_2": "Retires tu consentimiento.",
+    "ERASURE_POINT_3": "Los datos hayan sido tratados de forma ilícita.",
+    "ERASURE_EXCEPTIONS": "Excepciones: Conservaremos los datos si así lo exige la legislación francesa (por ejemplo, registros fiscales según el",
+    "FRENCH_COMMERCIAL_CODE": "Artículo L. 123-22 del Código de Comercio francés",
+
+    "SECTION_4_TITLE": "4. Derecho a la Limitación del Tratamiento",
+    "SECTION_4_INTRO": "Pide que restrinjamos temporalmente el tratamiento si",
+    "RESTRICT_POINT_1": "Contestas la exactitud de los datos.",
+    "RESTRICT_POINT_2": "El tratamiento es ilícito, pero te opones a la supresión.",
+
+    "SECTION_5_TITLE": "5. Derecho a la Portabilidad de los Datos",
+    "SECTION_5_CONTENT": "Solicita tus datos en un formato estructurado y de uso común (por ejemplo, JSON, CSV) para transferirlos a otro proveedor.",
+
+    "SECTION_6_TITLE": "6. Derecho de Oposición",
+    "DIRECT_MARKETING_TITLE": "Marketing directo",
+    "DIRECT_MARKETING_CONTENT": "Puedes darte de baja a través de cualquier correo electrónico de marketing o presentar una objeción a través de",
+    "STOP_IMMEDIATELY": "lo detendremos inmediatamente",
+    "LEGITIMATE_INTERESTS_TITLE": "Intereses legítimos",
+    "LEGITIMATE_INTERESTS_CONTENT": "Detendremos el tratamiento, a menos que demostremos motivos legales convincentes.",
+
+    "SECTION_7_TITLE": "7. Decisiones Automatizadas",
+    "SECTION_7_CONTENT": "Synopp no utiliza toma de decisiones totalmente automatizada que afecte significativamente a los usuarios.",
+
+    "SECTION_8_TITLE": "8. Derecho a Retirar el Consentimiento",
+    "SECTION_8_CONTENT": "Puedes retirar tu consentimiento en cualquier momento (por ejemplo, boletines informativos). Esto no afecta al tratamiento legal previo.",
+
+    "HOW_TO_EXERCISE_TITLE": "Cómo Ejercer Tus Derechos",
+    "EMAIL_TITLE": "Correo electrónico",
+    "EMAIL_INTRO": "Envía tus solicitudes a",
+    "WITH": "con",
+    "EMAIL_REQUIREMENT_1": "Nombre completo + prueba de identidad (por ejemplo, ID redactada).",
+    "EMAIL_REQUIREMENT_2": "Detalles específicos de la solicitud.",
+    "RESPONSE_TIME_TITLE": "Tiempo de respuesta",
+    "RESPONSE_TIME_CONTENT": "1 mes (puede extenderse a 3 meses con notificación).",
+    "NO_FEES_TITLE": "Sin cargos",
+    "NO_FEES_CONTENT": "Gratis, a menos que las solicitudes sean manifiestamente infundadas o excesivas.",
+
+    "COMPLAINTS_TITLE": "Quejas",
+    "COMPLAINTS_INTRO": "Si no estás satisfecho, presenta una queja a",
+    "SYNAPP_DPO_TITLE": "DPO de Synopp",
+    "CNIL_TITLE": "Autoridad Francesa de Protección de Datos (CNIL)",
+    "ONLINE_COMPLAINT_FORM": "Formulario de queja en línea",
+    "ADDRESS": "Dirección",
+    "CNIL_ADDRESS": "3 Place de Fontenoy, 75007 París, Francia",
+
+    "CONTACT_TITLE": "Contacto",
+    "SYNAPP_DPO": "Delegado de Protección de Datos de Synopp",
+    "EMAIL": "Correo electrónico",
+    "COMPANY_ADDRESS": "25 Rue Passemillon, 64100 Bayonne, Francia",
+    "POST_NOTE": "Nota: Para solicitudes por correo, recomendamos usar correo con seguimiento.",
+    "LAST_UPDATED": "Última actualización",
+    "UPDATE_DATE": "7 de abril de 2025"
   }
 }

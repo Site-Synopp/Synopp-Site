@@ -106,7 +106,7 @@ function Footer() {
             <a href="cookie-policy" className="block text-white hover:text-accent-purple transition-colors">
               {t("COOKIE_POLICY")}
             </a>
-            <a href="rgpd-rights" className="block text-white hover:text-accent-purple transition-colors">
+            <a href="gdpr-rights" className="block text-white hover:text-accent-purple transition-colors">
               {t("GDPR_RIGHTS")}
             </a>
           </div>
