@@ -29,46 +29,50 @@ const Navbar = () => {
   const { t } = useTranslation("NAVBAR");
   const [isOpen, setIsOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("");
+  const [isClient, setIsClient] = useState(false);
 
   const toggleMenu = () => setIsOpen((prev) => !prev);
-
   const closeMenu = () => setIsOpen(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   // Register react-scroll events
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      // Register begin and end events for animations
-      Events.scrollEvent.register("begin", (to) => {
-        console.log("Scroll begin to", to);
-      });
+    if (!isClient) return;
 
-      Events.scrollEvent.register("end", (to) => {
-        console.log("Scroll end to", to);
-        setActiveLink(to);
-      });
+    // Register begin and end events for animations
+    Events.scrollEvent.register("begin", (to) => {
+      console.log("Scroll begin to", to);
+    });
 
-      // Clean up events when component unmounts
-      return () => {
-        Events.scrollEvent.remove("begin");
-        Events.scrollEvent.remove("end");
-      };
-    }
-  }, []);
+    Events.scrollEvent.register("end", (to) => {
+      console.log("Scroll end to", to);
+      setActiveLink(to);
+    });
+
+    // Clean up events when component unmounts
+    return () => {
+      Events.scrollEvent.remove("begin");
+      Events.scrollEvent.remove("end");
+    };
+  }, [isClient]);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (typeof window !== "undefined") {
-        NAV_LINKS.forEach((link) => {
-          const section = document.getElementById(link.href);
-          if (section) {
-            const rect = section.getBoundingClientRect();
+    if (!isClient) return;
 
-            if (rect.top <= 150 && rect.bottom >= 150) {
-              setActiveLink(link.href);
-            }
+    const handleScroll = () => {
+      NAV_LINKS.forEach((link) => {
+        const section = document.getElementById(link.href);
+        if (section) {
+          const rect = section.getBoundingClientRect();
+
+          if (rect.top <= 150 && rect.bottom >= 150) {
+            setActiveLink(link.href);
           }
-        });
-      }
+        }
+      });
     };
 
     // Add scroll event listener
@@ -81,7 +85,11 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [isClient]);
+
+  if (!isClient) {
+    return null;
+  }
 
   return (
     <motion.header

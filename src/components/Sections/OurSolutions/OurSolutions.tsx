@@ -1,24 +1,21 @@
 "use client";
 
 import type React from "react";
-
 import { useState } from "react";
-import { useLottie } from "lottie-react";
-import animationData from "../../../../public/animations/Synopp.json";
 import { SolutionCard } from "./Cards";
 import { solutionData } from "./data";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
 import GradientText from "@/components/Commons/Title/Title";
+import dynamic from "next/dynamic";
+import { Suspense } from "react";
+
+const LottieAnimation = dynamic(() => import("@/components/Sections/OurSolutions/LottieAnimation"), {
+  ssr: false,
+});
 
 const OurSolutions = () => {
   const { t } = useTranslation("OUR_SERVICES");
-  const defaultOptions = {
-    animationData: animationData,
-    loop: true,
-  };
-
-  const { View } = useLottie(defaultOptions);
 
   return (
     <section
@@ -39,7 +36,9 @@ const OurSolutions = () => {
 
       {/* Desktop layout - Lottie animation with positioned cards - KEEPING ORIGINAL STYLING */}
       <div className="hidden lg:block top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-[650px] xl:h-[750px] w-[750px] xl:w-[950px] relative">
-        <div className="lottie">{View}</div>
+        <Suspense fallback={<div className="h-[650px] w-[750px]" />}>
+          <LottieAnimation />
+        </Suspense>
 
         {/* Left elements */}
         {/* Top left element */}

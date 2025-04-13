@@ -7,24 +7,18 @@ import MobileHeroImage from "../../../../public/images/HeroDashboardMobile.png";
 import { useTranslation } from "react-i18next";
 import { Link as ScrollLink } from "react-scroll";
 import GradientText from "@/components/Commons/Title/Title";
-import { useLottie } from "lottie-react";
-import HeroAnimation from "../../../../public/animations/Hero.json";
-import HeroAnimation2 from "../../../../public/animations/Hero_lines.json";
+import dynamic from "next/dynamic";
+import { Suspense } from "react";
+
+const LottieAnimation = dynamic(() => import("./LottieAnimation"), {
+  ssr: false,
+  loading: () => (
+    <div className="h-[500px] w-full bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] rounded-lg" />
+  )
+});
+
 export default function HeroSection() {
   const { t } = useTranslation("HERO_SECTION");
-
-  const defaultOptions = {
-    animationData: HeroAnimation,
-    loop: false,
-  };
-  const defaultOptions2 = {
-    animationData: HeroAnimation2,
-    loop: true,
-  };
-
-
-  const { View } = useLottie(defaultOptions);
-  const { View: View2 } = useLottie(defaultOptions2);
 
   return (
     <>
@@ -90,10 +84,11 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="relative  mx-auto hidden md:block mt-[25px]"
+          className="relative mx-auto hidden md:block mt-[25px]"
         >
-         <div className="lottie">{View}</div>
-          <div className="lottie absolute top-0 left-0 w-full h-full z-[-1]">{View2}</div>
+          <Suspense>
+            <LottieAnimation />
+          </Suspense>
           <div className="absolute inset-0 bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] z-10 rounded-lg pointer-events-none" />
         </motion.div>
 
@@ -102,7 +97,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="relative md:hidden  min-h-[300px]"
+          className="relative md:hidden min-h-[300px]"
         >
           <div className="absolute left-0 right-0 top-0 bottom-0 ">
             <div className="absolute right-0 left-0 inset-0 bg-gradient-to-b from-[#03001400] to-[#040014] z-10 rounded-lg pointer-events-none"></div>
