@@ -8,26 +8,17 @@ import { useTranslation } from "react-i18next";
 import { Link as ScrollLink } from "react-scroll";
 import GradientText from "@/components/Commons/Title/Title";
 import dynamic from "next/dynamic";
-import { Suspense, useState, useEffect } from "react";
+import { Suspense } from "react";
 
 const LottieAnimation = dynamic(() => import("./LottieAnimation"), {
   ssr: false,
   loading: () => (
-    <motion.div 
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 0.5 }}
-      className="h-[500px] w-full bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] rounded-lg"
-    />
+    <div className="h-[500px] w-full bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] rounded-lg" />
   )
 });
 
 export default function HeroSection() {
   const { t } = useTranslation("HERO_SECTION");
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
 
   return (
     <>
@@ -96,7 +87,7 @@ export default function HeroSection() {
           className="relative mx-auto hidden md:block mt-[25px]"
         >
           <Suspense>
-            {isLoaded && <LottieAnimation />}
+            <LottieAnimation />
           </Suspense>
           <div className="absolute inset-0 bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] z-10 rounded-lg pointer-events-none" />
         </motion.div>
