@@ -168,5 +168,77 @@
     "ANALYTICS_TITLE": "Analytics Cookies",
     "ANALYTICS_DESCRIPTION": "Cookies used to understand how the website is being used.",
     "SAVE_PREFERENCES": "Save preferences"
+  },
+  "GDPR_RIGHTS": {
+    "TITLE": "GDPR Rights",
+    "INTRO_TEXT": "Under the General Data Protection Regulation (GDPR), you have the following rights regarding your personal data processed by Synapp. To exercise any of these rights, contact our Data Protection Officer (DPO) at",
+    "DPO_EMAIL": "dpo@synapp.io",
+  
+    "SECTION_1_TITLE": "1. Right of Access",
+    "SECTION_1_INTRO": "You may request",
+    "ACCESS_POINT_1": "Confirmation that we process your data.",
+    "ACCESS_POINT_2": "A copy of your personal data in a readable format.",
+    "ACCESS_POINT_3": "Details about the purpose, categories, and recipients of your data.",
+    "ACCESS_RESPONSE_TIME": "We'll respond within 1 month (extendable to 3 months for complex requests).",
+  
+    "SECTION_2_TITLE": "2. Right to Rectification",
+    "SECTION_2_CONTENT": "Request corrections if your data is inaccurate or incomplete.",
+  
+    "SECTION_3_TITLE": "3. Right to Erasure",
+    "SECTION_3_INTRO": "Request deletion when",
+    "ERASURE_POINT_1": "Data is no longer necessary.",
+    "ERASURE_POINT_2": "You withdraw consent.",
+    "ERASURE_POINT_3": "Data was unlawfully processed.",
+    "ERASURE_EXCEPTIONS": "Exceptions: We retain data if required by French law (e.g., fiscal records under",
+    "FRENCH_COMMERCIAL_CODE": "Article L 123-22 of the French Commercial Code",
+  
+    "SECTION_4_TITLE": "4. Right to Restrict Processing",
+    "SECTION_4_INTRO": "Ask us to temporarily restrict processing if",
+    "RESTRICT_POINT_1": "You contest data accuracy.",
+    "RESTRICT_POINT_2": "Processing is unlawful but you oppose erasure.",
+  
+    "SECTION_5_TITLE": "5. Right to Data Portability",
+    "SECTION_5_CONTENT": "Request your data in a structured, commonly used format (e.g., JSON, CSV) for transfer to another provider.",
+  
+    "SECTION_6_TITLE": "6. Right to Object",
+    "DIRECT_MARKETING_TITLE": "Direct marketing",
+    "DIRECT_MARKETING_CONTENT": "Unsubscribe via any marketing email or object via",
+    "STOP_IMMEDIATELY": "we'll stop immediately",
+    "LEGITIMATE_INTERESTS_TITLE": "Legitimate interests",
+    "LEGITIMATE_INTERESTS_CONTENT": "We'll cease unless we demonstrate compelling legal grounds.",
+  
+    "SECTION_7_TITLE": "7. Automated Decisions",
+    "SECTION_7_CONTENT": "Synapp does not use fully automated decision-making that significantly affects users.",
+  
+    "SECTION_8_TITLE": "8. Right to Withdraw Consent",
+    "SECTION_8_CONTENT": "Withdraw consent anytime (e.g., newsletters). This does not affect prior lawful processing.",
+  
+    "HOW_TO_EXERCISE_TITLE": "How to Exercise Your Rights",
+    "EMAIL_TITLE": "Email",
+    "EMAIL_INTRO": "Send requests to",
+    "WITH": "with",
+    "EMAIL_REQUIREMENT_1": "Full name + proof of identity (e.g., redacted ID).",
+    "EMAIL_REQUIREMENT_2": "Specific request details.",
+    "RESPONSE_TIME_TITLE": "Response Time",
+    "RESPONSE_TIME_CONTENT": "1 month (may extend to 3 months with notification).",
+    "NO_FEES_TITLE": "No Fees",
+    "NO_FEES_CONTENT": "Free unless requests are manifestly unfounded or excessive.",
+  
+    "COMPLAINTS_TITLE": "Complaints",
+    "COMPLAINTS_INTRO": "If unsatisfied, lodge a complaint with",
+    "SYNAPP_DPO_TITLE": "Synapp's DPO",
+    "CNIL_TITLE": "French Data Protection Authority (CNIL)",
+    "ONLINE_COMPLAINT_FORM": "Online complaint form",
+    "ADDRESS": "Address",
+    "CNIL_ADDRESS": "3 Place de Fontenoy, 75007 Paris, France",
+  
+    "CONTACT_TITLE": "Contact",
+    "SYNAPP_DPO": "Synapp Data Protection Officer",
+    "EMAIL": "Email",
+    "COMPANY_ADDRESS": "25 Rue Passemillon, 64100 Bayonne, France",
+    "POST_NOTE": "Note: For requests by post, we recommend using tracked mail.",
+    "LAST_UPDATED": "Last Updated",
+    "UPDATE_DATE": "April 7, 2025"
   }
+  
 }
