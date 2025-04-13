@@ -381,8 +381,8 @@
   },
   "GDPR_RIGHTS": {
     "TITLE": "GDPR Rights",
-    "INTRO_TEXT": "Under the General Data Protection Regulation (GDPR), you have the following rights regarding your personal data processed by Synapp. To exercise any of these rights, contact our Data Protection Officer (DPO) at",
-    "DPO_EMAIL": "dpo@synapp.io",
+    "INTRO_TEXT": "Under the General Data Protection Regulation (GDPR), you have the following rights regarding your personal data processed by Synopp. To exercise any of these rights, contact our Data Protection Officer (DPO) at",
+    "DPO_EMAIL": "dpo@synopp.io",
   
     "SECTION_1_TITLE": "1. Right of Access",
     "SECTION_1_INTRO": "You may request",
@@ -418,7 +418,7 @@
     "LEGITIMATE_INTERESTS_CONTENT": "We'll cease unless we demonstrate compelling legal grounds.",
   
     "SECTION_7_TITLE": "7. Automated Decisions",
-    "SECTION_7_CONTENT": "Synapp does not use fully automated decision-making that significantly affects users.",
+    "SECTION_7_CONTENT": "Synopp does not use fully automated decision-making that significantly affects users.",
   
     "SECTION_8_TITLE": "8. Right to Withdraw Consent",
     "SECTION_8_CONTENT": "Withdraw consent anytime (e.g., newsletters). This does not affect prior lawful processing.",
@@ -436,14 +436,14 @@
   
     "COMPLAINTS_TITLE": "Complaints",
     "COMPLAINTS_INTRO": "If unsatisfied, lodge a complaint with",
-    "SYNAPP_DPO_TITLE": "Synapp's DPO",
+    "SYNAPP_DPO_TITLE": "Synopp's DPO",
     "CNIL_TITLE": "French Data Protection Authority (CNIL)",
     "ONLINE_COMPLAINT_FORM": "Online complaint form",
     "ADDRESS": "Address",
     "CNIL_ADDRESS": "3 Place de Fontenoy, 75007 Paris, France",
   
     "CONTACT_TITLE": "Contact",
-    "SYNAPP_DPO": "Synapp Data Protection Officer",
+    "SYNAPP_DPO": "Synopp Data Protection Officer",
     "EMAIL": "Email",
     "COMPANY_ADDRESS": "25 Rue Passemillon, 64100 Bayonne, France",
     "POST_NOTE": "Note: For requests by post, we recommend using tracked mail.",
