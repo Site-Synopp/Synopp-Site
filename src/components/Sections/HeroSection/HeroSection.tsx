@@ -15,7 +15,7 @@ const LottieAnimation = dynamic(() => import("./LottieAnimation"), {
   loading: () => (
     <motion.div 
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      animate={{ opacity: 0.5 }}
       className="h-[500px] w-full bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] rounded-lg"
     />
   )
