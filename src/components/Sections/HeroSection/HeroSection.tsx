@@ -7,11 +7,16 @@ import MobileHeroImage from "../../../../public/images/HeroDashboardMobile.png";
 import { useTranslation } from "react-i18next";
 import { Link as ScrollLink } from "react-scroll";
 import GradientText from "@/components/Commons/Title/Title";
-import { Suspense } from "react";
+import { Suspense, useEffect, useState } from "react";
 import LottieAnimation from "./LottieAnimation";
 
 export default function HeroSection() {
   const { t } = useTranslation("HERO_SECTION");
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   return (
     <>
@@ -80,7 +85,7 @@ export default function HeroSection() {
           className="relative mx-auto hidden md:block mt-[25px]"
         >
           <Suspense fallback={<div className="h-[500px] w-full" />}>
-            <LottieAnimation />
+            {isClient && <LottieAnimation />}
           </Suspense>
           <div className="absolute inset-0 bg-gradient-to-b from-[#03001400] via-[#03001480] to-[#040014] z-10 rounded-lg pointer-events-none" />
         </motion.div>
