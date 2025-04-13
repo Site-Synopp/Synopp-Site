@@ -168,5 +168,75 @@
     "ANALYTICS_TITLE": "Cookies de Análisis",
     "ANALYTICS_DESCRIPTION": "Cookies utilizadas para entender cómo se utiliza el sitio web.",
     "SAVE_PREFERENCES": "Guardar preferencias"
+  },
+  "TERMS_AND_CONDITIONS": {
+    "TITLE": "Términos y Condiciones",
+
+    "SECTION_1_TITLE": "1. Introducción",
+    "SECTION_1_CONTENT": "Estos Términos y Condiciones rigen el uso del sitio web operado por Synopp (\"nosotros\", \"nuestro\" o \"nos\"). Al acceder y utilizar este sitio web, aceptas cumplir con estos Términos y Condiciones y quedas sujeto a ellos. Si no estás de acuerdo con alguna parte de estos términos, no podrás acceder al sitio web.",
+
+    "SECTION_2_TITLE": "2. Definiciones",
+    "CLIENT_TITLE": "Cliente",
+    "CLIENT_DEFINITION": "Cualquier persona que contrate nuestros servicios.",
+    "CONTENT_TITLE": "Contenido",
+    "CONTENT_DEFINITION": "Cualquier información, texto, gráfico, foto u otros materiales cargados, descargados o que aparezcan en el sitio web.",
+    "SERVICES_TITLE": "Servicios",
+    "SERVICES_DEFINITION": "Todos los servicios proporcionados por Synopp a sus clientes.",
+    "USER_TITLE": "Usuario",
+    "USER_DEFINITION": "Cualquier persona que navegue, lea, vea, transmita o utilice el sitio web de cualquier manera.",
+
+    "SECTION_3_TITLE": "3. Uso del sitio web",
+    "SECTION_3_INTRO": "Al utilizar nuestro sitio web, confirmás que tenés al menos 16 años o que contás con el consentimiento de tus padres o tutores legales. Aceptás utilizar el sitio web solo con fines legales y de una manera que no infrinja los derechos de terceros ni limite o interfiera con su uso y disfrute del sitio.",
+    "PROHIBITED_ACTIONS_INTRO": "Las acciones prohibidas incluyen",
+    "PROHIBITED_ACTION_1": "Usar el sitio de cualquier manera que pueda causar daños o afectar su disponibilidad o accesibilidad.",
+    "PROHIBITED_ACTION_2": "Utilizar el sitio para enviar o facilitar el envío de publicidad o material promocional no solicitado o no autorizado.",
+    "PROHIBITED_ACTION_3": "Utilizar el sitio para transmitir o intercambiar contenido que contenga virus, troyanos, gusanos, bombas de tiempo, registradores de teclas, software espía, adware o cualquier otro código, archivo o programa dañino.",
+    "PROHIBITED_ACTION_4": "Intentar acceder sin autorización a nuestro sitio web, al servidor donde está alojado, o a cualquier servidor, computadora o base de datos conectada.",
+
+    "SECTION_4_TITLE": "4. Propiedad intelectual",
+    "SECTION_4_INTRO": "Somos propietarios o licenciatarios de todos los derechos de propiedad intelectual sobre nuestro sitio web y su contenido. Estas obras están protegidas por leyes y tratados de derechos de autor a nivel mundial. Todos los derechos están reservados.",
+    "YOU_MAY_INTRO": "Podés",
+    "YOU_MAY_1": "Imprimir o descargar extractos para uso personal.",
+    "YOU_MAY_2": "Compartir contenido dentro de tu organización como referencia.",
+    "YOU_MAY_NOT_INTRO": "No podés",
+    "YOU_MAY_NOT_1": "Modificar copias impresas o digitales de cualquier material.",
+    "YOU_MAY_NOT_2": "Usar imágenes, fotos, secuencias de video/audio o gráficos por separado del texto que los acompaña.",
+    "YOU_MAY_NOT_3": "Usar cualquier parte del contenido del sitio con fines comerciales sin obtener una licencia de nuestra parte o de nuestros licenciantes.",
+
+    "SECTION_5_TITLE": "5. Limitación de responsabilidad",
+    "SECTION_5_INTRO": "En la medida permitida por la ley, excluimos todas las condiciones, garantías, representaciones o cualquier otro término que pueda aplicarse al sitio web o a su contenido, ya sea expreso o implícito.",
+    "LIABILITY_EXCLUSIONS_INTRO": "No seremos responsables por ninguna pérdida o daño (contractual, extracontractual, incluyendo negligencia, incumplimiento de deber legal, o de otro tipo) que surja de",
+    "LIABILITY_EXCLUSION_1": "El uso o la imposibilidad de usar el sitio web.",
+    "LIABILITY_EXCLUSION_2": "La confianza en cualquier contenido mostrado en el sitio web.",
+    "LIABILITY_EXCLUSION_3": "Los virus, ataques de denegación de servicio distribuidos, o cualquier otro material dañino debido a tu uso del sitio web o la descarga de su contenido (o desde cualquier sitio web de terceros vinculado).",
+
+    "SECTION_6_TITLE": "6. Enlaces a nuestro sitio web",
+    "SECTION_6_INTRO": "Podés enlazar a nuestra página de inicio de manera justa y legal, siempre que no dañe nuestra reputación ni implique una falsa asociación, aprobación o respaldo.",
+    "LINKING_RESTRICTIONS_INTRO": "No podés",
+    "LINKING_RESTRICTION_1": "Enlazar de una manera que sugiera una asociación o respaldo donde no exista.",
+    "LINKING_RESTRICTION_2": "Enlazar desde un sitio web que no poseas.",
+    "LINKING_RESTRICTION_3": "Incrustar nuestro sitio web en otro sitio o enlazar a cualquier página que no sea la página de inicio.",
+    "LINKING_PERMISSION_NOTICE": "Nos reservamos el derecho de retirar el permiso de enlace sin previo aviso.",
+
+    "SECTION_7_TITLE": "7. Enlaces desde nuestro sitio web",
+    "SECTION_7_CONTENT": "Los enlaces a sitios web de terceros se proporcionan solo con fines informativos. No tenemos control sobre su contenido y no asumimos ninguna responsabilidad por ellos ni por cualquier pérdida derivada de su uso.",
+
+    "SECTION_8_TITLE": "8. Protección de datos",
+    "SECTION_8_CONTENT_1": "Cualquier dato personal recogido será procesado de acuerdo con nuestra",
+    "PRIVACY_POLICY": "Política de privacidad",
+    "AND": "y",
+    "COOKIE_POLICY": "Política de cookies",
+
+    "SECTION_9_TITLE": "9. Ley aplicable y jurisdicción",
+    "SECTION_9_CONTENT": "Estos Términos y Condiciones se rigen por la ley francesa. Usted y nosotros aceptamos la jurisdicción exclusiva de los tribunales franceses.",
+
+    "SECTION_10_TITLE": "10. Modificaciones a estos Términos",
+    "SECTION_10_CONTENT": "Podemos actualizar estos Términos y Condiciones modificando esta página. Consulte esta página periódicamente, ya que los cambios son vinculantes.",
+
+    "SECTION_11_TITLE": "11. Contáctanos",
+    "CONTACT_INTRO": "Para consultas, por favor envía un correo electrónico a",
+    "CONTACT_EMAIL": "info@synopp.io",
+    "LAST_UPDATED": "Última actualización",
+    "UPDATE_DATE": "7 de abril de 2025"
   }
 }
