@@ -168,5 +168,59 @@
     "ANALYTICS_TITLE": "Cookies de Análisis",
     "ANALYTICS_DESCRIPTION": "Cookies utilizadas para entender cómo se utiliza el sitio web.",
     "SAVE_PREFERENCES": "Guardar preferencias"
+  },
+  "COOKIE_POLICY": {
+    "TITLE": "Política de Cookies",
+
+    "SECTION_1_TITLE": "1. Introducción",
+    "SECTION_1_INTRO": "Esta Política de Cookies explica cómo Synopp (\"nosotros\", \"nuestro\" o \"nos\") utiliza cookies y tecnologías de seguimiento similares cuando visitas nuestro sitio web",
+    "WEBSITE_URL": "(www.synopp.io)",
+    "SECTION_1_CONSENT": "Al utilizar nuestro sitio web, aceptas el uso de cookies de acuerdo con esta política.",
+    "SECTION_1_DISAGREE": "Si no estás de acuerdo, deberás configurar tu navegador para rechazar las cookies o abstenerte de utilizar nuestro sitio.",
+
+    "SECTION_2_TITLE": "2. Qué son las Cookies?",
+    "SECTION_2_CONTENT": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo (ordenador, smartphone o tablet) cuando visitas un sitio web. Ayudan al sitio a recordar tus preferencias, mejorar su rendimiento y ofrecer contenido personalizado.",
+
+    "SECTION_3_TITLE": "3. Tipos de Cookies que usamos",
+    "TABLE_HEADER_CATEGORY": "Categoría",
+    "TABLE_HEADER_PURPOSE": "Propósito",
+    "TABLE_HEADER_DURATION": "Duración",
+    "ESSENTIAL_COOKIES": "Cookies Esenciales",
+    "ESSENTIAL_COOKIES_PURPOSE": "Necesarias para el funcionamiento del sitio web (por ejemplo, inicio de sesión, seguridad, procesamiento de pagos).",
+    "ESSENTIAL_COOKIES_DURATION": "Sesión / Persistente",
+    "ANALYTICS_COOKIES": "Cookies de análisis",
+    "ANALYTICS_COOKIES_PURPOSE": "Recopilan datos anónimos sobre el uso del sitio (por ejemplo, Google Analytics) para mejorar el rendimiento.",
+    "ANALYTICS_COOKIES_DURATION": "Persistente (1 año)",
+
+    "SECTION_4_TITLE": "4. Cookies de terceros",
+    "SECTION_4_INTRO": "Nos asociamos con servicios (por ejemplo, Google, Facebook) que pueden establecer cookies para:",
+    "THIRD_PARTY_COOKIE_1": "Análisis (por ejemplo, Google Analytics).",
+    "THIRD_PARTY_COOKIE_2": "Publicidad (por ejemplo, Meta Pixel).",
+    "THIRD_PARTY_COOKIE_3": "Contenido incrustado (por ejemplo, vídeos de YouTube).",
+    "SECTION_4_PRIVACY_NOTICE": "Estos terceros gestionan los datos según sus propias políticas de privacidad.",
+
+    "SECTION_5_TITLE": "5. Cómo gestionar las cookies",
+    "SECTION_5_INTRO": "Puedes controlar o deshabilitar las cookies a través de:",
+    "BROWSER_SETTINGS_TITLE": "Configuración del navegador",
+    "BROWSER_SETTINGS_CONTENT": "Ajusta las preferencias en Chrome, Firefox, Safari, etc. (Nota: Deshabilitar las cookies puede limitar la funcionalidad del sitio).",
+    "CONSENT_TOOLS_TITLE": "Herramientas de consentimiento",
+    "CONSENT_TOOLS_CONTENT": "Usa nuestro banner de cookies para aceptar o rechazar las cookies no esenciales.",
+    "BROWSER_GUIDES_INTRO": "Guías para navegadores comunes:",
+    "CHROME_GUIDE": "Google Chrome",
+    "FIREFOX_GUIDE": "Mozilla Firefox",
+    "SAFARI_GUIDE": "Apple Safari",
+
+    "SECTION_6_TITLE": "6. Cambios en esta política",
+    "SECTION_6_CONTENT": "Podemos actualizar esta política para reflejar cambios legales o operacionales. Las actualizaciones significativas se notificarán por correo electrónico o mediante un banner en el sitio web.",
+
+    "SECTION_7_TITLE": "7. Contáctanos",
+    "SECTION_7_INTRO": "Para preguntas sobre esta Política de Cookies, envía un correo electrónico a",
+    "DPO_EMAIL": "dpo@synopp.io",
+    "OR_WRITE_TO": "o escribe a:",
+    "COMPANY_NAME": "Synopp",
+    "COMPANY_STREET": "25 Rue Passemillon",
+    "COMPANY_CITY": "64100 Bayonne, Francia",
+    "LAST_UPDATED": "Última actualización",
+    "UPDATE_DATE": "7 de abril de 2025"
   }
 }
