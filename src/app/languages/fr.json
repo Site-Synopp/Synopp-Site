@@ -230,7 +230,9 @@
     "COMPANY_STREET": "25 Rue Passemillon",
     "COMPANY_CITY": "64100 Bayonne, France",
     "SAVE_PREFERENCES": "Seulement nécessaires",
-    "PRIVACY_POLICY": "Politique de Confidentialité"
+    "PRIVACY_POLICY": "Politique de Confidentialité",
+    "LAST_UPDATED": "Dernière mise à jour",
+    "UPDATE_DATE": "7 avril 2025"
   },
 
   "PRIVACY_POLICY": {
