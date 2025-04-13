@@ -167,6 +167,59 @@
     "ESSENTIAL_DESCRIPTION": "Cookies required to enable basic website functionality.",
     "ANALYTICS_TITLE": "Analytics Cookies",
     "ANALYTICS_DESCRIPTION": "Cookies used to understand how the website is being used.",
+    "SAVE_PREFERENCES": "Save preferences"
+  },
+  "COOKIE_POLICY": {
+    "TITLE": "Cookie Policy",
+  
+    "SECTION_1_TITLE": "1. Introduction",
+    "SECTION_1_INTRO": "This Cookie Policy explains how Synapp (\"we\", \"our\", or \"us\") uses cookies and similar tracking technologies when you visit our website",
+    "WEBSITE_URL": "(www.synapp.io)",
+    "SECTION_1_CONSENT": "By using our website, you consent to the use of cookies in accordance with this policy.",
+    "SECTION_1_DISAGREE": "If you do not agree, you must adjust your browser settings to reject cookies or refrain from using our site.",
+  
+    "SECTION_2_TITLE": "2. What Are Cookies?",
+    "SECTION_2_CONTENT": "Cookies are small text files stored on your device (computer, smartphone, or tablet) when you visit a website. They help the site remember your preferences, improve performance, and deliver tailored content.",
+  
+    "SECTION_3_TITLE": "3. Types of Cookies We Use",
+    "TABLE_HEADER_CATEGORY": "Category",
+    "TABLE_HEADER_PURPOSE": "Purpose",
+    "TABLE_HEADER_DURATION": "Duration",
+    "ESSENTIAL_COOKIES": "Essential Cookies",
+    "ESSENTIAL_COOKIES_PURPOSE": "Required for the website to function (e.g., login, security, payment processing).",
+    "ESSENTIAL_COOKIES_DURATION": "Session / Persistent",
+    "ANALYTICS_COOKIES": "Analytics Cookies",
+    "ANALYTICS_COOKIES_PURPOSE": "Collect anonymous data on site usage (e.g., Google Analytics) to improve performance.",
+    "ANALYTICS_COOKIES_DURATION": "Persistent (1 year)",
+  
+    "SECTION_4_TITLE": "4. Third-Party Cookies",
+    "SECTION_4_INTRO": "We partner with services (e.g., Google, Facebook) that may set cookies for:",
+    "THIRD_PARTY_COOKIE_1": "Analytics (e.g., Google Analytics).",
+    "THIRD_PARTY_COOKIE_2": "Advertising (e.g., Meta Pixel).",
+    "THIRD_PARTY_COOKIE_3": "Embedded content (e.g., YouTube videos).",
+    "SECTION_4_PRIVACY_NOTICE": "These third parties handle data per their own privacy policies.",
+  
+    "SECTION_5_TITLE": "5. How to Manage Cookies",
+    "SECTION_5_INTRO": "You can control or disable cookies through:",
+    "BROWSER_SETTINGS_TITLE": "Browser Settings",
+    "BROWSER_SETTINGS_CONTENT": "Adjust preferences in Chrome, Firefox, Safari, etc. (Note: Disabling cookies may limit site functionality).",
+    "CONSENT_TOOLS_TITLE": "Consent Tools",
+    "CONSENT_TOOLS_CONTENT": "Use our cookie banner to opt in/out of non-essential cookies.",
+    "BROWSER_GUIDES_INTRO": "Guides for common browsers:",
+    "CHROME_GUIDE": "Google Chrome",
+    "FIREFOX_GUIDE": "Mozilla Firefox",
+    "SAFARI_GUIDE": "Apple Safari",
+  
+    "SECTION_6_TITLE": "6. Changes to This Policy",
+    "SECTION_6_CONTENT": "We may update this policy to reflect legal or operational changes. Significant updates will be notified via email or a website banner.",
+  
+    "SECTION_7_TITLE": "7. Contact Us",
+    "SECTION_7_INTRO": "For questions about this Cookie Policy, email",
+    "DPO_EMAIL": "dpo@synapp.io",
+    "OR_WRITE_TO": "or write to:",
+    "COMPANY_NAME": "Synapp",
+    "COMPANY_STREET": "25 Rue Passemillon",
+    "COMPANY_CITY": "64100 Bayonne, France",
     "SAVE_PREFERENCES": "Save preferences",
     "PRIVACY_POLICY": "Privacy Policy"
   },
@@ -244,4 +297,5 @@
     "LAST_UPDATED": "Last Updated",
     "UPDATE_DATE": "April 7, 2025"
   }
+  
 }
