@@ -21,7 +21,7 @@ function Footer() {
   }
 
   return (
-    <footer className="bg-[#050314] text-white w-full">
+    <footer className="bg-primary-700 text-white w-full">
       {/* CTA Section */}
       <div className="container mx-auto px-4 py-16 md:py-20">
         <motion.div
@@ -106,7 +106,7 @@ function Footer() {
             <a href="cookie-policy" className="block text-white hover:text-accent-purple transition-colors">
               {t("COOKIE_POLICY")}
             </a>
-            <a href="https://gdpr-info.eu/" target="_blank" rel="noopener noreferrer" className="block text-white hover:text-accent-purple transition-colors">
+            <a href="rgpd-rights" className="block text-white hover:text-accent-purple transition-colors">
               {t("GDPR_RIGHTS")}
             </a>
           </div>
