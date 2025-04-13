@@ -27,7 +27,7 @@ export default function GDPRRights() {
 
         <div className="max-w-4xl mx-auto space-y-8 md:space-y-12">
           {/* Introduction */}
-          <section>
+          <section className="max-w-2xl mx-auto text-center">
             <p className="text-sm md:text-base text-gray-300">
               {t("INTRO_TEXT")}{" "}
               <Link href="mailto:dpo@synapp.io" className="text-accent-purple hover:underline">
@@ -97,14 +97,14 @@ export default function GDPRRights() {
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_6_TITLE")}</h2>
             <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-400">
               <li>
-                <span className="font-semibold">{t("DIRECT_MARKETING_TITLE")}:</span> {t("DIRECT_MARKETING_CONTENT")}{" "}
+                <span className="font-semibold text-titles">{t("DIRECT_MARKETING_TITLE")}:</span> {t("DIRECT_MARKETING_CONTENT")}{" "}
                 <Link href="mailto:dpo@synapp.io" className="text-accent-purple hover:underline">
                   {t("DPO_EMAIL")}
                 </Link>{" "}
                 ({t("STOP_IMMEDIATELY")}).
               </li>
               <li>
-                <span className="font-semibold">{t("LEGITIMATE_INTERESTS_TITLE")}:</span> {t("LEGITIMATE_INTERESTS_CONTENT")}
+                <span className="font-semibold text-titles">{t("LEGITIMATE_INTERESTS_TITLE")}:</span> {t("LEGITIMATE_INTERESTS_CONTENT")}
               </li>
             </ul>
           </section>
@@ -125,8 +125,8 @@ export default function GDPRRights() {
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-4">{t("HOW_TO_EXERCISE_TITLE")}</h2>
             <ol className="list-decimal pl-5 space-y-4">
-              <li className="text-sm md:text-base">
-                <span className="font-semibold">{t("EMAIL_TITLE")}:</span> {t("EMAIL_INTRO")}{" "}
+              <li className="text-sm md:text-gray-400">
+                <span className="font-semibold text-titles">{t("EMAIL_TITLE")}:</span> {t("EMAIL_INTRO")}{" "}
                 <Link href="mailto:dpo@synapp.io" className="text-accent-purple hover:underline">
                   {t("DPO_EMAIL")}
                 </Link>{" "}
@@ -142,11 +142,11 @@ export default function GDPRRights() {
                   <li>{t("RESPONSE_TIME_CONTENT")}</li>
                 </ul>
               </li>
-              <li className="text-sm md:text-base">
-                <span className="font-semibold">{t("NO_FEES_TITLE")}:</span>
-                <ul className="list-disc pl-5 mt-2 space-y-1 text-gray-400">
-                  <li>{t("NO_FEES_CONTENT")}</li>
-                </ul>
+              <li className="text-sm md:text-gray-400">
+                <span className="font-semibold text-titles">{t("NO_FEES_TITLE")}: </span>
+               
+                  {t("NO_FEES_CONTENT")}
+                
               </li>
             </ol>
           </section>
@@ -176,7 +176,7 @@ export default function GDPRRights() {
           <section>
             <h2 className="text-xl md:text-2xl font-semibold mb-4">{t("CONTACT_TITLE")}</h2>
             <div className="space-y-1 text-sm md:text-base text-gray-400">
-              <p>{t("SYNAPP_DPO")}</p>
+              <p className="font-semibold">{t("SYNAPP_DPO")}</p>
               <p>
                 {t("EMAIL")}:{" "}
                 <Link href="mailto:dpo@synapp.io" className="text-accent-purple hover:underline">
