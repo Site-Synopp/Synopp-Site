@@ -73,6 +73,7 @@ export default function TermsAndConditions() {
               <li>{t("YOU_MAY_1")}</li>
               <li>{t("YOU_MAY_2")}</li>
             </ul>
+            <br/>
             <p className="text-sm md:text-base text-gray-400 mb-4">{t("YOU_MAY_NOT_INTRO")}:</p>
             <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-400">
               <li>{t("YOU_MAY_NOT_1")}</li>
@@ -103,6 +104,7 @@ export default function TermsAndConditions() {
               <li>{t("LINKING_RESTRICTION_2")}</li>
               <li>{t("LINKING_RESTRICTION_3")}</li>
             </ul>
+            <br/>
             <p className="text-sm md:text-base text-gray-400">{t("LINKING_PERMISSION_NOTICE")}</p>
           </section>
 

@@ -45,7 +45,7 @@
     }
   },
   "WHY_US": {
-    "SUBTITLE": "WHY US",
+    "SUBTITLE": "WHY US?",
     "TITLE": "The Synopp Advantage",
     "DESCRIPTION": "Discover the core strengths that make us the perfect partner for your digital journey.",
     "ADVANTAGES": {
@@ -182,8 +182,8 @@
     "TITLE": "Cookie Policy",
   
     "SECTION_1_TITLE": "1. Introduction",
-    "SECTION_1_INTRO": "This Cookie Policy explains how Synapp (\"we\", \"our\", or \"us\") uses cookies and similar tracking technologies when you visit our website",
-    "WEBSITE_URL": "(www.synapp.io)",
+    "SECTION_1_INTRO": "This Cookie Policy explains how Synopp (\"we\", \"our\", or \"us\") uses cookies and similar tracking technologies when you visit our website",
+    "WEBSITE_URL": "(www.Synopp.io)",
     "SECTION_1_CONSENT": "By using our website, you consent to the use of cookies in accordance with this policy.",
     "SECTION_1_DISAGREE": "If you do not agree, you must adjust your browser settings to reject cookies or refrain from using our site.",
   
@@ -224,9 +224,9 @@
   
     "SECTION_7_TITLE": "7. Contact Us",
     "SECTION_7_INTRO": "For questions about this Cookie Policy, email",
-    "DPO_EMAIL": "dpo@synapp.io",
+    "DPO_EMAIL": "dpo@Synopp.io",
     "OR_WRITE_TO": "or write to:",
-    "COMPANY_NAME": "Synapp",
+    "COMPANY_NAME": "Synopp",
     "COMPANY_STREET": "25 Rue Passemillon",
     "COMPANY_CITY": "64100 Bayonne, France",
     "SAVE_PREFERENCES": "Save preferences",
@@ -237,19 +237,19 @@
   "PRIVACY_POLICY": {
     "TITLE": "Privacy Policy",
     "SECTION_1_TITLE": "1. Introduction",
-    "SECTION_1_CONTENT": "At synopp, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we handle your personal data when you visit our website and will explain your privacy rights and how the law protects you.",
+    "SECTION_1_CONTENT": "At Synopp, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we handle your personal data when you visit our website and will explain your privacy rights and how the law protects you.",
   
     "SECTION_2_TITLE": "2. Data Controller",
-    "SECTION_2_INTRO": "synopp is the data controller for the personal data you provide through this website.",
+    "SECTION_2_INTRO": "Synopp is the data controller for the personal data you provide through this website.",
     "CONTACT_DETAILS": "Contact Details",
     "ADDRESS": "Address",
-    "COMPANY_ADDRESS": "25 rue passemillon, 64100 Bayonne, France",
+    "COMPANY_ADDRESS": "25 Rue Passemillon, 64100 Bayonne, France",
     "EMAIL": "Email",
-    "COMPANY_EMAIL": "info@synopp.io",
+    "COMPANY_EMAIL": "info@Synopp.io",
     "PHONE": "Phone",
     "COMPANY_PHONE": "+33 7 66 75 64 54",
     "DPO_TITLE": "Data Protection Officer (DPO)",
-    "DPO_EMAIL": "dpo@synopp.io",
+    "DPO_EMAIL": "dpo@Synopp.io",
   
     "SECTION_3_TITLE": "3. Data We Collect",
     "SECTION_3_INTRO": "We may collect, use, store, and transfer different types of personal data about you, which we have grouped as follows:",
@@ -297,7 +297,8 @@
     "SECTION_7_TITLE": "7. Cookies",
     "SECTION_7_CONTENT_1": "We use cookies and similar technologies to distinguish you from other users of our website. This helps us provide you with a good browsing experience and allows us to improve our site.",
     "SECTION_7_CONTENT_2": "You can set your browser to refuse all or some cookies, or to alert you when websites set or access cookies. If you disable or reject cookies, please note that some parts of this website may become inaccessible or not function properly.",
-  
+    "SECTION_7_CONTENT_3_A": "For more information about the cookies we use, please see our ",
+    "SECTION_7_CONTENT_3_B": "Cookie Policy.",
     "SECTION_8_TITLE": "8. Changes to the Privacy Policy",
     "SECTION_8_CONTENT": "We may update our privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page. If the changes are significant, we will also notify you by email. We recommend that you review this privacy policy periodically to stay informed about how we are protecting your data.",
   
@@ -312,7 +313,7 @@
     "TITLE": "Terms & Conditions",
 
     "SECTION_1_TITLE": "1. Introduction",
-    "SECTION_1_CONTENT": "These Terms and Conditions govern the use of the website operated by Synapp (\"we\", \"our\", or \"us\"). By accessing and using this website, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, you may not access the website.",
+    "SECTION_1_CONTENT": "These Terms and Conditions govern the use of the website operated by Synopp (\"we\", \"our\", or \"us\"). By accessing and using this website, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, you may not access the website.",
 
     "SECTION_2_TITLE": "2. Definitions",
     "CLIENT_TITLE": "Client",
@@ -320,7 +321,7 @@
     "CONTENT_TITLE": "Content",
     "CONTENT_DEFINITION": "Any information, text, graphics, or other materials uploaded, downloaded, or appearing on the website.",
     "SERVICES_TITLE": "Services",
-    "SERVICES_DEFINITION": "All services provided by Synapp to its clients.",
+    "SERVICES_DEFINITION": "All services provided by Synopp to its clients.",
     "USER_TITLE": "User",
     "USER_DEFINITION": "Any person who browses, reads, views, comments, or in any way uses the website.",
 
@@ -374,7 +375,7 @@
 
     "SECTION_11_TITLE": "11. Contact Us",
     "CONTACT_INTRO": "For inquiries, please email",
-    "CONTACT_EMAIL": "info@synapp.io",
+    "CONTACT_EMAIL": "info@Synopp.io",
     "LAST_UPDATED": "Last Updated",
     "UPDATE_DATE": "April 7, 2025"
   }

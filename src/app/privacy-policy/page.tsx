@@ -162,6 +162,12 @@ export default function PrivacyPolicy() {
             <p className="text-sm md:text-base text-gray-400 mb-4">
               {t("SECTION_7_CONTENT_2")}
             </p>
+            <p className="text-sm md:text-base text-gray-400 mb-4">
+              {t("SECTION_7_CONTENT_3_A")}
+              <Link href="/cookies" className="text-titles hover:underline">
+                {t("SECTION_7_CONTENT_3_B")}
+              </Link>
+            </p>
           </section>
 
           {/* 8. Changes to the Privacy Policy */}

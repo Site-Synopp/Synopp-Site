@@ -1,6 +1,6 @@
 {
   "NAVBAR": {
-    "WHY_US": "Por qué nosotros",
+    "WHY_US": "¿Por qué nosotros?",
     "WHAT_WE_DO": "Que hacemos",
     "OUR_PROCESS": "Nuestro proceso",
     "THE_STACK_WE_USE": "Stack tecnológico",
@@ -45,7 +45,7 @@
     }
   },
   "WHY_US": {
-    "SUBTITLE": "POR QUÉ NOSOTROS",
+    "SUBTITLE": "¿POR QUÉ NOSOTROS?",
     "TITLE": "El diferencial Synopp",
     "DESCRIPTION": "Descubre los puntos fuertes que nos convierten en el socio perfecto para tu viaje digital.",
     "ADVANTAGES": {
@@ -183,7 +183,7 @@
 
     "SECTION_1_TITLE": "1. Introducción",
     "SECTION_1_INTRO": "Esta Política de Cookies explica cómo Synopp (\"nosotros\", \"nuestro\" o \"nos\") utiliza cookies y tecnologías de seguimiento similares cuando visitas nuestro sitio web",
-    "WEBSITE_URL": "(www.synopp.io)",
+    "WEBSITE_URL": "(www.Synopp.io)",
     "SECTION_1_CONSENT": "Al utilizar nuestro sitio web, aceptas el uso de cookies de acuerdo con esta política.",
     "SECTION_1_DISAGREE": "Si no estás de acuerdo, deberás configurar tu navegador para rechazar las cookies o abstenerte de utilizar nuestro sitio.",
 
@@ -224,7 +224,7 @@
 
     "SECTION_7_TITLE": "7. Contáctanos",
     "SECTION_7_INTRO": "Para preguntas sobre esta Política de Cookies, envía un correo electrónico a",
-    "DPO_EMAIL": "dpo@synopp.io",
+    "DPO_EMAIL": "dpo@Synopp.io",
     "OR_WRITE_TO": "o escribe a:",
     "COMPANY_NAME": "Synopp",
     "COMPANY_STREET": "25 Rue Passemillon",
@@ -245,11 +245,11 @@
     "ADDRESS": "Dirección",
     "COMPANY_ADDRESS": "25 Rue Passemillon, 64100 Bayona, Francia",
     "EMAIL": "Correo electrónico",
-    "COMPANY_EMAIL": "info@synopp.io",
+    "COMPANY_EMAIL": "info@Synopp.io",
     "PHONE": "Teléfono",
     "COMPANY_PHONE": "+33 7 66 75 64 54",
     "DPO_TITLE": "Delegado de Protección de Datos (DPO)",
-    "DPO_EMAIL": "dpo@synopp.io",
+    "DPO_EMAIL": "dpo@Synopp.io",
 
     "SECTION_3_TITLE": "3. Datos que recopilamos",
     "SECTION_3_INTRO": "Podemos recopilar, utilizar, almacenar y transferir diferentes tipos de datos personales sobre ti, que hemos agrupado de la siguiente manera:",
@@ -297,6 +297,8 @@
     "SECTION_7_TITLE": "7. Cookies",
     "SECTION_7_CONTENT_1": "Utilizamos cookies y tecnologías similares para distinguirte de otros usuarios de nuestro sitio web. Esto nos ayuda a ofrecerte una buena experiencia de navegación y nos permite mejorar nuestro sitio.",
     "SECTION_7_CONTENT_2": "Puedes configurar tu navegador para rechazar todas o algunas cookies, o para que te avise cuando los sitios web instalen o accedan a cookies. Si desactivas o rechazas las cookies, ten en cuenta que algunas partes de este sitio web podrían volverse inaccesibles o no funcionar correctamente.",
+    "SECTION_7_CONTENT_3_A": "Para obtener más información sobre las cookies que utilizamos, consulta nuestra ",
+    "SECTION_7_CONTENT_3_B": "Política de Cookies.",
 
     "SECTION_8_TITLE": "8. Cambios en la Política de Privacidad",
     "SECTION_8_CONTENT": "Podemos actualizar nuestra política de privacidad de vez en cuando. Te notificaremos cualquier cambio publicando la nueva versión en esta misma página. Si los cambios son significativos, también te informaremos por correo electrónico. Te recomendamos revisar esta política de privacidad periódicamente para mantenerte informado sobre cómo protegemos tus datos.",
@@ -374,7 +376,7 @@
 
     "SECTION_11_TITLE": "11. Contáctanos",
     "CONTACT_INTRO": "Para consultas, por favor envía un correo electrónico a",
-    "CONTACT_EMAIL": "info@synopp.io",
+    "CONTACT_EMAIL": "info@Synopp.io",
     "LAST_UPDATED": "Última actualización",
     "UPDATE_DATE": "7 de abril de 2025"
   }

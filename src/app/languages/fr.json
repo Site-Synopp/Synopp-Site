@@ -1,6 +1,6 @@
 {
   "NAVBAR": {
-    "WHY_US": "Pourquoi nous",
+    "WHY_US": "Pourquoi nous?",
     "WHAT_WE_DO": "Ce que nous faisons",
     "OUR_PROCESS": "Notre processus",
     "THE_STACK_WE_USE": "Stack technologique",
@@ -45,7 +45,7 @@
     }
   },
   "WHY_US": {
-    "SUBTITLE": "POURQUOI NOUS",
+    "SUBTITLE": "POURQUOI NOUS?",
     "TITLE": "La Différence Synopp",
     "DESCRIPTION": "Découvrez les atouts qui font de nous le partenaire idéal pour votre transformation digitale.",
     "ADVANTAGES": {
@@ -183,7 +183,7 @@
 
     "SECTION_1_TITLE": "1. Introduction",
     "SECTION_1_INTRO": "Cette politique de cookies explique comment Synopp (\"nous\", \"notre\" ou \"nos\") utilise les cookies et des technologies de suivi similaires lorsque vous visitez notre site web",
-    "WEBSITE_URL": "(www.synopp.io)",
+    "WEBSITE_URL": "(www.Synopp.io)",
     "SECTION_1_CONSENT": "En utilisant notre site web, vous consentez à l'utilisation des cookies conformément à cette politique.",
     "SECTION_1_DISAGREE": "Si vous n'êtes pas d'accord, vous devez configurer votre navigateur pour refuser les cookies ou vous abstenir d'utiliser notre site.",
 
@@ -202,19 +202,19 @@
     "ANALYTICS_COOKIES_DURATION": "Persistant (1 an)",
 
     "SECTION_4_TITLE": "4. Cookies de tiers",
-    "SECTION_4_INTRO": "Nous collaborons avec des services (par exemple, Google, Facebook) qui peuvent installer des cookies pour :",
+    "SECTION_4_INTRO": "Nous collaborons avec des services (par exemple, Google, Facebook) qui peuvent installer des cookies pour:",
     "THIRD_PARTY_COOKIE_1": "L'analyse (par exemple, Google Analytics).",
     "THIRD_PARTY_COOKIE_2": "La publicité (par exemple, Meta Pixel).",
     "THIRD_PARTY_COOKIE_3": "Le contenu intégré (par exemple, des vidéos YouTube).",
     "SECTION_4_PRIVACY_NOTICE": "Ces tiers traitent les données conformément à leurs propres politiques de confidentialité.",
 
     "SECTION_5_TITLE": "5. Comment gérer les cookies",
-    "SECTION_5_INTRO": "Vous pouvez contrôler ou désactiver les cookies via :",
+    "SECTION_5_INTRO": "Vous pouvez contrôler ou désactiver les cookies via:",
     "BROWSER_SETTINGS_TITLE": "Paramètres du navigateur",
-    "BROWSER_SETTINGS_CONTENT": "Ajustez vos préférences dans Chrome, Firefox, Safari, etc. (Remarque : désactiver les cookies peut limiter certaines fonctionnalités du site).",
+    "BROWSER_SETTINGS_CONTENT": "Ajustez vos préférences dans Chrome, Firefox, Safari, etc. (Remarque: désactiver les cookies peut limiter certaines fonctionnalités du site).",
     "CONSENT_TOOLS_TITLE": "Outils de consentement",
     "CONSENT_TOOLS_CONTENT": "Utilisez notre bannière de cookies pour accepter ou refuser les cookies non essentiels.",
-    "BROWSER_GUIDES_INTRO": "Guides pour les navigateurs les plus courants :",
+    "BROWSER_GUIDES_INTRO": "Guides pour les navigateurs les plus courants:",
     "CHROME_GUIDE": "Google Chrome",
     "FIREFOX_GUIDE": "Mozilla Firefox",
     "SAFARI_GUIDE": "Apple Safari",
@@ -224,8 +224,8 @@
 
     "SECTION_7_TITLE": "7. Contactez-nous",
     "SECTION_7_INTRO": "Pour toute question concernant cette Politique de Cookies, envoyez un e-mail à",
-    "DPO_EMAIL": "dpo@synopp.io",
-    "OR_WRITE_TO": "ou écrivez à :",
+    "DPO_EMAIL": "dpo@Synopp.io",
+    "OR_WRITE_TO": "ou écrivez à:",
     "COMPANY_NAME": "Synopp",
     "COMPANY_STREET": "25 Rue Passemillon",
     "COMPANY_CITY": "64100 Bayonne, France",
@@ -246,14 +246,14 @@
     "ADDRESS": "Adresse",
     "COMPANY_ADDRESS": "25 Rue Passemillon, 64100 Bayonne, France",
     "EMAIL": "Email",
-    "COMPANY_EMAIL": "info@synopp.io",
+    "COMPANY_EMAIL": "info@Synopp.io",
     "PHONE": "Téléphone",
     "COMPANY_PHONE": "+33 7 66 75 64 54",
     "DPO_TITLE": "Délégué à la protection des données (DPO)",
-    "DPO_EMAIL": "dpo@synopp.io",
+    "DPO_EMAIL": "dpo@Synopp.io",
 
     "SECTION_3_TITLE": "3. Données que nous collectons",
-    "SECTION_3_INTRO": "Nous pouvons collecter, utiliser, stocker et transférer différents types de données personnelles vous concernant, que nous avons regroupées comme suit :",
+    "SECTION_3_INTRO": "Nous pouvons collecter, utiliser, stocker et transférer différents types de données personnelles vous concernant, que nous avons regroupées comme suit:",
     "IDENTITY_DATA_TITLE": "Données d'identité",
     "IDENTITY_DATA_CONTENT": "Nom, prénom.",
     "CONTACT_DATA_TITLE": "Données de contact",
@@ -266,21 +266,21 @@
     "MARKETING_DATA_CONTENT": "Vos préférences en matière de réception de communications marketing.",
 
     "SECTION_4_TITLE": "4. Comment nous collectons vos données personnelles",
-    "SECTION_4_INTRO": "Nous utilisons différentes méthodes pour collecter vos données, notamment :",
+    "SECTION_4_INTRO": "Nous utilisons différentes méthodes pour collecter vos données, notamment:",
     "DIRECT_INTERACTION_TITLE": "Interaction directe",
     "DIRECT_INTERACTION_CONTENT": "Lorsque vous remplissez des formulaires ou communiquez directement avec nous.",
     "AUTOMATED_TECH_TITLE": "Technologies automatisées",
     "AUTOMATED_TECH_CONTENT": "Lorsque vous naviguez sur notre site, nous pouvons collecter automatiquement des données techniques concernant votre appareil et votre comportement de navigation, à l'aide de cookies et d'autres technologies similaires.",
 
     "SECTION_5_TITLE": "5. Finalités du traitement",
-    "SECTION_5_INTRO": "Nous n'utilisons vos données personnelles que lorsque la loi nous y autorise. Le plus souvent, nous les utilisons dans les cas suivants :",
+    "SECTION_5_INTRO": "Nous n'utilisons vos données personnelles que lorsque la loi nous y autorise. Le plus souvent, nous les utilisons dans les cas suivants:",
     "PURPOSE_1": "Pour exécuter un contrat que nous sommes sur le point de conclure ou que nous avons conclu avec vous.",
     "PURPOSE_2": "Lorsque cela est nécessaire pour nos intérêts légitimes (ou ceux d'un tiers) et que vos droits fondamentaux ne prévalent pas sur ces intérêts.",
     "PURPOSE_3": "Pour respecter une obligation légale ou réglementaire.",
     "PURPOSE_4": "Lorsque vous nous avez donné votre consentement pour traiter vos données personnelles dans un but spécifique.",
 
     "SECTION_6_TITLE": "6. Vos droits",
-    "SECTION_6_INTRO": "Conformément au RGPD, vous disposez de plusieurs droits concernant vos données personnelles :",
+    "SECTION_6_INTRO": "Conformément au RGPD, vous disposez de plusieurs droits concernant vos données personnelles:",
     "RIGHT_ACCESS_TITLE": "Droit d'accès",
     "RIGHT_ACCESS_CONTENT": "Vous pouvez demander une copie des données personnelles que nous détenons à votre sujet.",
     "RIGHT_RECTIFICATION_TITLE": "Droit de rectification",
@@ -298,12 +298,14 @@
     "SECTION_7_TITLE": "7. Cookies",
     "SECTION_7_CONTENT_1": "Nous utilisons des cookies et des technologies similaires pour vous distinguer des autres utilisateurs de notre site web. Cela nous aide à vous offrir une bonne expérience de navigation et nous permet d'améliorer notre site.",
     "SECTION_7_CONTENT_2": "Vous pouvez configurer votre navigateur pour refuser tout ou partie des cookies, ou pour vous avertir lorsque des sites web installent ou accèdent à des cookies. Si vous désactivez ou refusez les cookies, veuillez noter que certaines parties de ce site pourraient devenir inaccessibles ou ne pas fonctionner correctement.",
-
+    "SECTION_7_CONTENT_3_A": "Pour en savoir plus sur les cookies que nous utilisons, veuillez consulter notre ",
+    "SECTION_7_CONTENT_3_B": "Politique en matière de cookies.",
+    
     "SECTION_8_TITLE": "8. Modifications de la politique de confidentialité",
     "SECTION_8_CONTENT": "Nous pouvons mettre à jour notre politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page. Si les modifications sont importantes, nous vous en informerons également par e-mail. Nous vous recommandons de consulter régulièrement cette politique de confidentialité pour rester informé de la manière dont nous protégeons vos données.",
 
     "SECTION_9_TITLE": "9. Contactez-nous",
-    "SECTION_9_INTRO": "Si vous avez des questions concernant cette politique de confidentialité ou nos pratiques en matière de protection des données, veuillez nous contacter à :",
+    "SECTION_9_INTRO": "Si vous avez des questions concernant cette politique de confidentialité ou nos pratiques en matière de protection des données, veuillez nous contacter à:",
     "COMPLAINT_RIGHT": "Vous avez également le droit d'introduire une réclamation à tout moment auprès de la Commission Nationale de l'Informatique et des Libertés (CNIL).",
     "CNIL_WEBSITE": "www.cnil.fr",
     "LAST_UPDATED": "Dernière mise à jour",
@@ -375,7 +377,7 @@
 
     "SECTION_11_TITLE": "11. Contactez-nous",
     "CONTACT_INTRO": "Pour toute demande, veuillez envoyer un email à",
-    "CONTACT_EMAIL": "info@synopp.io",
+    "CONTACT_EMAIL": "info@Synopp.io",
     "LAST_UPDATED": "Dernière mise à jour",
     "UPDATE_DATE": "7 avril 2025"
   }

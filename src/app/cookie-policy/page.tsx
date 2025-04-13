@@ -32,7 +32,7 @@ export default function CookiePolicy() {
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{t("SECTION_1_TITLE")}</h2>
             <p className="text-sm md:text-base text-gray-400">
               {t("SECTION_1_INTRO")}{" "}
-              <Link href="https://synapp.io" className="text-accent-purple hover:underline">
+              <Link href="https://synopp.io" target="_blank" rel="noopener noreferrer" className="text-accent-purple hover:underline">
                 {t("WEBSITE_URL")}
               </Link>
               . {t("SECTION_1_CONSENT")}
@@ -99,6 +99,7 @@ export default function CookiePolicy() {
               </li>
             </ul>
             <p className="mt-4 text-sm md:text-base text-gray-400">{t("BROWSER_GUIDES_INTRO")}</p>
+            <br/>
             <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-400">
               <li>
                 <Link href="https://support.google.com/chrome/answer/95647" className="text-titles hover:underline">
