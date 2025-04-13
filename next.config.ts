@@ -11,8 +11,30 @@ const nextConfig: NextConfig = {
     formats: ["image/webp", "image/avif"],
     minimumCacheTTL: 60,
     dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    contentSecurityPolicy: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com;",
   },
+  experimental: {
+    webpackBuildWorker: true,
+    parallelServerBuildTraces: true,
+    parallelServerCompiles: true,
+  },
+  // Evitar prerenderizado de la página principal
+  pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
+  async rewrites() {
+    return [
+      {
+        source: '/',
+        destination: '/page',
+        has: [
+          {
+            type: 'query',
+            key: 'no-prerender',
+            value: 'true'
+          }
+        ]
+      }
+    ]
+  }
 };
 
 export default nextConfig;

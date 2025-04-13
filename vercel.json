@@ -1,0 +1,25 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/page",
+      "has": [
+        {
+          "type": "query",
+          "key": "no-prerender",
+          "value": "true"
+        }
+      ]
+    }
+  ],
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "functions": {
+    "app/page.tsx": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
+} 
