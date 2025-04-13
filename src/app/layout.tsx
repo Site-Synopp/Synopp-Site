@@ -1,13 +1,7 @@
-"use client";
-
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { BrowserLanguageProvider } from "./hooks/contexts/useBrowserLanguage";
 import { InterFont } from "./fonts/fonts";
-import ProvidersCookies from "./provider/cookies/useCookies";
-import Footer from "@/components/Footer/Footer";
-import dynamic from 'next/dynamic';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,10 +11,6 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
-
-const Navbar = dynamic(() => import("@/components/NavBar/Navbar"), {
-  ssr: false
 });
 
 export const metadata: Metadata = {
@@ -34,6 +24,9 @@ export const metadata: Metadata = {
     ],
   },
 };
+
+// Client component
+import ClientLayout from "./ClientLayout";
 
 export default function RootLayout({
   children,
@@ -54,14 +47,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ProvidersCookies>
-          <BrowserLanguageProvider>
-            <Navbar />
-            <main>{children}</main>
-            <div className="border-t border-gray-800" />
-            <Footer />
-          </BrowserLanguageProvider>
-        </ProvidersCookies>
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );
