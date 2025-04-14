@@ -25,17 +25,6 @@ const OurProcess = () => {
       id="OurProcess"
       className="bg-primary-700 text-white py-16 relative overflow-hidden z-10 w-full min-h-screen"
     >
-      {/* Background image for desktop */}
-      <div className="hidden lg:block absolute inset-0 z-0  w-[87%] h-[350px] mx-auto top-[-5px]">
-        <Image
-          src="/images/OurProcessBackground.png"
-          alt="Background"
-          fill
-          className="object-cover opacity-30"
-          priority
-        />
-      </div>
-
       <div className="container mx-auto px-4 relative z-10 mt-[-10px]">
         <motion.div
           className="text-center mb-16"

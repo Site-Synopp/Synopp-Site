@@ -65,12 +65,12 @@ export default function CookiePreferences({ onClose }: CookiePreferencesProps) {
 
         <p className="mb-6 text-sm text-gray-300 leading-relaxed">
           {t("DESCRIPTION_PREFERENCES")}
-         {/*  <a
+          <a
             href="/privacy-policy"
             className="underline text-white hover:text-gray-200 transition-colors"
           >
-            Privacy Policy
-          </a> */}
+            {t("PRIVACY_POLICY")}
+          </a>
           .
         </p>
 
