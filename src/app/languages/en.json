@@ -183,7 +183,7 @@
   
     "SECTION_1_TITLE": "1. Introduction",
     "SECTION_1_INTRO": "This Cookie Policy explains how Synopp (\"we\", \"our\", or \"us\") uses cookies and similar tracking technologies when you visit our website",
-    "WEBSITE_URL": "(www.Synopp.io)",
+    "WEBSITE_URL": "(www.synopp.io)",
     "SECTION_1_CONSENT": "By using our website, you consent to the use of cookies in accordance with this policy.",
     "SECTION_1_DISAGREE": "If you do not agree, you must adjust your browser settings to reject cookies or refrain from using our site.",
   
@@ -224,7 +224,7 @@
   
     "SECTION_7_TITLE": "7. Contact Us",
     "SECTION_7_INTRO": "For questions about this Cookie Policy, email",
-    "DPO_EMAIL": "dpo@Synopp.io",
+    "DPO_EMAIL": "dpo@synopp.io",
     "OR_WRITE_TO": "or write to:",
     "COMPANY_NAME": "Synopp",
     "COMPANY_STREET": "25 Rue Passemillon",
@@ -245,11 +245,11 @@
     "ADDRESS": "Address",
     "COMPANY_ADDRESS": "25 Rue Passemillon, 64100 Bayonne, France",
     "EMAIL": "Email",
-    "COMPANY_EMAIL": "info@Synopp.io",
+    "COMPANY_EMAIL": "info@synopp.io",
     "PHONE": "Phone",
     "COMPANY_PHONE": "+33 7 66 75 64 54",
     "DPO_TITLE": "Data Protection Officer (DPO)",
-    "DPO_EMAIL": "dpo@Synopp.io",
+    "DPO_EMAIL": "dpo@synopp.io",
   
     "SECTION_3_TITLE": "3. Data We Collect",
     "SECTION_3_INTRO": "We may collect, use, store, and transfer different types of personal data about you, which we have grouped as follows:",
@@ -375,7 +375,7 @@
 
     "SECTION_11_TITLE": "11. Contact Us",
     "CONTACT_INTRO": "For inquiries, please email",
-    "CONTACT_EMAIL": "info@Synopp.io",
+    "CONTACT_EMAIL": "info@synopp.io",
     "LAST_UPDATED": "Last Updated",
     "UPDATE_DATE": "April 7, 2025"
   },
