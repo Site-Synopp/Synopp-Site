@@ -38,9 +38,9 @@ const LanguageSelector: React.FC<DialogsProps> = ({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.4 }}
-          className="absolute top-[-190px] right-[calc(50%-155px)] flex flex-col w-[280px] md:w-[330px] bottom-[calc(33%-65px)] h-[180px] bg-[#16112A] justify-center text-lg z-10 rounded-lg backdrop-blur-[100px] md:right-[0px] md:top-[9vh] md:bottom-0 border-[1px] border-[#EFEDFD66]"
+          className="absolute top-[-170px] pb-3 right-[calc(50%-45px)] flex flex-col w-[96px] bottom-[calc(33%-65px)] h-[165px] bg-[#16112A] justify-center text-lg z-10 rounded-[20px] backdrop-blur-[100px] md:right-[0px] md:top-[5vh] md:bottom-0 border-[1px] border-[#EFEDFD66]"
         >
-          {LANGUAGES.map(({ key, src }, index) => {
+          {LANGUAGES.map(({ key, src }) => {
             return (
               <motion.button
                 key={key}
@@ -50,28 +50,23 @@ const LanguageSelector: React.FC<DialogsProps> = ({
                 }}
                 whileHover={{ backgroundColor: "rgba(0,0,0,0.05)" }}
                 whileTap={{ scale: 0.98 }}
-                className="flex flex-col justify-start mt-3 md:mt-2 min-w-[90%] h-[50px] gap-[10px] pl-[10%] last-of-type:border-b-transparent"
+                className="flex flex-col justify-start self-center mt-3 md:mt-3 min-w-[65px] h-[50px]"
               >
-                <div className="flex flex-row justify-start items-center gap-4 ">
-                  <div className="h-[25px] w-[25px] md:h-[30px] md:w-[30px] ">
+                <div className="flex flex-row items-center gap-1 justify-center min-h-[39px]"
+                style={{
+                  padding: "10%",
+                  borderRadius: "10px",
+                  border: browserLanguage === key ? "1px solid #818CF8" : "none",
+                }}>
+                  <div className="h-[24px] w-[24px]">
                     <Image
                       alt="Language icons"
                       src={src || "/placeholder.svg"}
                       className="object-fill w-full h-full"
                     />
                   </div>
-                  <p className="text-sm md:text-lg">{t(key)}</p>
-                  {browserLanguage === key && (
-                    <motion.p
-                      initial={{ x: -5, opacity: 0 }}
-                      animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2 }}
-                    >{`>`}</motion.p>
-                  )}
+                  <p className="text-sm md:text-base text-white font-medium">{t(key)}</p>
                 </div>
-                {Number(index) !== LANGUAGES.length - 1 && (
-                  <div className="flex flex-row justify-end items-center border-[0.5px] mt-2.5 md:mt-1 w-[90%] border-[#D9D9D959]"></div>
-                )}
               </motion.button>
             );
           })}
