@@ -14,8 +14,8 @@ export async function POST(request: Request) {
     }
 
     const data = await resend.emails.send({
-      from: "Contact Form <onboarding@resend.dev>", // Actualiza con tu dominio verificado
-      to: ["josecalvano1546@gmail.com"],
+      from: "Contact Form <no-reply@synopp.io>", // Actualiza con tu dominio verificado
+      to: ["josecalvano1546@gmail.com", "admin@synopp.io"],
       subject: `Nuevo contacto de ${firstName} ${lastName}`,
       text: `
         Nombre: ${firstName} ${lastName}
